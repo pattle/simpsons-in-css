@@ -1,0 +1,487 @@
+#mr-burns .head .hair-line1
+{
+
+    border-right: 1px solid #110b00;
+    border-left: 1px solid #110b00;
+}
+
+#mr-burns .head .hair-line2
+{
+
+    border-right: 1px solid #110b00;
+    border-left: 1px solid #110b00;
+}
+
+#mr-burns .head .hair-line3
+{
+
+    border-right: 1px solid #110b00;
+    border-left: 1px solid #110b00;
+}
+
+#mr-burns .head .hair-line4
+{
+
+    border-right: 1px solid #110b00;
+    border-left: 1px solid #110b00;
+}
+
+#mr-burns .head .sideburn
+{
+    top: 33px;
+    left: 56px;
+    width: 6px;
+    height: 15px;
+    background: #b0b5b8;
+    border-left: 1px solid #110b00;
+    border-right: 1px solid #110b00;
+    border-bottom: 1px solid #110b00;
+    -webkit-border-radius: 0px 2px 3px 2px;
+    -moz-border-radius: 0px 2px 3px 2px;
+    border-radius: 0px 2px 3px 2px;
+    -webkit-transform: rotate(-24deg);
+    -ms-transform: rotate(-24deg);
+    transform: rotate(-24deg);
+}
+
+#mr-burns .head .eyebrow
+{
+
+    border-right: 1px solid #110b00;
+    border-left: 1px solid #110b00;
+}
+
+#mr-burns .head .eyebrow2
+{
+    border-left: 1px solid #110b00;
+    border-right: 1px solid #110b00;
+}
+
+#mr-burns .head .eyebrow3
+{
+    border-left: 1px solid #110b00;
+    border-right: 1px solid #110b00;
+}
+
+#mr-burns .head .head-main
+{
+    top: -5px;
+    left: 15px;
+    display: block;
+    width: 37px;
+    height: 54px;
+    background: #f8dc00;
+    border: 1px solid #110b00;
+    -webkit-border-radius: 63px 63px 63px 63px/108px 108px 72px 72px;
+    border-radius: 50% 50% 47% 50%/48% 52% 19% 41%;
+    -webkit-transform: rotate(79deg);
+    -ms-transform: rotate(79deg);
+    transform: rotate(79deg);
+}
+
+#mr-burns .head .head-main2
+{
+    top: 31px;
+    left: 15px;
+    display: block;
+    width: 42px;
+    height: 34px;
+    background: #f8dc00;
+    -webkit-transform: rotate(-24deg);
+    -ms-transform: rotate(-24deg);
+    transform: rotate(-24deg);
+}
+
+#mr-burns .head .head-main3
+{
+    top: 43px;
+    left: 53px;
+    display: block;
+    width: 13px;
+    height: 28px;
+    background: #f8dc00;
+    -webkit-transform: rotate(9deg);
+    -ms-transform: rotate(9deg);
+    transform: rotate(9deg);
+}
+
+#mr-burns .head .eye-bulge
+{
+    top: 49px;
+    left: 12px;
+    width: 5px;
+    height: 6px;
+    background: #f8dc00;
+    border: 1px solid #110b00;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#mr-burns .head .left-eye
+{
+    top: 39px;
+    left: 10px;
+    width: 12px;
+    height: 12px;
+    background: #ffffff;
+    border: 1px solid #110b00;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#mr-burns .head .left-eye .pupil
+{
+    top: 5px;
+    left: 4px;
+    width: 3px;
+    height: 3px;
+    background: #110b00;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#mr-burns .head .right-eye
+{
+    top: 37px;
+    left: 25px;
+    width: 18px;
+    height: 15px;
+    background: #ffffff;
+    border: 1px solid #110b00;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#mr-burns .head .right-eye .pupil
+{
+    top: 6px;
+    left: 11px;
+    width: 3px;
+    height: 3px;
+    background: #110b00;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#mr-burns .head .ear
+{
+    top: 31px;
+    left: 61px;
+    width: 11px;
+    height: 12px;
+    background: #f8dc00;
+    border: 1px solid #110b00;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#mr-burns .head .ear .inner1
+{
+    top: 3px;
+    left: 2px;
+    width: 6px;
+    height: 2px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border-top: 1px solid #110b00;
+    border-left: 1px solid #110b00;
+    border-right: 1px solid #110b00;
+    -webkit-transform: rotate(-21deg);
+    -ms-transform: rotate(-21deg);
+    transform: rotate(-21deg);
+}
+
+#mr-burns .head .ear .inner2
+{
+    top: 3px;
+    left: 4px;
+    width: 2px;
+    height: 5px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border-top: 1px solid #110b00;
+    border-right: 1px solid #110b00;
+    border-bottom: 1px solid #110b00;
+    -webkit-transform: rotate(-11deg);
+    -ms-transform: rotate(-11deg);
+    transform: rotate(-11deg);
+}
+
+#mr-burns .head .nose-curl
+{
+    top: 61px;
+    left: 16px;
+    width: 6px;
+    height: 5px;
+    background: #f8dc00;
+    border-top: 1px solid #110b00;
+    border-right: 1px solid #110b00;
+    border-bottom: 1px solid #110b00;
+    -webkit-border-radius: 0 5px 5px 0px;
+    -moz-border-radius: 0 5px 5px 0px;
+    border-radius: 0 5px 5px 0px;
+    -webkit-transform: rotate(-33deg);
+    -ms-transform: rotate(-33deg);
+    transform: rotate(-33deg);
+}
+
+#mr-burns .head .nose-bottom
+{
+    top: 72px;
+    left: 5px;
+    width: 15px;
+    height: 1px;
+    border-left: 1px solid #110b00;
+    border-right: 1px solid #110b00;
+    border-bottom: 1px solid #110b00;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transform: rotate(140deg);
+    -ms-transform: rotate(140deg);
+    transform: rotate(140deg);
+}
+
+#mr-burns .head .nose-top1
+{
+    border-left: 1px solid #110b00;
+    border-right: 1px solid #110b00;
+}
+
+#mr-burns .head .nose-top2
+{
+    border-left: 1px solid #110b00;
+    border-right: 1px solid #110b00;
+}
+
+#mr-burns .head .nose-tip
+{
+    top: 69px;
+    left: 4px;
+    width: 6px;
+    height: 6px;
+    background: #f8dc00;
+    border-top: 1px solid #110b00;
+    border-left: 1px solid #110b00;
+    border-bottom: 1px solid #110b00;
+    -webkit-border-radius: 14px 0 0 2px;
+    -moz-border-radius: 14px 0 0 2px;
+    border-radius: 14px 0 0 2px;
+    -webkit-transform: rotate(-42deg);
+    -ms-transform: rotate(-42deg);
+    transform: rotate(-42deg);
+}
+
+#mr-burns .head .nose-inner
+{
+    top: 61px;
+    left: 4px;
+    width: 23px;
+    height: 8px;
+    background: #f8dc00;
+    -webkit-border-radius: 23px 0 0 2px;
+    -moz-border-radius: 23px 0 0 2px;
+    border-radius: 23px 0 0 2px;
+    -webkit-transform: rotate(-40deg);
+    -ms-transform: rotate(-40deg);
+    transform: rotate(-40deg);
+}
+
+#mr-burns .head .top-lip
+{
+    border-left: 1px solid #110b00;
+    border-right: 1px solid #110b00;
+}
+
+#mr-burns .head .top-lip2
+{
+    top: 67px;
+    left: 18px;
+    width: 9px;
+    height: 8px;
+    border-left: 1px solid #110b00;
+    border-bottom: 1px solid #110b00;
+    -webkit-border-radius: 0px 2px 0px 2px;
+    -moz-border-radius: 0px 2px 0px 2px;
+    border-radius: 0px 2px 0px 2px;
+    -webkit-transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    transform: rotate(1deg);
+    -webkit-box-shadow: inset 9px -8px 0px 0px rgba(248,220,0,1);
+    -moz-box-shadow: inset 9px -8px 0px 0px rgba(248,220,0,1);
+    box-shadow: inset 9px -8px 0px 0px rgba(248,220,0,1);
+}
+
+#mr-burns .head .cheek
+{
+    top: 60px;
+    left: 56px;
+    width: 2px;
+    height: 5px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border-top: 1px solid #110b00;
+    border-right: 1px solid #110b00;
+    border-bottom: 1px solid #110b00;
+    -webkit-transform: rotate(-68deg);
+    -ms-transform: rotate(-68deg);
+    transform: rotate(-68deg);
+}
+
+#mr-burns .head .bottom-lip
+{
+    top: 72px;
+    left: 43px;
+    width: 5px;
+    height: 3px;
+    border-left: 1px solid #110b00;
+    border-bottom: 1px solid #110b00;
+    border-radius: 0px 2px 0px 2px;
+    -webkit-transform: rotate(-9deg);
+    -ms-transform: rotate(-9deg);
+    transform: rotate(-9deg);
+    -webkit-box-shadow: inset 5px -3px 0px 0px rgba(248,220,0,1);
+    -moz-box-shadow: inset 5px -3px 0px 0px rgba(248,220,0,1);
+    box-shadow: inset 5px -3px 0px 0px rgba(248,220,0,1);
+}
+
+#mr-burns .head .tooth1
+{
+    top: 73px;
+    left: 28px;
+    width: 4px;
+    height: 3px;
+    background: #ffffff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #110b00;
+}
+
+#mr-burns .head .tooth2
+{
+    top: 72px;
+    left: 33px;
+    width: 4px;
+    height: 3px;
+    background: #ffffff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #110b00;
+}
+
+#mr-burns .head .tooth3
+{
+    top: 70px;
+    left: 38px;
+    width: 4px;
+    height: 3px;
+    background: #ffffff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #110b00;
+}
+
+#mr-burns .head .tooth4
+{
+    top: 68px;
+    left: 43px;
+    width: 4px;
+    height: 3px;
+    background: #ffffff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #110b00;
+}
+
+#mr-burns .head .tooth5
+{
+    top: 66px;
+    left: 47px;
+    width: 4px;
+    height: 3px;
+    background: #ffffff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #110b00;
+}
+
+#mr-burns .head .tooth6
+{
+    top: 64px;
+    left: 50px;
+    width: 4px;
+    height: 3px;
+    background: #ffffff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #110b00;
+}
+
+#mr-burns .head .tooth7
+{
+    top: 64px;
+    left: 55px;
+    width: 5px;
+    height: 2px;
+    background: transparent;
+    border-bottom: 1px solid #110b00;
+    -webkit-transform: rotate(140deg);
+    -ms-transform: rotate(140deg);
+    transform: rotate(140deg);
+}
+
+#mr-burns .head .teeth
+{
+    top: 60px;
+    left: 23px;
+    width: 33px;
+    height: 11px;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transform: rotate(-24deg);
+    -ms-transform: rotate(-24deg);
+    transform: rotate(-24deg);
+}
+
+#mr-burns .head .neck1
+{
+    border-left: 1px solid #110b00;
+    border-right: 1px solid #110b00;
+}
+
+#mr-burns .head .neck2
+{
+    border-left: 1px solid #110b00;
+    border-right: 1px solid #110b00;
+}
+
+#mr-burns .head .neck3
+{
+    border-left: 1px solid #110b00;
+    border-right: 1px solid #110b00;
+}
+
+#mr-burns .head .neck4
+{
+    border-left: 1px solid #110b00;
+    border-right: 1px solid #110b00;
+}

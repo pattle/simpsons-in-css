@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Simpsons in CSS">
+    <meta name="author" content="Chris Pattle">
+    <link rel="shortcut icon" href="favicon.png">
+
+    <title>The Simpsons in CSS</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <link href="css/homer.css" rel="stylesheet">
+    <link href="css/bart.css" rel="stylesheet">
+    <link href="css/marge.css" rel="stylesheet">
+    <link href="css/mr-burns.css" rel="stylesheet" id="mr-burns-style">
+    
+    <script>
+        if(navigator.userAgent.indexOf("WebKit") != -1) {
+            var mrBurnsLink = document.createElement('link');
+            mrBurnsLink.href='css/mr-burns-webkit.css';
+            mrBurnsLink.rel='stylesheet';
+            
+            var homerLink = document.createElement('link');
+            homerLink.href='css/homer-webkit.css';
+            homerLink.rel='stylesheet';
+
+            document.getElementsByTagName('head')[0].appendChild(mrBurnsLink);
+            document.getElementsByTagName('head')[0].appendChild(homerLink);
+        }
+    </script>
+</head>
+
+<body>
+    
+    <div id="wrap">
+        <div class="container header">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>The Simpsons in CSS</h1>
+                    <p>Below are some Simpsons characters made in pure CSS.</p>
+                    <p><a class="btn btn-large btn-primary" href="https://www.github.com/pattle/simpsons-in-css">View on Github</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="container marketing">
+            <div class="row">
+                <div class="col-md-3" style="text-align: center;">        
+                    <div id="homer" style="margin-top: 72px;">
+                        <div class="head">
+                            <div class="hair1"></div>
+                            <div class="hair2"></div>
+                            <div class="head-top"></div>
+                            <div class="head-main"></div>
+
+                            <!-- The 'M' above the ear -->
+                            <div class="m1"></div>
+                            <div class="m2"></div>
+                            <div class="m3"></div>
+                            <div class="m4"></div>
+
+                            <!-- The neck parts -->
+                            <div class="neck1"></div>
+                            <div class="neck2"></div>
+
+                            <!-- The ear -->
+                            <div class="ear">
+                                <div class="inner1"></div>
+                                <div class="inner2"></div>
+                                <div class="clip"></div>
+                            </div>
+
+                            <!-- The mouth -->
+                            <div class="mouth">
+                                <div class="mouth5"></div>
+                                <div class="mouth2"></div>
+                                <div class="mouth1"></div>
+                                <div class="mouth7"></div>
+                                <div class="mouth3"></div>
+                                <div class="mouth4"></div>
+                                <div class="mouth6"></div>
+                                <div class="mouth8"></div>
+                            </div>
+
+                            <!-- The right eye -->
+                            <div class="right-eye">
+                                <div class="right-eye-pupil"></div>
+                            </div>
+
+                            <!-- The nose -->
+                            <div class="nose"></div>
+                            <div class="nose-tip"></div>
+
+                            <!-- The left eye -->
+                            <div class="left-eye">
+                                <div class="left-eye-pupil"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2>Homer</h2>
+                    <p><a class="btn btn-success" href="#">View CSS</a></p>
+                </div>
+                <div class="col-md-3" style="text-align: center;">
+                    <div id="bart" style="margin-top: 75px;">
+                        <div class="head">
+                            <div class="hair1"></div>
+                            <div class="hair2"></div>
+                            <div class="hair3"></div>
+                            <div class="hair4"></div>
+                            <div class="hair5"></div>
+                            <div class="hair6"></div>
+                            <div class="hair7"></div>
+                            <div class="hair8"></div>
+                            <div class="hair9"></div>
+                            <div class="mouth-lip2"></div>
+                            <div class="head-left1"></div>
+                            <div class="head-left2"></div>
+                            <div class="head-left3"></div>
+                            <div class="head-left4"></div>
+                            <div class="head-left5"></div>
+                            <div class="head-left6"></div>
+                            <div class="head-left7"></div>
+                            <div class="eyelid"></div>
+                            <div class="mouth"></div>
+                            <div class="mouth-lip"></div>
+                            <div class="head-right2"></div>
+                            <div class="head-right1"></div>
+                            <div class="head-right3"></div>
+
+                            <!-- The ear -->
+                            <div class="ear">
+                                <div class="inner1"></div>
+                                <div class="inner2"></div>
+                                <div class="clip"></div>
+                            </div>
+
+                            <!-- The right eye -->
+                            <div class="right-eye">
+                                <div class="right-eye-pupil"></div>
+                            </div>
+
+                            <!-- The nose -->
+                            <div class="nose"></div>
+                            <div class="nose-tip"></div>
+
+                            <!-- The left eye -->
+                            <div class="left-eye">
+                                <div class="left-eye-pupil"></div>
+                            </div>
+
+                            <div class="mouth-smile"></div>
+                        </div>
+                    </div>
+
+                    <h2>Bart</h2>
+                    <p><a class="btn btn-success" href="#">View CSS</a></p>
+                </div>
+                <div class="col-md-3" style="text-align: center;">
+                    <div id="marge">
+                        <div class="head">
+                            <div class="head-main"></div>
+                            <div class="mouth-lip2"></div>
+                            <div class="mouth-lip"></div>
+                            <div class="neck"></div>
+                            <div class="mouth"></div>
+                            <div class="neck2"></div>
+                            <div class="neck3"></div>
+                            <div class="mouth-smile"></div>
+
+                            <div class="hair1 hair-circle"></div>
+                            <div class="hair2 hair-circle"></div>
+                            <div class="hair3 hair-circle"></div>
+                            <div class="hair4 hair-circle"></div>
+                            <div class="hair5 hair-circle"></div>
+                            <div class="hair6 hair-circle"></div>
+                            <div class="hair7 hair-circle"></div>
+                            <div class="hair8 hair-circle"></div>
+                            <div class="hair9 hair-circle"></div>
+                            <div class="hair10 hair-circle"></div>
+                            <div class="hair11 hair-circle"></div>
+                            <div class="hair12 hair-circle"></div>
+                            <div class="hair13 hair-circle"></div>
+                            <div class="hair14 hair-circle"></div>
+                            <div class="hair15 hair-circle"></div>
+                            <div class="hair16 hair-circle"></div>
+                            <div class="hair17 hair-circle"></div>
+                            <div class="hair18 hair-circle"></div>
+                            <div class="hair19 hair-circle"></div>
+                            <div class="hair20 hair-circle"></div>
+                            <div class="hair21 hair-circle"></div>
+                            <div class="hair22 hair-circle"></div>
+                            <div class="hair23 hair-circle"></div>
+                            <div class="hair24 hair-circle"></div>
+                            <div class="hair25 hair-circle"></div>
+                            <div class="hair26 hair-circle"></div>
+                            <div class="hair27 hair-circle"></div>
+                            <div class="hair28 hair-circle"></div>
+                            <div class="hair29 hair-circle"></div>
+                            <div class="hair30 hair-circle"></div>
+                            <div class="hair-main"></div>
+                            <div class="hair-main2"></div>
+                            <div class="hair-main3"></div>
+                            <div class="hair-main4"></div>
+                            <div class="hair-main5"></div>
+                            <div class="hair-main6"></div>
+                            <div class="hair-main7"></div>
+
+                            <!-- The ear -->
+                            <div class="ear">
+                                <div class="inner1"></div>
+                                <div class="inner2"></div>
+                                <div class="clip"></div>
+                            </div>
+
+                            <div class="eyelash1 eyelash"></div>
+                            <div class="eyelash2 eyelash"></div>
+                            <div class="eyelash3 eyelash"></div>
+                            <div class="eyelash4 eyelash"></div>
+                            <div class="eyelash5 eyelash"></div>
+                            <div class="eyelash6 eyelash"></div>
+                            <div class="eyelash7 eyelash"></div>
+                            <div class="eyelash8 eyelash"></div>
+
+                            <!-- The right eye -->
+                            <div class="right-eye">
+                                <div class="right-eye-pupil"></div>
+                            </div>
+
+                            <!-- The nose -->
+                            <div class="nose"></div>
+                            <div class="nose-tip"></div>
+
+                            <!-- The left eye -->
+                            <div class="left-eye">
+                                <div class="left-eye-pupil"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2>Marge</h2>
+                    <p><a class="btn btn-success" href="#">View CSS</a></p>
+                </div>
+
+                <div class="col-md-3" style="text-align: center;">
+
+                    <div id="mr-burns" style="margin-top: 115px;">
+                        <div class="head">
+
+                        <!-- Hair and hair lines -->
+                        <div class="hair"></div>
+                        <div class="hair-line1"></div>
+                        <div class="hair-line2"></div>
+                        <div class="hair-line3"></div>
+                        <div class="hair-line4"></div>
+
+                        <!-- Ear -->
+                        <div class="ear">
+                        <div class="inner1"></div>
+                            <div class="inner2"></div>
+                            <div class="clip"></div>
+                        </div>
+
+                        <div class="head-main"></div>
+                        <div class="head-main2"></div>
+                        <div class="head-main3"></div>
+                        <div class="sideburn"></div>
+
+                        <!-- Eyes -->
+                        <div class="eye-bulge"></div>
+                        <div class="left-eye">
+                            <div class="pupil"></div>
+                        </div>
+                        <div class="right-eye">
+                            <div class="pupil"></div>
+                        </div>
+
+                        <div class="nose-bottom"></div>
+                        <div class="nose-top1"></div>
+                        <div class="nose-top2"></div>
+                        <div class="nose-tip"></div>
+                        <div class="nose-inner"></div>
+
+                        <div class="eyebrow"></div>
+                        <div class="eyebrow2"></div>
+                        <div class="eyebrow3"></div>
+
+                        <div class="neck2"></div>
+                        <div class="neck1"></div>
+                        <div class="neck3"></div>
+                        <div class="neck4"></div>
+                        <div class="bottom-lip"></div>
+
+                        <!-- Teeth and mouth -->
+                        <div class="tooth1"></div>
+                        <div class="tooth2"></div>
+                        <div class="tooth3"></div>
+                        <div class="tooth4"></div>
+                        <div class="tooth5"></div>
+                        <div class="tooth6"></div>
+                        <div class="tooth7"></div>
+                        <div class="teeth"></div>
+
+                        <div class="top-lip"></div>
+                        <div class="top-lip2"></div>
+                        <div class="cheek"></div>
+                        <div class="nose-curl"></div>
+                        </div>
+                    </div>
+
+                    <h2>Mr Burns</h2>
+                    <p><a class="btn btn-success" href="#">View CSS</a></p>
+                </div>
+            </div>
+        </div>
+        <div id="push"></div>
+    </div>
+        
+    <div id="footer">
+        <div class="container">
+            <p style="text-align: center;">Made by <a href="http://www.chrispattle.com" title="Chris Pattle's website">Chris Pattle</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
