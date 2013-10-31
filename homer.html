@@ -9,6 +9,15 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/homer.css">
+    <script type="text/javascript">
+        if(navigator.userAgent.indexOf("WebKit") != -1) {
+            var link = document.createElement('link');
+            link.href='css/homer-webkit.css';
+            link.rel='stylesheet';
+
+            document.getElementsByTagName('head')[0].appendChild(link);
+        }
+    </script>
 </head>
 <body>
 

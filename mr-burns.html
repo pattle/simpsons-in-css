@@ -12,7 +12,11 @@
     
     <script>
         if(navigator.userAgent.indexOf("WebKit") != -1) {
-            document.getElementById("mr-burns-style").href="css/mr-burns-webkit.css";
+            var link = document.createElement('link');
+            link.href='css/mr-burns-webkit.css';
+            link.rel='stylesheet';
+
+            document.getElementsByTagName('head')[0].appendChild(link);
         }
     </script>
 </head>

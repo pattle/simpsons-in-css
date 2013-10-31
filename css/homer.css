@@ -285,11 +285,11 @@
     width: 6px;
     height: 31px;
     background: transparent;
-    border-top: 1px solid #110b00;
     border-right: 1px solid #110b00;
-    border-bottom: 1px solid #110b00;
     border-radius: 50% 50% 25% 50%;
     -webkit-transform: rotate(-14deg);
+    -ms-transform: rotate(-14deg);
+    transform: rotate(-14deg);
     -webkit-box-shadow: 2px 0px 0px 0px rgba(247,254,140,1), 5px 0px 0px 0px rgba(251,216,0,1);
     -moz-box-shadow: 2px 0px 0px 0px rgba(247,254,140,1), 5px 0px 0px 0px rgba(251,216,0,1);
     box-shadow: 2px 0px 0px 0px rgba(247,254,140,1), 5px 0px 0px 0px rgba(251,216,0,1);
@@ -354,7 +354,7 @@
     -moz-border-radius: 46% 52% 44% 50%;
     -webkit-border-radius: 46% 52% 44% 50%;
     border-radius: 46% 52% 44% 50%;
-    border: 1px solid #110b00;
+    border-bottom: 1px solid #110b00;
     -webkit-transform: rotate(-4deg);
     -ms-transform: rotate(-4deg);
     transform: rotate(-4deg);

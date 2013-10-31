@@ -1,102 +1,29 @@
-#mr-burns *
-{
-    position: absolute;
-    box-sizing:content-box;
-    -moz-box-sizing:content-box;
-}
-
-
-#mr-burns
-{
-    position: relative;
-    width: 140px;
-    height: 90px; 
-    margin: 0 auto;
-}
-
-#mr-burns .head .hair
-{
-    top: 3px;
-    left: 34px;
-    width: 45px;
-    height: 42px;
-    background: #b0b5b8;
-    border: 1px solid #110b00;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-}
-
 #mr-burns .head .hair-line1
 {
-    top: 5px;
-    left: 51px;
-    width: 11px;
-    height: 5px;
-    background: transparent;
-    border-top: 1px solid #110b00;
+
     border-right: 1px solid #110b00;
     border-left: 1px solid #110b00;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -webkit-transform: rotate(-53deg);
-    -ms-transform: rotate(-53deg);
-    transform: rotate(-53deg);
 }
 
 #mr-burns .head .hair-line2
 {
-    top: 10px;
-    left: 58px;
-    width: 16px;
-    height: 7px;
-    background: transparent;
-    border-top: 1px solid #110b00;
+
     border-right: 1px solid #110b00;
     border-left: 1px solid #110b00;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -webkit-transform: rotate(-26deg);
-    -ms-transform: rotate(-26deg);
-    transform: rotate(-26deg);
 }
 
 #mr-burns .head .hair-line3
 {
-    top: 22px;
-    left: 56px;
-    width: 24px;
-    height: 11px;
-    background: transparent;
-    border-top: 1px solid #110b00;
+
     border-right: 1px solid #110b00;
     border-left: 1px solid #110b00;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -webkit-transform: rotate(32deg);
-    -ms-transform: rotate(32deg);
-    transform: rotate(32deg);
 }
 
 #mr-burns .head .hair-line4
 {
-    top: 27px;
-    left: 53px;
-    width: 12px;
-    height: 6px;
-    background: transparent;
-    border-top: 1px solid #110b00;
+
     border-right: 1px solid #110b00;
     border-left: 1px solid #110b00;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -webkit-transform: rotate(26deg);
-    -ms-transform: rotate(26deg);
-    transform: rotate(26deg);
 }
 
 #mr-burns .head .sideburn
@@ -119,65 +46,21 @@
 
 #mr-burns .head .eyebrow
 {
-    top: 30px;
-    left: 9px;
-    width: 38px;
-    height: 16px;
-    background: transparent;
-    border-bottom: 1px solid #110b00;
+
     border-right: 1px solid #110b00;
     border-left: 1px solid #110b00;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -webkit-transform: rotate(-8deg);
-    -ms-transform: rotate(-8deg);
-    transform: rotate(-8deg);
-    -webkit-box-shadow: inset 18px 18px 0px 0px rgba(248,220,0,1);
-    -moz-box-shadow: inset 18px 18px 0px 0px rgba(248,220,0,1);
-    box-shadow: inset 18px 18px 0px 0px rgba(248,220,0,1);
 }
 
 #mr-burns .head .eyebrow2
 {
-    top: 36px;
-    left: 4px;
-    width: 14px;
-    height: 6px;
-    background: transparent;
-    border-top: 1px solid #110b00;
     border-left: 1px solid #110b00;
     border-right: 1px solid #110b00;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -webkit-transform: rotate(-127deg);
-    -ms-transform: rotate(-127deg);
-    transform: rotate(-127deg);
-    -webkit-box-shadow: inset 18px 18px 0px 0px rgba(248,220,0,1);
-    -moz-box-shadow: inset 18px 18px 0px 0px rgba(248,220,0,1);
-    box-shadow: inset 18px 18px 0px 0px rgba(248,220,0,1);
 }
 
 #mr-burns .head .eyebrow3
 {
-    top: 27px;
-    left: 0px;
-    width: 15px;
-    height: 4px;
-    background: transparent;
-    border-top: 1px solid #110b00;
     border-left: 1px solid #110b00;
     border-right: 1px solid #110b00;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -webkit-transform: rotate(-88deg);
-    -ms-transform: rotate(-88deg);
-    transform: rotate(-88deg);
-    -webkit-box-shadow: inset 18px 18px 0px 0px rgba(248,220,0,1);
-    -moz-box-shadow: inset 18px 18px 0px 0px rgba(248,220,0,1);
-    box-shadow: inset 18px 18px 0px 0px rgba(248,220,0,1);
 }
 
 #mr-burns .head .head-main
@@ -369,42 +252,14 @@
 
 #mr-burns .head .nose-top1
 {
-    top: 52px;
-    left: 5px;
-    width: 18px;
-    height: 3px;
     border-left: 1px solid #110b00;
     border-right: 1px solid #110b00;
-    border-bottom: 1px solid #110b00;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -webkit-transform: rotate(-55deg);
-    -ms-transform: rotate(-55deg);
-    transform: rotate(-55deg);
-    -webkit-box-shadow: 1px 2px 0px 0px rgba(248,220,0,1);
-    -moz-box-shadow: 1px 2px 0px 0px rgba(248,220,0,1);
-    box-shadow: 1px 2px 0px 0px rgba(248,220,0,1);
 }
 
 #mr-burns .head .nose-top2
 {
-    top: 64px;
-    left: 2px;
-    width: 13px;
-    height: 3px;
     border-left: 1px solid #110b00;
     border-right: 1px solid #110b00;
-    border-bottom: 1px solid #110b00;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -webkit-transform: rotate(120deg);
-    -ms-transform: rotate(120deg);
-    transform: rotate(120deg);
-    -webkit-box-shadow: inset 5px 2px 0px 0px rgba(248,220,0,1);
-    -moz-box-shadow: inset 5px 2px 0px 0px rgba(248,220,0,1);
-    box-shadow: inset 5px 2px 0px 0px rgba(248,220,0,1);
 }
 
 #mr-burns .head .nose-tip
@@ -442,22 +297,8 @@
 
 #mr-burns .head .top-lip
 {
-    top: 60px;
-    left: 20px;
-    width: 38px;
-    height: 11px;
     border-left: 1px solid #110b00;
     border-right: 1px solid #110b00;
-    border-bottom: 1px solid #110b00;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -webkit-transform: rotate(-24deg);
-    -ms-transform: rotate(-24deg);
-    transform: rotate(-24deg);
-    -webkit-box-shadow: inset 2px -12px 0px 0px rgba(248,220,0,1);
-    -moz-box-shadow: inset 2px -12px 0px 0px rgba(248,220,0,1);
-    box-shadow: inset 2px -12px 0px 0px rgba(248,220,0,1);
 }
 
 #mr-burns .head .top-lip2
@@ -623,80 +464,24 @@
 
 #mr-burns .head .neck1
 {
-    top: 71px;
-    left: 46px;
-    width: 27px;
-    height: 12px;
     border-left: 1px solid #110b00;
     border-right: 1px solid #110b00;
-    border-bottom: 1px solid #110b00;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -webkit-transform: rotate(32deg);
-    -ms-transform: rotate(32deg);
-    transform: rotate(32deg);
-    -webkit-box-shadow: inset 2px -12px 0px 0px rgba(248,220,0,1);
-    -moz-box-shadow: inset 2px -12px 0px 0px rgba(248,220,0,1);
-    box-shadow: inset 2px -12px 0px 0px rgba(248,220,0,1);
 }
 
 #mr-burns .head .neck2
 {
-    top: 73px;
-    left: 61px;
-    width: 16px;
-    height: 9px;
     border-left: 1px solid #110b00;
     border-right: 1px solid #110b00;
-    border-bottom: 1px solid #110b00;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -webkit-transform: rotate(-73deg);
-    -ms-transform: rotate(-73deg);
-    transform: rotate(-73deg);
-    -webkit-box-shadow: inset 2px -12px 0px 0px rgba(248,220,0,1);
-    -moz-box-shadow: inset 2px -12px 0px 0px rgba(248,220,0,1);
-    box-shadow: inset 2px -12px 0px 0px rgba(248,220,0,1);
 }
 
 #mr-burns .head .neck3
 {
-    top: 57px;
-    left: 61px;
-    width: 21px;
-    height: 9px;
     border-left: 1px solid #110b00;
     border-right: 1px solid #110b00;
-    border-bottom: 1px solid #110b00;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -webkit-transform: rotate(59deg);
-    -ms-transform: rotate(59deg);
-    transform: rotate(59deg);
-    -webkit-box-shadow: 1px 8px 0px 0px rgba(248,220,0,1);
-    -moz-box-shadow: 1px 8px 0px 0px rgba(248,220,0,1);
-    box-shadow: 1px 8px 0px 0px rgba(248,220,0,1);
 }
 
 #mr-burns .head .neck4
 {
-    top: 50px;
-    left: 60px;
-    width: 13px;
-    height: 2px;
     border-left: 1px solid #110b00;
     border-right: 1px solid #110b00;
-    border-bottom: 1px solid #110b00;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -webkit-transform: rotate(105deg);
-    -ms-transform: rotate(105deg);
-    transform: rotate(105deg);
-    -webkit-box-shadow: 3px 2px 0px 0px rgba(248,220,0,1);
-    -moz-box-shadow: 3px 2px 0px 0px rgba(248,220,0,1);
-    box-shadow: 3px 2px 0px 0px rgba(248,220,0,1);
 }
