@@ -208,6 +208,49 @@
     transform: rotate(9deg);
 }
 
+#mr-burns .head .head-main4
+{
+    top: 43px;
+    left: 53px;
+    display: block;
+    width: 13px;
+    height: 28px;
+    background: #f8dc00;
+    -webkit-transform: rotate(9deg);
+    -ms-transform: rotate(9deg);
+    transform: rotate(9deg);
+}
+
+#mr-burns .head .liverspot
+{
+    width: 3px;
+    height: 3px;
+    border: 1px solid #110b00;
+    border-radius: 50%;
+}
+
+#mr-burns .head .liverspot1
+{
+    top: 15px;
+    left: 45px;
+}
+
+#mr-burns .head .liverspot2
+{
+    top: 21px;
+    left: 51px;
+    width: 2px;
+    height: 2px;
+}
+
+#mr-burns .head .liverspot3
+{
+    top: 27px;
+    left: 42px;
+    width: 2px;
+    height: 2px;
+}
+
 #mr-burns .head .eye-bulge
 {
     top: 49px;
@@ -294,8 +337,6 @@
     -moz-border-radius: 50%;
     border-radius: 50%;
     border-top: 1px solid #110b00;
-    border-left: 1px solid #110b00;
-    border-right: 1px solid #110b00;
     -webkit-transform: rotate(-21deg);
     -ms-transform: rotate(-21deg);
     transform: rotate(-21deg);
@@ -310,9 +351,7 @@
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    border-top: 1px solid #110b00;
     border-right: 1px solid #110b00;
-    border-bottom: 1px solid #110b00;
     -webkit-transform: rotate(-11deg);
     -ms-transform: rotate(-11deg);
     transform: rotate(-11deg);
@@ -342,8 +381,6 @@
     left: 5px;
     width: 15px;
     height: 1px;
-    border-left: 1px solid #110b00;
-    border-right: 1px solid #110b00;
     border-bottom: 1px solid #110b00;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -366,9 +403,9 @@
     -webkit-transform: rotate(-55deg);
     -ms-transform: rotate(-55deg);
     transform: rotate(-55deg);
-    -webkit-box-shadow: 1px 2px 0px 0px rgba(248,220,0,1);
-    -moz-box-shadow: 1px 2px 0px 0px rgba(248,220,0,1);
-    box-shadow: 1px 2px 0px 0px rgba(248,220,0,1);
+    -webkit-box-shadow: 3px 3px 0px 0px rgba(248,220,0,1);
+    -moz-box-shadow: 3px 3px 0px 0px rgba(248,220,0,1);
+    box-shadow: 3px 3px 0px 0px rgba(248,220,0,1);
 }
 
 #mr-burns .head .nose-top2
@@ -409,9 +446,9 @@
 
 #mr-burns .head .nose-inner
 {
-    top: 61px;
-    left: 4px;
-    width: 23px;
+    top: 59px;
+    left: 3px;
+    width: 30px;
     height: 8px;
     background: #f8dc00;
     -webkit-border-radius: 23px 0 0 2px;
@@ -468,9 +505,7 @@
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    border-top: 1px solid #110b00;
     border-right: 1px solid #110b00;
-    border-bottom: 1px solid #110b00;
     -webkit-transform: rotate(-68deg);
     -ms-transform: rotate(-68deg);
     transform: rotate(-68deg);
