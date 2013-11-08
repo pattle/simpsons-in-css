@@ -12,10 +12,9 @@ html, body
     margin: 0 auto -60px;
 }
 
-.header
+.header, .characters .character-row
 {
     padding-top: 90px;
-    padding-bottom: 90px;
     text-align: center;
 }
 
