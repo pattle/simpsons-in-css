@@ -1,0 +1,875 @@
+#krusty *
+{
+    position: absolute;
+    box-sizing:content-box;
+    -moz-box-sizing:content-box;
+}
+
+
+#krusty
+{
+    position: relative;
+    width: 212px;
+    height: 140px; 
+    margin: 0 auto;
+}
+
+#krusty .head *
+{
+    border: 1px solid #110b00;
+}
+
+#krusty .head .no-border
+{
+    border: none;
+}
+
+#krusty .head .body
+{
+    background: #fdfcc4;
+}
+
+#krusty .head .mouth
+{
+    background: #fee298;
+}
+
+#krusty .head .hair
+{
+    background: #00957c;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#krusty .head .hair1
+{
+    top: 91px;
+    left: 47px;
+    width: 21px;
+    height: 18px;
+}
+
+#krusty .head .hair2
+{
+    top: 76px;
+    left: 34px;
+    width: 21px;
+    height: 20px;
+}
+
+#krusty .head .hair3
+{
+    top: 62px;
+    left: 28px;
+    width: 21px;
+    height: 20px;
+}
+
+#krusty .head .hair4
+{
+    top: 51px;
+    left: 25px;
+    width: 18px;
+    height: 17px;
+}
+
+#krusty .head .hair5
+{
+    top: 36px;
+    left: 22px;
+    width: 18px;
+    height: 18px;
+}
+
+#krusty .head .hair6
+{
+    top: 25px;
+    left: 15px;
+    width: 15px;
+    height: 15px;
+}
+
+#krusty .head .hair7
+{
+    top: 21px;
+    left: 0px;
+    width: 14px;
+    height: 5px;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+}
+
+#krusty .head .hair8
+{
+    top: 18px;
+    left: 8px;
+    width: 12px;
+    height: 14px;
+}
+
+#krusty .head .hair9
+{
+    top: 19px;
+    left: 18px;
+    width: 12px;
+    height: 14px;
+}
+
+#krusty .head .hair10
+{
+    top: 23px;
+    left: 28px;
+    width: 13px;
+    height: 14px;
+}
+
+#krusty .head .hair11
+{
+    top: 31px;
+    left: 37px;
+    width: 15px;
+    height: 18px;
+}
+
+#krusty .head .hair12
+{
+    top: 43px;
+    left: 46px;
+    width: 15px;
+    height: 12px;
+}
+
+#krusty .head .hair13
+{
+    top: 48px;
+    left: 59px;
+    width: 7px;
+    height: 7px;
+}
+
+#krusty .head .hair41
+{
+    top: 45px;
+    left: 31px;
+    width: 31px;
+    height: 42px;
+    border: none;
+    -webkit-border-radius: 50% 0 0% 50%;
+    -moz-border-radius: 50% 0 0% 50%;
+    border-radius: 50% 0 0% 50%;
+    -webkit-transform: rotate(19deg);
+    -ms-transform: rotate(19deg);
+    transform: rotate(19deg);
+}
+
+#krusty .head .hair42
+{
+    top: 27px;
+    left: 26px;
+    width: 27px;
+    height: 42px;
+    border: none;
+    -webkit-transform: rotate(-32deg);
+    -ms-transform: rotate(-32deg);
+    transform: rotate(-32deg);
+}
+
+#krusty .head .hair43
+{
+    top: 21px;
+    left: 15px;
+    width: 17px;
+    height: 17px;
+    border: none;
+}
+
+#krusty .head .hair44
+{
+    top: 22px;
+    left: 5px;
+    width: 7px;
+    height: 5px;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+#krusty .head .hair14
+{
+    top: 60px;
+    left: 127px;
+    width: 16px;
+    height: 16px;
+}
+
+#krusty .head .hair15
+{
+    top: 57px;
+    left: 143px;
+    width: 18px;
+    height: 12px;
+    -webkit-transform: rotate(-26deg);
+    -ms-transform: rotate(-26deg);
+    transform: rotate(-26deg);
+}
+
+#krusty .head .hair16
+{
+    top: 48px;
+    left: 157px;
+    width: 13px;
+    height: 12px;
+    -webkit-transform: rotate(-26deg);
+    -ms-transform: rotate(-26deg);
+    transform: rotate(-26deg);
+}
+
+#krusty .head .hair17
+{
+    top: 39px;
+    left: 167px;
+    width: 16px;
+    height: 15px;
+}
+
+#krusty .head .hair18
+{
+    top: 37px;
+    left: 181px;
+    width: 19px;
+    height: 20px;
+}
+
+#krusty .head .hair19
+{
+    top: 43px;
+    left: 193px;
+    width: 16px;
+    height: 7px;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+}
+
+#krusty .head .hair20
+{
+    top: 50px;
+    left: 170px;
+    width: 19px;
+    height: 20px;
+}
+
+#krusty .head .hair21
+{
+    top: 65px;
+    left: 161px;
+    width: 19px;
+    height: 20px;
+    -webkit-border-radius: 50% 50% 37% 50%;
+    -moz-border-radius: 50% 50% 37% 50%;
+    border-radius: 50% 50% 37% 50%;
+}
+
+#krusty .head .hair22
+{
+    top: 80px;
+    left: 152px;
+    width: 19px;
+    height: 20px;
+    -webkit-border-radius: 50% 50% 37% 50%;
+    -moz-border-radius: 50% 50% 37% 50%;
+    border-radius: 50% 50% 37% 50%;
+}
+
+#krusty .head .hair23
+{
+    top: 92px;
+    left: 141px;
+    width: 19px;
+    height: 20px;
+    -webkit-border-radius: 50% 50% 43% 50%;
+    -moz-border-radius: 50% 50% 43% 50%;
+    border-radius: 50% 50% 43% 50%;
+}
+
+#krusty .head .hair24
+{
+    top: 99px;
+    left: 126px;
+    width: 21px;
+    height: 20px;
+}
+
+#krusty .head .hair25
+{
+    top: 102px;
+    left: 113px;
+    width: 17px;
+    height: 17px;
+    -webkit-border-radius: 50% 50% 43% 50%;
+    -moz-border-radius: 50% 50% 43% 50%;
+    border-radius: 50% 50% 43% 50%;
+}
+
+#krusty .head .hair36
+{
+    top: 70px;
+    left: 124px;
+    width: 17px;
+    height: 17px;
+}
+
+#krusty .head .hair37
+{
+    top: 65px;
+    left: 127px;
+    width: 42px;
+    height: 42px;
+    border: none;
+}
+
+#krusty .head .hair38
+{
+    top: 84px;
+    left: 122px;
+    width: 30px;
+    height: 35px;
+    border: none;
+}
+
+#krusty .head .hair39
+{
+    top: 47px;
+    left: 154px;
+    width: 38px;
+    height: 27px;
+    border: none;
+    -webkit-transform: rotate(-33deg);
+    -ms-transform: rotate(-33deg);
+    transform: rotate(-33deg);
+}
+
+#krusty .head .hair40
+{
+    top: 43px;
+    left: 173px;
+    width: 27px;
+    height: 9px;
+    border: none;
+    border-radius: 0;
+}
+
+#krusty .head .hair26
+{
+    top: 13px;
+    left: 96px;
+    width: 11px;
+    height: 7px;
+}
+
+#krusty .head .hair27
+{
+    top: 9px;
+    left: 102px;
+    width: 7px;
+    height: 7px;
+}
+
+#krusty .head .hair28
+{
+    top: 5px;
+    left: 107px;
+    width: 7px;
+    height: 7px;
+}
+
+#krusty .head .hair29
+{
+    top: -1px;
+    left: 116px;
+    width: 4px;
+    height: 9px;
+    -webkit-border-radius: 10px 0 0 0;
+    -moz-border-radius: 10px 0 0 0;
+    border-radius: 10px 0 0 0;
+    -webkit-transform: rotate(47deg);
+    -ms-transform: rotate(47deg);
+    transform: rotate(47deg);
+}
+
+#krusty .head .hair30
+{
+    top: 6px;
+    left: 113px;
+    width: 9px;
+    height: 9px;
+}
+
+#krusty .head .hair31
+{
+    top: 14px;
+    left: 119px;
+    width: 7px;
+    height: 7px;
+}
+
+#krusty .head .hair32
+{
+    top: 21px;
+    left: 119px;
+    width: 7px;
+    height: 7px;
+}
+
+#krusty .head .hair33
+{
+    top: 17px;
+    left: 106px;
+    width: 13px;
+    height: 8px;
+    -webkit-transform: rotate(19deg);
+    -ms-transform: rotate(19deg);
+    transform: rotate(19deg);
+}
+
+#krusty .head .hair34
+{
+    top: 5px;
+    left: 110px;
+    width: 12px;
+    height: 13px;
+    border: none;
+}
+
+#krusty .head .hair35
+{
+    top: 11px;
+    left: 102px;
+    width: 25px;
+    height: 13px;
+    border: none;
+    -webkit-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+#krusty .head .head-top
+{
+    top: 15px;
+    top: 20px;
+    left: 68px;
+    width: 64px;
+    height: 74px;
+    border-top: 1px solid #110b00;
+    border-right: 1px solid #110b00;
+    border-left: 1px solid #110b00;
+    -webkit-transform: rotate(19deg);
+    -ms-transform: rotate(19deg);
+    transform: rotate(19deg);
+    -moz-border-radius: 32% 33% 0 0;
+    -webkit-border-radius: 32% 33% 0 0;
+    border-radius: 32% 33% 0 0;
+    -webkit-box-shadow: inset 8px 12px 0px -12px rgba(254,254,242,1), inset 13px 3px 0px -11px rgba(254,254,242,1), inset -2px 0px 0px 0px rgba(254,226,117,1);
+    -moz-box-shadow: inset 8px 12px 0px -12px rgba(254,254,242,1), inset 13px 3px 0px -11px rgba(254,254,242,1), inset -2px 0px 0px 0px rgba(254,226,117,1);
+    box-shadow: inset 8px 12px 0px -12px rgba(254,254,242,1), inset 13px 3px 0px -11px rgba(254,254,242,1), inset -2px 0px 0px 0px rgba(254,226,117,1);
+}
+
+#krusty .head .left-ear
+{
+    top: 68px;
+    left: 57px;
+    width: 6px;
+    height: 8px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#krusty .head .right-ear
+{
+    top: 80px;
+    left: 123px;
+    width: 9px;
+    height: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transform: rotate(28deg);
+    -ms-transform: rotate(28deg);
+    transform: rotate(28deg);
+}
+
+#krusty .head .right-ear .inner
+{
+    top: 4px;
+    left: 3px;
+    height: 10px;
+    width: 4px;
+    border-right: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#krusty .head .eye
+{
+    width: 29px;
+    height: 29px;
+    background: #ffffff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#krusty .head .eye .pupil
+{
+    width: 3px;
+    height: 3px;
+    background: #110b00;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#krusty .head .left-eye
+{
+    top: 50px;
+    left: 64px;
+    height: 25px;
+}
+
+#krusty .head .left-eye .pupil
+{
+    top: 13px;
+    left: 7px;
+}
+
+#krusty .head .right-eye
+{
+    top: 53px;
+    left: 91px;
+}
+
+#krusty .head .right-eye .pupil
+{
+    top: 15px;
+    left: 18px;
+}
+
+#krusty .head .eye-bag
+{
+    top: 75px;
+    left: 93px;
+    width: 26px;
+    height: 11px;
+    border-top: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+
+
+#krusty .head .eyebrow
+{
+    top: 48px;
+    left: 106px;
+    width: 18px;
+    height: 8px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border-bottom: none;
+    -webkit-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    transform: rotate(25deg);
+}
+
+#krusty .head .mouth-top1
+{
+    top: 79px;
+    left: 59px;
+    width: 53px;
+    height: 20px;
+    border-bottom: none;
+    -webkit-border-radius: 41% 50% 50% 50%;
+    -moz-border-radius: 41% 50% 50% 50%;
+    border-radius: 41% 50% 50% 50%;
+    -webkit-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+
+#krusty .head .mouth-top2
+{
+    top: 78px;
+    left: 52px;
+    width: 69px;
+    height: 25px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    transform: rotate(6deg);
+}
+
+#krusty .head .mouth-bottom
+{
+    top: 114px;
+    left: 65px;
+    width: 35px;
+    height: 25px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    transform: rotate(6deg);
+}
+
+#krusty .head .mouth-left
+{
+    top: 99px;
+    left: 63px;
+    width: 8px;
+    height: 29px;
+    border-left: 1px solid #110b00;
+    -webkit-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+}
+
+#krusty .head .mouth-right
+{
+    top: 110px;
+    left: 99px;
+    width: 8px;
+    height: 23px;
+    border-right: 1px solid #110b00;
+    -webkit-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    transform: rotate(35deg);
+}
+
+#krusty .head .mouth-right2
+{
+    top: 98px;
+    left: 110px;
+    width: 8px;
+    height: 17px;
+    border-right: 1px solid #110b00;
+    -webkit-transform: rotate(38deg);
+    -ms-transform: rotate(38deg);
+    transform: rotate(38deg);
+}
+
+#krusty .head .mouth-inner
+{
+    background: #000000;
+}
+
+#krusty .head .mouth-inner-bottom
+{
+    top: 110px;
+    left: 71px;
+    width: 25px;
+    height: 25px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    transform: rotate(6deg);
+}
+
+#krusty .head .mouth-inner-top
+{
+    top: 102px;
+    left: 64px;
+    height: 0;
+    width: 23px;
+    background: none;
+    border-top: 26px solid #000000;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    -webkit-transform: rotate(16deg);
+    -ms-transform: rotate(16deg);
+    transform: rotate(16deg);
+}
+
+#krusty .head .tongue
+{
+    background: #ef5e2f;
+}
+
+#krusty .head .tongue1
+{
+    top: 124px;
+    left: 81px;
+    width: 13px;
+    height: 9px;
+    -webkit-border-radius: 50% 50% 50% 35%;
+    -moz-border-radius: 50% 50% 50% 35%;
+    border-radius: 50% 50% 50% 35%;
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+
+#krusty .head .tongue2
+{
+    top: 122px;
+    left: 73px;
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 50% 50% 0% 50%;
+    -moz-border-radius: 50% 50% 0% 50%;
+    border-radius: 50% 50% 0% 50%;
+    -webkit-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    transform: rotate(8deg);
+}
+
+#krusty .head .tongue3
+{
+    top: 126px;
+    left: 75px;
+    width: 17px;
+    height: 9px;
+    border-radius: 50%;
+}
+
+#krusty .head .nose
+{
+    top: 71px;
+    left: 74px;
+    width: 21px;
+    height: 13px;
+    background: #ef5e2f;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#krusty .head .cheek-right
+{
+    top: 90px;
+    left: 109px;
+    width: 20px;
+    height: 17px;
+    background: #fee298;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#krusty .head .cheek-right-inner
+{
+    top: 90px;
+    left: 112px;
+    width: 14px;
+    height: 9px;
+    background: #fee298;
+    -webkit-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+#krusty .head .cheek-left
+{
+    top: 76px;
+    left: 53px;
+    width: 11px;
+    height: 11px;
+    background: #fee298;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#krusty .head .cheek-left-inner
+{
+    top: 77px;
+    left: 54px;
+    width: 8px;
+    height: 11px;
+    background: #fee298;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#krusty .head .cheek-line
+{
+    top: 95px;
+    left: 114px;
+    width: 4px;
+    height: 9px;
+    border-left: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+#krusty .head .tooth
+{
+    background: #ffffff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#krusty .head .tooth1
+{
+    top: 90px;
+    left: 55px;
+    width: 10px;
+    height: 10px;
+}
+
+#krusty .head .tooth2
+{
+    top: 93px;
+    left: 61px;
+    width: 14px;
+    height: 11px;
+    -webkit-transform: rotate(28deg);
+    -ms-transform: rotate(28deg);
+    transform: rotate(28deg);
+}
+
+#krusty .head .tooth3
+{
+    top: 96px;
+    left: 73px;
+    width: 16px;
+    height: 11px;
+    -webkit-transform: rotate(28deg);
+    -ms-transform: rotate(28deg);
+    transform: rotate(28deg);
+}
+
+#krusty .head .tooth4
+{
+    top: 98px;
+    left: 89px;
+    width: 14px;
+    height: 11px;
+}
+
+#krusty .head .tooth5
+{
+    top: 96px;
+    left: 100px;
+    width: 13px;
+    height: 11px;
+}
