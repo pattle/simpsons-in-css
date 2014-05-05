@@ -14,21 +14,39 @@
     margin: 0 auto;
 }
 
+#bart .head *
+{
+    border: 1px solid #110b00;
+}
+
+#bart .head .no-border
+{
+    border: none;
+}
+
+#bart .head .body
+{
+    background: #fbd800;
+}
+
+#bart .head .hair
+{
+    border-top: 1px solid #110b00;
+    border-left: 1px solid #110b00;
+    -webkit-border-radius: 2px 0 0 0;
+    -moz-border-radius: 2px 0 0 0;
+    border-radius: 2px 0 0 0;
+}
+
 #bart .head .hair1
 {
     top: 22px;
     left: 28px;
     width: 6px;
     height: 7px;
-    background: #fbd800;
-    border-top: 1px solid #110b00;
-    border-left: 1px solid #110b00;
     -webkit-transform: rotate(-22deg) skew(-7deg, 51deg);
     -ms-transform: rotate(-22deg) skew(-7deg, 51deg);
     transform: rotate(-22deg) skew(-7deg, 51deg);
-    -webkit-border-radius: 2px 0 0 0;
-    -moz-border-radius: 2px 0 0 0;
-    border-radius: 2px 0 0 0;
 }
 
 #bart .head .hair2
@@ -37,15 +55,9 @@
     left: 33px;
     width: 9px;
     height: 7px;
-    background: #fbd800;
-    border-top: 1px solid #110b00;
-    border-left: 1px solid #110b00;
     -webkit-transform: rotate(25deg) skew(23deg, 16deg);
     -ms-transform: rotate(25deg) skew(23deg, 16deg);
     transform: rotate(25deg) skew(23deg, 16deg);
-    -webkit-border-radius: 2px 0 0 0;
-    -moz-border-radius: 2px 0 0 0;
-    border-radius: 2px 0 0 0;
 }
 
 #bart .head .hair3
@@ -54,15 +66,9 @@
     left: 40px;
     width: 9px;
     height: 8px;
-    background: #fbd800;
-    border-top: 1px solid #110b00;
-    border-left: 1px solid #110b00;
     -webkit-transform: rotate(27deg) skew(22deg, 16deg);
     -ms-transform: rotate(27deg) skew(22deg, 16deg);
     transform: rotate(27deg) skew(22deg, 16deg);
-    -webkit-border-radius: 2px 0 0 0;
-    -moz-border-radius: 2px 0 0 0;
-    border-radius: 2px 0 0 0;
 }
 
 #bart .head .hair4
@@ -71,15 +77,9 @@
     left: 48px;
     width: 10px;
     height: 9px;
-    background: #fbd800;
-    border-top: 1px solid #110b00;
-    border-left: 1px solid #110b00;
     -webkit-transform: rotate(35deg) skew(22deg, 16deg);
     -ms-transform: rotate(35deg) skew(22deg, 16deg);
     transform: rotate(35deg) skew(22deg, 16deg);
-    -webkit-border-radius: 2px 0 0 0;
-    -moz-border-radius: 2px 0 0 0;
-    border-radius: 2px 0 0 0;
 }
 
 #bart .head .hair5
@@ -88,15 +88,9 @@
     left: 57px;
     width: 9px;
     height: 9px;
-    background: #fbd800;
-    border-top: 1px solid #110b00;
-    border-left: 1px solid #110b00;
     -webkit-transform: rotate(37deg) skew(22deg, 16deg);
     -ms-transform: rotate(37deg) skew(22deg, 16deg);
     transform: rotate(37deg) skew(22deg, 16deg);
-    -webkit-border-radius: 2px 0 0 0;
-    -moz-border-radius: 2px 0 0 0;
-    border-radius: 2px 0 0 0;
 }
 
 #bart .head .hair6
@@ -105,15 +99,9 @@
     left: 65px;
     width: 10px;
     height: 9px;
-    background: #fbd800;
-    border-top: 1px solid #110b00;
-    border-left: 1px solid #110b00;
     -webkit-transform: rotate(50deg) skew(24deg, 16deg);
     -ms-transform: rotate(50deg) skew(24deg, 16deg);
     transform: rotate(50deg) skew(24deg, 16deg);
-    -webkit-border-radius: 2px 0 0 0;
-    -moz-border-radius: 2px 0 0 0;
-    border-radius: 2px 0 0 0;
 }
 
 #bart .head .hair7
@@ -122,15 +110,9 @@
     left: 73px;
     width: 10px;
     height: 8px;
-    background: #fbd800;
-    border-top: 1px solid #110b00;
-    border-left: 1px solid #110b00;
     -webkit-transform: rotate(51deg) skew(24deg, 10deg);
     -ms-transform: rotate(51deg) skew(24deg, 10deg);
     transform: rotate(51deg) skew(24deg, 10deg);
-    -webkit-border-radius: 2px 0 0 0;
-    -moz-border-radius: 2px 0 0 0;
-    border-radius: 2px 0 0 0;
 }
 
 #bart .head .hair8
@@ -139,15 +121,9 @@
     left: 82px;
     width: 9px;
     height: 7px;
-    background: #fbd800;
-    border-top: 1px solid #110b00;
-    border-left: 1px solid #110b00;
     -webkit-transform: rotate(51deg) skew(24deg, 10deg);
     -ms-transform: rotate(51deg) skew(24deg, 10deg);
     transform: rotate(51deg) skew(24deg, 10deg);
-    -webkit-border-radius: 2px 0 0 0;
-    -moz-border-radius: 2px 0 0 0;
-    border-radius: 2px 0 0 0;
 }
 
 #bart .head .hair9
@@ -156,15 +132,9 @@
     left: 89px;
     width: 9px;
     height: 7px;
-    background: #fbd800;
-    border-top: 1px solid #110b00;
-    border-left: 1px solid #110b00;
     -webkit-transform: rotate(79deg) skew(35deg, 10deg);
     -ms-transform: rotate(79deg) skew(35deg, 10deg);
     transform: rotate(79deg) skew(35deg, 10deg);
-    -webkit-border-radius: 2px 0 0 0;
-    -moz-border-radius: 2px 0 0 0;
-    border-radius: 2px 0 0 0;
 }
 
 #bart .head .head-left1
@@ -173,7 +143,6 @@
     left: 29px;
     width: 17px;
     height: 15px;
-    background: #fbd800;
     border-left: 1px solid #110b00;
     -webkit-transform: rotate(-13deg);
     -ms-transform: rotate(-13deg);
@@ -186,7 +155,6 @@
     left: 31px;
     width: 17px;
     height: 18px;
-    background: #fbd800;
     border-left: 1px solid #110b00;
     -webkit-transform: rotate(-11deg);
     -ms-transform: rotate(-11deg);
@@ -199,7 +167,6 @@
     left: 33px;
     width: 17px;
     height: 16px;
-    background: #fbd800;
     border-left: 1px solid #110b00;
     -webkit-transform: rotate(-9deg);
     -ms-transform: rotate(-9deg);
@@ -212,7 +179,6 @@
     left: 35px;
     width: 17px;
     height: 16px;
-    background: #fbd800;
     border-left: 1px solid #110b00;
     -webkit-transform: rotate(-7deg);
     -ms-transform: rotate(-7deg);
@@ -225,7 +191,6 @@
     left: 37px;
     width: 20px;
     height: 16px;
-    background: #fbd800;
     border-left: 1px solid #110b00;
     -webkit-transform: rotate(-8deg);
     -ms-transform: rotate(-8deg);
@@ -238,7 +203,6 @@
     left: 39px;
     width: 28px;
     height: 31px;
-    background: #fbd800;
     border-left: 1px solid #110b00;
     -webkit-transform: rotate(2deg);
     -ms-transform: rotate(2deg);
@@ -251,7 +215,6 @@
     left: 38px;
     width: 27px;
     height: 8px;
-    background: #fbd800;
     border-left: 1px solid #110b00;
     border-right: 1px solid #110b00;
     -webkit-transform: rotate(6deg);
@@ -265,7 +228,6 @@
     left: 47px;
     width: 50px;
     height: 37px;
-    background: #fbd800;
     border-right: 1px solid #000000;
     -webkit-transform: rotate(-2deg);
     -ms-transform: rotate(-2deg);
@@ -278,7 +240,6 @@
     left: 47px;
     width: 51px;
     height: 24px;
-    background: #fbd800;
     -webkit-transform: rotate(-2deg);
     -ms-transform: rotate(-2deg);
     transform: rotate(-2deg);
@@ -290,7 +251,6 @@
     left: 52px;
     width: 50px;
     height: 27px;
-    background: #fbd800;
     border-right: 1px solid #000000;
     -webkit-transform: rotate(-8deg);
     -ms-transform: rotate(-8deg);
@@ -306,8 +266,6 @@
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background: #fbd800;
-    border: 1px solid #110b00;
 }
 
 #bart .head .ear .inner1
@@ -346,7 +304,6 @@
     left: 9px;
     width: 3px;
     height: 10px;
-    background: #fbd800;
 }
 
 #bart .head .eyelid
@@ -355,8 +312,6 @@
     left: 91px;
     width: 10px;
     height: 10px;
-    background: #fbd800;
-    border: 1px solid #110b00;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -372,7 +327,6 @@
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background: #ffffff;
-    border: 1px solid #110b00;
 }
 
 #bart .head .right-eye .right-eye-pupil
@@ -397,7 +351,6 @@
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background: #ffffff;
-    border: 1px solid #110b00;
 }
 
 #bart .head .left-eye .left-eye-pupil
@@ -418,7 +371,6 @@
     left: 83px;
     width: 12px;
     height: 12px;
-    background: #fbd800;
     border-top: 1px solid #110b00;
 }
 
@@ -428,10 +380,7 @@
     left: 88px;
     width: 14px;
     height: 12px;
-    background: #fbd800;
-    border-top: 1px solid #110b00;
-    border-right: 1px solid #110b00;
-    border-bottom: 1px solid #110b00;
+    border-left: none;
     -moz-border-radius: 0 50% 50% 0%;
     -webkit-border-radius: 0 50% 50% 0;
     border-radius: 0 50% 50% 0;
@@ -446,7 +395,6 @@
     left: 55px;
     width: 50px;
     height: 15px;
-    background: #fbd800;
     border-bottom: 1px solid #110b00;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -474,8 +422,6 @@
     left: 54px;
     width: 50px;
     height: 14px;
-    background: #fbd800;
-    border: 1px solid #110b00;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -487,8 +433,6 @@
     left: 45px;
     width: 30px;
     height: 14px;
-    background: #fbd800;
-    border: 1px solid #110b00;
     -moz-border-radius: 32%;
     -webkit-border-radius: 32%;
     border-radius: 32%;
