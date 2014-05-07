@@ -1,0 +1,524 @@
+#smithers *
+{
+    position: absolute;
+    box-sizing:content-box;
+    -moz-box-sizing:content-box;
+}
+
+#smithers
+{
+    position: relative;
+    width: 112px;
+    height: 110px;
+    margin: 0 auto;
+}
+
+#smithers .head *
+{
+    border: 1px solid #110b00;
+}
+
+#smithers .head .no-border
+{
+    border: none;
+}
+
+#smithers .head .body
+{
+    background: #fbd800;
+}
+
+#smithers .head .hair
+{
+    background: #95705d;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+#smithers .head .hair1
+{
+    top: 8px;
+    left: 1px;
+    width: 25px;
+    height: 47px;
+    border-top: none;
+    transform: rotate(-12deg);
+    -ms-transform: rotate(-12deg);
+    -webkit-transform: rotate(-12deg);
+}
+
+#smithers .head .hair2
+{
+    top: 6px;
+    left: 6px;
+    width: 26px;
+    height: 53px;
+    border-top: none;
+    transform: rotate(2deg) skew(-1deg,2deg);
+    -ms-transform: rotate(2deg) skew(-1deg,2deg);
+    -webkit-transform: rotate(2deg) skew(-1deg,2deg);
+}
+
+#smithers .head .hair3
+{
+    top: 9px;
+    left: 3px;
+    width: 20px;
+    height: 48px;
+    border-top: none;
+    transform: rotate(-13deg);
+    -ms-transform: rotate(-13deg);
+    -webkit-transform: rotate(-13deg);
+}
+
+#smithers .head .hair4
+{
+    top: 7px;
+    left: 1px;
+    width: 10px;
+    height: 6px;
+    transform: skew(0deg, 10deg);
+    -ms-transform: skew(0deg, 10deg);
+    -webkit-transform: skew(0deg, 10deg);
+}
+
+#smithers .head .hair5
+{
+    top: 4px;
+    left: 11px;
+    width: 10px;
+    height: 8px;
+}
+
+#smithers .head .hair6
+{
+    top: 3px;
+    left: 20px;
+    width: 10px;
+    height: 8px;
+}
+
+#smithers .head .hair7
+{
+    top: 2px;
+    left: 30px;
+    width: 10px;
+    height: 12px;
+}
+
+#smithers .head .hair8
+{
+    top: 1px;
+    left: 40px;
+    width: 10px;
+    height: 12px;
+}
+
+#smithers .head .hair9
+{
+    top: 1px;
+    left: 49px;
+    width: 10px;
+    height: 12px;
+}
+
+#smithers .head .hair10
+{
+    top: 1px;
+    left: 59px;
+    width: 11px;
+    height: 12px;
+}
+
+#smithers .head .hair11
+{
+    top: 2px;
+    left: 68px;
+    width: 10px;
+    height: 11px;
+    border-radius: 31%;
+    -webkit-border-radius: 31%;
+    -moz-border-radius: 31%;
+    transform: rotate(63deg);
+    -ms-transform: rotate(63deg);
+    -webkit-transform: rotate(63deg);
+}
+
+#smithers .head .hair12
+{
+    top: 3px;
+    left: 77px;
+    width: 10px;
+    height: 11px;
+    border-radius: 31%;
+    -webkit-border-radius: 31%;
+    -moz-border-radius: 31%;
+    transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+}
+
+#smithers .head .hair13
+{
+    top: 5px;
+    left: 85px;
+    width: 10px;
+    height: 11px;
+    border-radius: 31%;
+    -webkit-border-radius: 31%;
+    -moz-border-radius: 31%;
+    transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+}
+
+#smithers .head .hair14
+{
+    top: 7px;
+    left: 93px;
+    width: 10px;
+    height: 11px;
+    border-radius: 31%;
+    -webkit-border-radius: 31%;
+    -moz-border-radius: 31%;
+    transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+}
+
+#smithers .head .hair15
+{
+    top: 9px;
+    left: 98px;
+    width: 10px;
+    height: 11px;
+    border-radius: 31%;
+    -webkit-border-radius: 31%;
+    -moz-border-radius: 31%;
+    transform: rotate(82deg) skew(2deg, 31deg);
+    -ms-transform: rotate(82deg) skew(2deg, 31deg);
+    -webkit-transform: rotate(82deg) skew(2deg, 31deg);
+}
+
+#smithers .head .hair16
+{
+    top: 4px;
+    left: 2px;
+    width: 107px;
+    height: 22px;
+}
+
+#smithers .head .head1
+{
+    top: 15px;
+    left: 1px;
+    width: 104px;
+    height: 18px;
+    border-bottom: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+}
+
+#smithers .head .head2
+{
+    top: 25px;
+    left: 26px;
+    width: 73px;
+    height: 47px;
+}
+
+#smithers .head .head3
+{
+    top: 16px;
+    left: 97px;
+    width: 9px;
+    height: 26px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+#smithers .head .head4
+{
+    top: 67px;
+    left: 25px;
+    width: 10px;
+    height: 37px;
+    border-left: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    transform: rotate(-27deg);
+    -ms-transform: rotate(-27deg);
+    -webkit-transform: rotate(-27deg);
+    -webkit-box-shadow: 6px -8px 0px 0px rgba(251, 216, 0, 1);
+    -moz-box-shadow: 6px -8px 0px 0px rgba(251, 216, 0, 1);
+    box-shadow: 6px -8px 0px 0px rgba(251, 216, 0, 1);
+}
+
+#smithers .head .head5
+{
+    top: 65px;
+    left: 32px;
+    width: 67px;
+    height: 13px;
+}
+
+#smithers .head .head6
+{
+    top: 54px;
+    left: 100px;
+    width: 9px;
+    height: 21px;
+    border-right: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    transform: rotate(-17deg);
+    -ms-transform: rotate(-17deg);
+    -webkit-transform: rotate(-17deg);
+    -webkit-box-shadow: -7px 1px 0px 0px rgba(251, 216, 0, 1);
+    -moz-box-shadow: -7px 1px 0px 0px rgba(251, 216, 0, 1);
+    box-shadow: -7px 1px 0px 0px rgba(251, 216, 0, 1);
+}
+
+#smithers .head .head7
+{
+    top: 78px;
+    left: 38px;
+    width: 37px;
+    height: 13px;
+}
+
+#smithers .head .ear
+{
+    top: 55px;
+    left: 11px;
+    width: 17px;
+    height: 15px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+#smithers .head .ear .inner1
+{
+    top: 4px;
+    left: 3px;
+    width: 9px;
+    height: 5px;
+    border-top: 1px solid #110b00;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    transform: rotate(-6deg);
+    -webkit-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
+}
+
+#smithers .head .ear .inner2
+{
+    top: 4px;
+    left: 6px;
+    width: 7px;
+    height: 5px;
+    border-top: 1px solid #110b00;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    transform: rotate(-109deg);
+    -webkit-transform: rotate(-109deg);
+    -ms-transform: rotate(-109deg);
+}
+
+#smithers .head .ear .clip
+{
+    top: 2px;
+    left: 14px;
+    width: 4px;
+    height: 10px;
+}
+
+#smithers .head .eyebrow
+{
+    background: #95705d;
+}
+
+#smithers .head .eyebrow-left
+{
+    top: 21px;
+    left: 51px;
+    width: 17px;
+    height: 5px;
+    border-radius: 38% 45% 10% 10%;
+    -webkit-border-radius: 38% 45% 10% 10%;
+    -moz-border-radius: 38% 45% 10% 10%;
+    transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
+}
+
+#smithers .head .eyebrow-right
+{
+    top: 26px;
+    left: 91px;
+    width: 12px;
+    height: 4px;
+    border-radius: 31% 45% 10% 30%;
+    -webkit-border-radius: 38% 45% 10% 10%;
+    -moz-border-radius: 38% 45% 10% 10%;
+    transform: rotate(-7deg);
+    -webkit-transform: rotate(7deg);
+    -ms-transform: rotate(-7deg);
+}
+
+#smithers .head .glasses-bridge
+{
+    top: 48px;
+    left: 71px;
+    width: 15px;
+    height: 5px;
+    border-bottom: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+#smithers .head .glasses-arm
+{
+    top: 47px;
+    left: 30px;
+    width: 15px;
+    height: 1px;
+    border-top: 1px solid #110b00;
+    transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+}
+
+#smithers .head .right-eye
+{
+    top: 38px;
+    left: 84px;
+    width: 25px;
+    height: 23px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    background: #ffffff;
+}
+
+#smithers .head .right-eye .right-eye-pupil
+{
+    top: 11px;
+    left: 11px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    background: #110b00;
+}
+
+#smithers .head .left-eye
+{
+    top: 32px;
+    left: 43px;
+    width: 31px;
+    height: 28px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    background: #ffffff;
+}
+
+#smithers .head .left-eye .left-eye-pupil
+{
+    top: 12px;
+    left: 10px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    background: #110b00;
+}
+
+#smithers .head .nose-tip
+{
+    top: 52px;
+    left: 78px;
+    width: 13px;
+    height: 13px;
+    border-left: none;
+    border-radius: 0 50% 50% 0;
+    -moz-border-radius: 0 50% 50% 0%;
+    -webkit-border-radius: 0 50% 50% 0;
+    transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+}
+
+#smithers .head .mouth
+{
+    top: 91px;
+    left: 40px;
+    width: 35px;
+    height: 16px;
+    border-bottom: 1px solid #110b00;
+    border-right: 1px solid #110b00;
+    border-radius: 0 0 27% 44%;
+    -moz-border-radius: 0 0 27% 44%;
+    -webkit-border-radius: 0 0 27% 44%;
+}
+
+#smithers .head .mouth-smile
+{
+    top: 75px;
+    left: 47px;
+    width: 4px;
+    height: 8px;
+    border-left: 1px solid #110b00;
+    border-top: 1px solid #110b00;
+    border-bottom: 1px solid #110b00;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    transform: rotate(28deg);
+    -webkit-transform: rotate(28deg);
+    -ms-transform: rotate(28deg);
+}
+
+#smithers .head .mouth-lip
+{
+    top: 66px;
+    left: 45px;
+    width: 60px;
+    height: 18px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    transform: rotate(3deg) skew(-9deg, 2deg);
+    -ms-transform: rotate(3deg) skew(-9deg, 2deg);
+    -webkit-transform: rotate(3deg) skew(-9deg, 2deg);
+}
+
+#smithers .head .mouth-lip2
+{
+    top: 75px;
+    left: 75px;
+    width: 5px;
+    height: 14px;
+    border-left: none;
+    border-radius: 32% 32% 23% 0%;
+    -moz-border-radius: 32% 32% 23% 0%;
+    -webkit-border-radius: 32% 32% 23% 0%;
+    transform: rotate(2deg) skew(0deg, -30deg);
+    -ms-transform: rotate(2deg) skew(0deg, -30deg);
+    -webkit-transform: rotate(2deg) skew(0deg, -30deg);
+}
