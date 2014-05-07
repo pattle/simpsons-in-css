@@ -1,0 +1,523 @@
+#itchy *
+{
+    position: absolute;
+    box-sizing:content-box;
+    -moz-box-sizing:content-box;
+}
+
+#itchy
+{
+    position: relative;
+    width: 150px;
+    height: 110px; 
+    margin: 0 auto;
+}
+
+#itchy .head *
+{
+    border: 1px solid #110b00;
+}
+
+#itchy .head .no-border
+{
+    border: none;
+}
+
+#itchy .head .body
+{
+    background: #51aefe;
+}
+
+#itchy .head .ear-right
+{
+    top: 0px;
+    left: 52px;
+    width: 52px;
+    height: 50px;
+    border-radius: 50% 44% 43% 50%;
+    -webkit-border-radius: 50% 44% 43% 50%;
+    -moz-border-radius: 50% 44% 43% 50%;
+    
+    -webkit-box-shadow: inset 11px 1px 0px 1px rgba(66, 148, 222, 0.75);
+    -moz-box-shadow: inset 11px 1px 0px 1px rgba(66, 148, 222, 0.75);
+    box-shadow: inset 11px 1px 0px 1px rgba(66, 148, 222, 0.75);
+}
+
+#itchy .head .ear-left
+{
+    top: 29px;
+    left: 1px;
+    width: 56px;
+    height: 57px;
+    border-radius: 50% 45% 40% 50%;
+    -webkit-border-radius: 50% 45% 40% 50%;
+    -moz-border-radius: 50% 45% 40% 50%;
+    
+    -webkit-box-shadow: inset 11px -4px 0px 0px rgba(66, 148, 222, 0.75);
+    -moz-box-shadow: inset 11px -4px 0px 0px rgba(66, 148, 222, 0.75);
+    box-shadow: inset 11px -4px 0px 0px rgba(66, 148, 222, 0.75);
+}
+
+#itchy .head .body-main
+{
+    top: 46px;
+    left: 53px;
+    width: 50px;
+    height: 47px;
+    border-radius: 0 50% 50% 39%;
+    -webkit-border-radius: 0 50% 50% 39%;
+    -moz-border-radius: 0 50% 50% 39%;
+    -webkit-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+#itchy .head .body-main2
+{
+   top: 71px;
+    left: 62px;
+    width: 7px;
+    height: 42px;
+    border-right: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-transform: rotate(-34deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+#itchy .head .body-main3
+{
+    top: 27px;
+    left: 56px;
+    width: 38px;
+    height: 59px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+#itchy .head .hair1
+{
+    top: 32px;
+    left: 52px;
+    width: 27px;
+    height: 8px;
+    background: none;
+    border-bottom: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-transform: rotate(-55deg);
+    -ms-transform: rotate(-55deg);
+    transform: rotate(-55deg);
+}
+
+#itchy .head .hair2
+{
+    top: 30px;
+    left: 62px;
+    width: 19px;
+    height: 8px;
+    background: none;
+    border-bottom: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-transform: rotate(-83deg);
+    -ms-transform: rotate(-83deg);
+    transform: rotate(-83deg);
+}
+
+#itchy .head .hair3
+{
+    top: 33px;
+    left: 62px;
+    width: 32px;
+    height: 11px;
+    background: none;
+    border-bottom: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-transform: rotate(-30deg);
+}
+
+#itchy .head .hair4
+{
+    top: 32px;
+    left: 79px;
+    width: 15px;
+    height: 7px;
+    background: none;
+    border-bottom: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-transform: rotate(-52deg);
+    -ms-transform: rotate(-52deg);
+    transform: rotate(-52deg);
+}
+
+#itchy .head .hair5
+{
+    top: 38px;
+    left: 73px;
+    width: 25px;
+    height: 7px;
+    background: none;
+    border-bottom: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+
+#itchy .head .hair6
+{
+    top: 41px;
+    left: 79px;
+    width: 21px;
+    height: 7px;
+    background: none;
+    border-bottom: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-transform: rotate(-32deg);
+    -ms-transform: rotate(-32deg);
+    transform: rotate(-32deg);
+}
+
+#itchy .head .hair7
+{
+    top: 47px;
+    left: 80px;
+    width: 16px;
+    height: 7px;
+    background: none;
+    border-bottom: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-transform: rotate(23deg);
+    -ms-transform: rotate(23deg);
+    transform: rotate(23deg);
+}
+
+#itchy .head .eye
+{
+    width: 25px;
+    height: 25px;
+    background: #ffffff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+#itchy .head .eye .pupil
+{
+    width: 3px;
+    height: 3px;
+    background: #110b00;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+#itchy .head .left-eye
+{
+    top: 56px;
+    left: 68px;
+    height: 23px;
+}
+
+#itchy .head .left-eye .pupil
+{
+    top: 11px;
+    left: 9px;
+}
+
+#itchy .head .right-eye
+{
+    top: 49px;
+    left: 87px;
+    width: 22px;
+    height: 20px;
+}
+
+#itchy .head .right-eye .pupil
+{
+    top: 7px;
+    left: 12px;
+}
+
+#itchy .head .mouth1
+{
+    top: 67px;
+    left: 66px;
+    height: 17px;
+    width: 61px;
+    border-top: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+
+#itchy .head .mouth2
+{
+    top: 58px;
+    left: 112px;
+    height: 11px;
+    width: 41px;
+    border-top: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+#itchy .head .mouth3
+{
+    top: 49px;
+    left: 139px;
+    height: 6px;
+    width: 9px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-transform: rotate(-58deg);
+    -ms-transform: rotate(-58deg);
+    transform: rotate(-58deg);
+}
+
+#itchy .head .mouth4
+{
+    top: 44px;
+    left: 102px;
+    height: 17px;
+    width: 41px;
+    border-top: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-transform: rotate(-22deg);
+    -ms-transform: rotate(-22deg);
+    transform: rotate(-22deg);
+    
+    -webkit-box-shadow: -1px 9px 0px 0px rgba(81, 174, 254, 1);
+    -moz-box-shadow: -1px 9px 0px 0px rgba(81, 174, 254, 1);
+    box-shadow: -1px 9px 0px 0px rgba(81, 174, 254, 1);
+}
+
+#itchy .head .mouth5
+{
+    top: 82px;
+    left: 62px;
+    height: 15px;
+    width: 33px;
+    border-top: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-transform: rotate(41deg);
+    -ms-transform: rotate(41deg);
+    transform: rotate(41deg);
+    
+    -webkit-box-shadow: 5px 6px 0px 0px rgba(81, 174, 254, 1);
+    -moz-box-shadow: 5px 6px 0px 0px rgba(81, 174, 254, 1);
+    box-shadow: 5px 6px 0px 0px rgba(81, 174, 254, 1);
+}
+
+#itchy .head .mouth6
+{
+    top: 102px;
+    left: 87px;
+    height: 7px;
+    width: 8px;
+    border-top: 1px solid #110b00;
+}
+
+#itchy .head .mouth7
+{
+    top: 82px;
+    left: 92px;
+    height: 17px;
+    width: 8px;
+    border-right: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+}
+
+#itchy .head .mouth8
+{
+    top: 82px;
+    left: 97px;
+    height: 16px;
+    width: 7px;
+    border-right: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+    
+    -webkit-box-shadow: -4px 0px 0px 0px rgba(81, 174, 254, 1);
+    -moz-box-shadow: -4px 0px 0px 0px rgba(81, 174, 254, 1);
+    box-shadow: -4px 0px 0px 0px rgba(81, 174, 254, 1);
+}
+
+#itchy .head .mouth9
+{
+    top: 99px;
+    left: 97px;
+    height: 5px;
+    width: 5px;
+    border-top: none;
+    border-left: none;
+    border-bottom-right-radius: 42%;
+    -webkit-border-bottom-right-radius: 42%;
+    -moz-border-radius-bottomright: 42%;
+    -webkit-transform: rotate(-41deg);
+    -ms-transform: rotate(-41deg);
+    transform: rotate(-41deg);
+}
+
+#itchy .head .mouth10
+{
+    top: 82px;
+    left: 63px;
+    width: 12px;
+    height: 5px;
+    border-bottom: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-transform: rotate(-34deg);
+    -ms-transform: rotate(-34deg);
+    transform: rotate(-34deg);
+    
+    -webkit-box-shadow: 4px -3px 0px 1px rgba(81, 174, 254, 1);
+    -moz-box-shadow: 4px -3px 0px 1px rgba(81, 174, 254, 1);
+    box-shadow: 4px -3px 0px 1px rgba(81, 174, 254, 1);
+}
+
+#itchy .head .mouth11
+{
+    top: 98px;
+    left: 76px;
+    width: 23px;
+    height: 13px;
+    border-right: 1px solid #110b00;
+}
+
+#itchy .head .mouth-inner
+{
+    top: 77px;
+    left: 66px;
+    width: 29px;
+    height: 25px;
+    background: #270001;
+    border-radius: 37% 50% 0 50%;
+    -webkit-border-radius: 37% 50% 0 50%;
+    -moz-border-radius: 37% 50% 0 50%;
+}
+
+#itchy .head .tooth
+{
+    background: #ffffff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+#itchy .head .tooth1
+{
+    top: 64px;
+    left: 136px;
+    width: 6px;
+    height: 10px;
+    -webkit-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+#itchy .head .tooth2
+{
+    top: 70px;
+    left: 128px;
+    width: 10px;
+    height: 8px;
+    border-radius: 79% 50% 50% 50%;
+    -webkit-border-radius: 79% 50% 50% 50%;
+    -moz-border-radius: 79% 50% 50% 50%;
+    -webkit-transform: rotate(-44deg);
+    -ms-transform: rotate(-44deg);
+    transform: rotate(-44deg);
+}
+
+#itchy .head .nose
+{
+    top: 61px;
+    left: 97px;
+    width: 16px;
+    height: 9px;
+    background: #1f6aa4; 
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+
+#itchy .head .spike1
+{
+    top: 85px;
+    left: 43px;
+    width: 17px;
+    height: 8px;
+    border-top: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+    
+    -webkit-box-shadow: 5px 6px 0px 2px rgba(81, 174, 254, 1);
+    -moz-box-shadow: 5px 6px 0px 2px rgba(81, 174, 254, 1);
+    box-shadow: 5px 6px 0px 2px rgba(81, 174, 254, 1);
+}
+
+#itchy .head .spike2
+{
+    top: 87px;
+    left: 44px;
+    width: 24px;
+    height: 11px;
+    border-top: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-transform: rotate(16deg);
+    -ms-transform: rotate(16deg);
+    transform: rotate(16deg);
+    
+    -webkit-box-shadow: -4px 6px 0px 2px rgba(255, 255, 255, 1);
+    -moz-box-shadow: -4px 6px 0px 2px rgba(255, 255, 255, 1);
+    box-shadow: -4px 6px 0px 2px rgba(255, 255, 255, 1);
+}
