@@ -5,7 +5,6 @@
     -moz-box-sizing:content-box;
 }
 
-
 #marge
 {
     position: relative;
@@ -14,13 +13,39 @@
     margin: 0 auto;
 }
 
+#marge .head *
+{
+    border: 1px solid #110b00;
+}
+
+#marge .head .no-border
+{
+    border: none;
+}
+
+#marge .head .body
+{
+    background: #fbd800;
+}
+
+#marge .head .hair
+{
+    background: #107dc0;
+}
+
+#marge .head .hair-circle
+{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
 #marge .head .hair-main
 {
     top: 7px;
     left: 29px;
     width: 67px;
     height: 133px;
-    background: #107dc0;
     -webkit-transform: rotate(-18deg);
     -ms-transform: rotate(-18deg);
     transform: rotate(-18deg);
@@ -33,7 +58,6 @@
     left: 22px;
     width: 58px;
     height: 37px;
-    background: #107dc0;
     -webkit-transform: rotate(7deg);
     -ms-transform: rotate(7deg);
     transform: rotate(7deg);
@@ -46,7 +70,6 @@
     left: 50px;
     width: 90px;
     height: 19px;
-    background: #107dc0;
     -webkit-transform: rotate(71deg);
     -ms-transform: rotate(71deg);
     transform: rotate(71deg);
@@ -59,7 +82,6 @@
     left: 88px;
     width: 43px;
     height: 12px;
-    background: #107dc0;
     -webkit-transform: rotate(67deg);
     -ms-transform: rotate(67deg);
     transform: rotate(67deg);
@@ -72,7 +94,6 @@
     left: 30px;
     width: 30px;
     height: 83px;
-    background: #107dc0;
     -webkit-transform: rotate(-20deg);
     -ms-transform: rotate(-20deg);
     transform: rotate(-20deg);
@@ -84,8 +105,9 @@
     left: 51px;
     width: 17px;
     height: 34px;
-    background: #107dc0;
     border-radius: 10px 22px 27px 10px;
+    -webkit-border-radius: 10px 22px 27px 10px;
+    -moz-border-radius: 10px 22px 27px 10px;
     -webkit-transform: rotate(-15deg);
     -ms-transform: rotate(-15deg);
     transform: rotate(-15deg);
@@ -97,15 +119,6 @@
     left: 62px;
     width: 7px;
     height: 7px;
-    background: #107dc0;
-    border-radius: 50%;
-}
-
-#marge .head .hair-circle
-{
-    background: #107dc0;
-    border: 1px solid #110b00;
-    border-radius: 50%;
 }
 
 #marge .head .hair1
@@ -516,7 +529,6 @@
     left: 65px;
     width: 48px;
     height: 40px;
-    background: #fbd800;
 }
 
 #marge .head .ear
@@ -525,11 +537,9 @@
     left: 61px;
     width: 11px;
     height: 11px;
+    border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background: #fbd800;
-    border: 1px solid #110b00;
     -webkit-box-shadow: inset 0px -5px 0px 0px rgba(221,170,42,1);
     -moz-box-shadow: inset 0px -5px 0px 0px rgba(221,170,42,1);
     box-shadow: inset 0px 0px -5px 0px rgba(221,170,42,1);
@@ -571,8 +581,9 @@
     left: 9px;
     width: 3px;
     height: 8px;
-    background: #ddaa2a;
     border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
 }
 
 #marge .head .eyelash
@@ -662,7 +673,7 @@
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background: #ffffff;
-    border: 1px solid #110b00;
+    overflow: hidden;
 }
 
 #marge .head .right-eye .right-eye-pupil
@@ -677,6 +688,84 @@
     background: #110b00;
 }
 
+#marge .head .right-eye .eyelid-top
+{
+    top: -18px;
+    left: 0px;
+    width: 30px;
+    height: 15px;
+    border-bottom: 1px solid #110b00;
+    border-radius: 50% 50% 0 0;
+    
+    -webkit-animation-name: margerighteyelidtop;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: margerighteyelidtop;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#marge .head .right-eye .eyelid-bottom
+{
+    bottom: -11px;
+    left: 0px;
+    width: 30px;
+    height: 7px;
+    border-top: 1px solid #110b00;
+    border-radius: 0 0 50% 50%;
+    
+    -webkit-animation-name: margerighteyelidbottom;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: margerighteyelidbottom;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes margerighteyelidtop
+{
+0% {top: -18px;}
+2% {top: 0px;}
+4% {top: -18px;}
+100% {top: -18px;}
+}
+
+@keyframes margerighteyelidtop
+{
+0% {top: -18px;}
+2% {top: 0px;}
+4% {top: -18px;}
+100% {top: -18px;}
+}
+
+@-webkit-keyframes margerighteyelidbottom
+{
+0% {bottom: -11px;}
+2% {bottom: 0px;}
+4% {bottom: -11px;}
+100% {bottom: -11px;}
+}
+
+@keyframes margerighteyelidbottom
+{
+0% {bottom: -11px;}
+2% {bottom: 0px;}
+4% {bottom: -11px;}
+100% {bottom: -11px;}
+}
+
 #marge .head .left-eye
 {
     top: 143px;
@@ -687,7 +776,7 @@
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background: #ffffff;
-    border: 1px solid #110b00;
+    overflow: hidden;
 }
 
 #marge .head .left-eye .left-eye-pupil
@@ -702,13 +791,93 @@
     background: #110b00;
 }
 
+#marge .head .left-eye .eyelid-top
+{
+    top: -21px;
+    left: 0px;
+    width: 30px;
+    height: 15px;
+    border-bottom: 1px solid #110b00;
+    border-radius: 50% 50% 0 0;
+    
+    -webkit-animation-name: margelefteyelidtop;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: margelefteyelidtop;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#marge .head .left-eye .eyelid-bottom
+{
+    bottom: -11px;
+    left: 0px;
+    width: 30px;
+    height: 9px;
+    border-top: 1px solid #110b00;
+    border-radius: 0 0 50% 50%;
+    
+    -webkit-animation-name: margelefteyelidbottom;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: margelefteyelidbottom;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+
+@-webkit-keyframes margelefteyelidtop
+{
+0% {top: -21px;}
+2% {top: 0px;}
+4% {top: -21px;}
+100% {top: -21px;}
+}
+
+
+@keyframes margelefteyelidtop
+{
+0% {top: -21px;}
+2% {top: 0px;}
+4% {top: -21px;}
+100% {top: -21px;}
+}
+
+@-webkit-keyframes margelefteyelidbottom
+{
+0% {bottom: -11px;}
+2% {bottom: 0px;}
+4% {bottom: -11px;}
+100% {bottom: -11px;}
+}
+
+
+@keyframes margelefteyelidbottom
+{
+0% {bottom: -11px;}
+2% {bottom: 0px;}
+4% {bottom: -11px;}
+100% {bottom: -11px;}
+}
+
 #marge .head .nose
 {
     top: 161px;
     left: 93px;
     width: 12px;
     height: 12px;
-    background: #fbd800;
     border-top: 1px solid #110b00;
     -webkit-transform: rotate(3deg);
     -ms-transform: rotate(3deg);
@@ -721,10 +890,7 @@
     left: 103px;
     width: 12px;
     height: 9px;
-    background: #fbd800;
-    border-top: 1px solid #110b00;
-    border-right: 1px solid #110b00;
-    border-bottom: 1px solid #110b00;
+    border-left: none;
     -moz-border-radius: 0 50% 50% 0%;
     -webkit-border-radius: 0 50% 50% 0;
     border-radius: 0 50% 50% 0;
@@ -739,7 +905,6 @@
     left: 76px;
     width: 50px;
     height: 15px;
-    background: #fbd800;
     border-bottom: 1px solid #110b00;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -770,8 +935,6 @@
     left: 75px;
     width: 50px;
     height: 16px;
-    background: #fbd800;
-    border: 1px solid #110b00;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -783,8 +946,6 @@
     left: 76px;
     width: 30px;
     height: 14px;
-    background: #fbd800;
-    border: 1px solid #110b00;
     -moz-border-radius: 32%;
     -webkit-border-radius: 32%;
     border-radius: 32%;
@@ -796,8 +957,6 @@
     left: 69px;
     width: 28px;
     height: 23px;
-    background: #fbd800;
-    border-left: 1px solid #110b00;
     -webkit-transform: rotate(-4deg);
     -ms-transform: rotate(-4deg);
     transform: rotate(-4deg);
@@ -812,7 +971,6 @@
     left: 70px;
     width: 30px;
     height: 13px;
-    background: #fbd800;
     border-left: 1px solid #110b00;
     border-right: 1px solid #110b00;
     -webkit-transform: rotate(-1deg);
@@ -829,7 +987,6 @@
     left: 109px;
     width: 12px;
     height: 18px;
-    background: #fbd800;
     border-right: 1px solid #110b00;
     -webkit-transform: rotate(-39deg);
     -ms-transform: rotate(-39deg);
