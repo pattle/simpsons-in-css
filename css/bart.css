@@ -5,7 +5,6 @@
     -moz-box-sizing:content-box;
 }
 
-
 #bart
 {
     position: relative;
@@ -327,6 +326,7 @@
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background: #ffffff;
+    overflow: hidden;
 }
 
 #bart .head .right-eye .right-eye-pupil
@@ -341,6 +341,84 @@
     background: #110b00;
 }
 
+#bart .head .right-eye .eyelid-top
+{
+    top: -18px;
+    left: 0px;
+    width: 30px;
+    height: 17px;
+    border-bottom: 1px solid #110b00;
+    border-radius: 50% 50% 0 0;
+    
+    -webkit-animation-name: bartrighteyelidtop;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: bartrighteyelidtop;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 2.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#bart .head .right-eye .eyelid-bottom
+{
+    bottom: -11px;
+    left: 0px;
+    width: 30px;
+    height: 10px;
+    border-top: 1px solid #110b00;
+    border-radius: 0 0 50% 50%;
+    
+    -webkit-animation-name: bartrighteyelidbottom;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: bartrighteyelidbottom;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 2.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes bartrighteyelidtop
+{
+0% {top: -18px;}
+2% {top: 0px;}
+4% {top: -18px;}
+100% {top: -18px;}
+}
+
+@keyframes bartrighteyelidtop
+{
+0% {top: -18px;}
+2% {top: 0px;}
+4% {top: -18px;}
+100% {top: -18px;}
+}
+
+@-webkit-keyframes bartrighteyelidbottom
+{
+0% {bottom: -11px;}
+2% {bottom: 0px;}
+4% {bottom: -11px;}
+100% {bottom: -11px;}
+}
+
+@keyframes bartrighteyelidbottom
+{
+0% {bottom: -11px;}
+2% {bottom: 0px;}
+4% {bottom: -11px;}
+100% {bottom: -11px;}
+}
+
 #bart .head .left-eye
 {
     top: 60px;
@@ -351,6 +429,7 @@
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background: #ffffff;
+    overflow: hidden;
 }
 
 #bart .head .left-eye .left-eye-pupil
@@ -363,6 +442,84 @@
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background: #110b00;
+}
+
+#bart .head .left-eye .eyelid-top
+{
+    top: -21px;
+    left: 0px;
+    width: 30px;
+    height: 20px;
+    border-bottom: 1px solid #110b00;
+    border-radius: 50% 50% 0 0;
+    
+    -webkit-animation-name: bartlefteyelidtop;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: bartlefteyelidtop;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 2.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#bart .head .left-eye .eyelid-bottom
+{
+    bottom: -11px;
+    left: 0px;
+    width: 30px;
+    height: 10px;
+    border-top: 1px solid #110b00;
+    border-radius: 0 0 50% 50%;
+    
+    -webkit-animation-name: bartlefteyelidbottom;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: bartlefteyelidbottom;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 2.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes bartlefteyelidtop
+{
+0% {top: -21px;}
+2% {top: 0px;}
+4% {top: -21px;}
+100% {top: -21px;}
+}
+
+@keyframes bartlefteyelidtop
+{
+0% {top: -21px;}
+2% {top: 0px;}
+4% {top: -21px;}
+100% {top: -21px;}
+}
+
+@-webkit-keyframes bartlefteyelidbottom
+{
+0% {bottom: -11px;}
+2% {bottom: 0px;}
+4% {bottom: -11px;}
+100% {bottom: -11px;}
+}
+
+@keyframes bartlefteyelidbottom
+{
+0% {bottom: -11px;}
+2% {bottom: 0px;}
+4% {bottom: -11px;}
+100% {bottom: -11px;}
 }
 
 #bart .head .nose
