@@ -5,7 +5,6 @@
     -moz-box-sizing:content-box;
 }
 
-
 #comicbookguy
 {
     position: relative;
@@ -41,6 +40,10 @@
     width: 53px;
     height: 19px;
     border-radius: 46% 50% 50% 50% / 46% 50% 50% 50%;
+    -webkit-border-radius: 46% 50% 50% 50% / 46% 50% 50% 50%;
+    -moz-border-radius: 46% 50% 50% 50% / 46% 50% 50% 50%;
+    transform: rotate(19deg);
+    -ms-transform: rotate(19deg);
     -webkit-transform: rotate(19deg);
 }
 
@@ -52,6 +55,10 @@
     height: 40px;
     border-left: none;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    transform: rotate(-17deg);
+    -ms-transform: rotate(-17deg);
     -webkit-transform: rotate(-17deg);
 }
 
@@ -64,17 +71,26 @@
     border-top: none;
     border-right: none;
     border-radius: 0 0 0 10%;
+    -webkit-border-radius: 0 0 0 10%;
+    -moz-border-radius: 0 0 0 10%;
+    transform: rotate(-3deg) skew(1deg, -8deg);
+    -ms-transform: rotate(-3deg) skew(1deg, -8deg);
     -webkit-transform: rotate(-3deg) skew(1deg, -8deg);
 }
 
 #comicbookguy .head .hair4
 {
     top: 24px;
-    left: 84px;
+    left: 85px;
     width: 10px;
     height: 20px;
     border-right: none;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    box-shadow: 4px 2px 0 0 rgba(199, 136, 20, 1);
+    -webkit-box-shadow: 4px 2px 0 0 rgba(199, 136, 20, 1);
+    -moz-box-shadow: 4px 2px 0 0 rgba(199, 136, 20, 1);
 }
 
 #comicbookguy .head .head1
@@ -85,6 +101,8 @@
     width: 59px;
     border-bottom: none;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
 }
 
 #comicbookguy .head .head2
@@ -95,6 +113,10 @@
     width: 90px;
     border-top: none;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    transform: rotate(-47deg);
+    -ms-transform: rotate(-47deg);
     -webkit-transform: rotate(-47deg);
 }
 
@@ -114,7 +136,40 @@
     height: 41px;
     border-top: none;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    transform: rotate(36deg);
+    -ms-transform: rotate(36deg);
     -webkit-transform: rotate(36deg);
+}
+
+#comicbookguy .head .head5
+{
+    top: 76px;
+    left: 22px;
+    width: 8px;
+    height: 34px;
+    border-right: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    transform: rotate(-9deg);
+    -ms-transform: rotate(-9deg);
+    -webkit-transform: rotate(-9deg);
+}
+
+#comicbookguy .head .head6
+{
+    top: 81px;
+    left: 28px;
+    width: 49px;
+    height: 48px;
+    border-radius: 16px 20px 20px 26px;
+    -webkit-border-radius: 16px 20px 20px 26px;
+    -moz-border-radius: 16px 20px 20px 26px;
+    transform: rotate(-9deg);
+    -ms-transform: rotate(-9deg);
+    -webkit-transform: rotate(-9deg);
 }
 
 #comicbookguy .head .ear
@@ -124,11 +179,15 @@
     width: 15px;
     height: 20px;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
 }
 
 #comicbookguy .head .inner
 {
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
 }
 
 #comicbookguy .head .inner1
@@ -138,6 +197,8 @@
     width: 10px;
     height: 4px;
     border-bottom: none;
+    transform: rotate(-34deg);
+    -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
 }
 
@@ -148,6 +209,8 @@
     width: 4px;
     height: 10px;
     border-left: none;
+    transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
     -webkit-transform: rotate(-5deg);
 }
 
@@ -156,9 +219,9 @@
     width: 22px;
     height: 22px;
     background: #ffffff;
+    border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
-    border-radius: 50%;
 }
 
 #comicbookguy .head .eye .pupil
@@ -166,9 +229,9 @@
     width: 3px;
     height: 3px;
     background: #110b00;
+    border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
-    border-radius: 50%;
 }
 
 #comicbookguy .head .left-eye
@@ -193,6 +256,10 @@
     height: 6px;
     border-bottom: none;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    transform: rotate(9deg);
+    -ms-transform: rotate(9deg);
     -webkit-transform: rotate(9deg);
     
     -webkit-box-shadow: 5px -4px 0px 4px rgba(251, 216, 0, 1);
@@ -207,12 +274,12 @@
     width: 8px;
     height: 10px;
     border-right: none;
+    border-radius: 50% 0 0 35%;
     -webkit-border-radius: 50% 0 0 35%;
     -moz-border-radius: 50% 0 0 35%;
-    border-radius: 50% 0 0 35%;
+    transform: rotate(48deg);
     -webkit-transform: rotate(48deg);
     -ms-transform: rotate(48deg);
-    transform: rotate(48deg);
 }
 
 #comicbookguy .head .right-eye
@@ -222,6 +289,10 @@
     width: 23px;
     height: 16px;
     border-radius: 50% 50% 39% 50%;
+    -webkit-border-radius: 50% 50% 39% 50%;
+    -moz-border-radius: 50% 50% 39% 50%;
+    transform: skew(0deg, 5deg);
+    -ms-transform: skew(0deg, 5deg);
     -webkit-transform: skew(0deg, 5deg);
 }
 
@@ -239,6 +310,10 @@
     height: 4px;
     border-top: none;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
     -webkit-transform: rotate(-2deg);
     
     -webkit-box-shadow: inset 5px -4px 0px 4px rgba(251, 216, 0, 1);
@@ -253,9 +328,9 @@
     width: 16px;
     height: 7px;
     border-top: none;
+    border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
-    border-radius: 50%;
     -webkit-transform: rotate(21deg);
     -ms-transform: rotate(21deg);
     transform: rotate(21deg);
@@ -269,6 +344,10 @@
     height: 11px;
     border-top: none;
     border-radius: 0 0 61% 39%;
+    -webkit-border-radius: 0 0 61% 39%;
+    -moz-border-radius: 0 0 61% 39%;
+    transform: rotate(37deg);
+    -ms-transform: rotate(37deg);
     -webkit-transform: rotate(37deg);
 }
 
@@ -280,6 +359,10 @@
     height: 12px;
     border-left: none;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
     -webkit-transform: rotate(20deg);
     
     -webkit-box-shadow: 4px -1px 0px 1px rgba(251, 216, 0, 1);
@@ -290,12 +373,19 @@
 #comicbookguy .head .mouth1
 {
     top: 59px;
-    left: -2px;
-    width: 52px;
+    left: -1px;
+    width: 51px;
     height: 20px;
     border-top: none;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
     -webkit-transform: rotate(4deg);
+    -webkit-box-shadow: inset -15px -10px 0px -7px rgba(251, 216, 0, 1);
+    -moz-box-shadow: inset -15px -10px 0px -7px rgba(251, 216, 0, 1);
+    box-shadow: inset -15px -10px 0px -7px rgba(251, 216, 0, 1);
 }
 
 #comicbookguy .head .mouth2
@@ -306,6 +396,10 @@
     height: 11px;
     border-bottom: none;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
     -webkit-transform: rotate(10deg);
 }
 
@@ -316,6 +410,10 @@
     width: 16px;
     height: 13px;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
     -webkit-transform: rotate(10deg);
 }
 
@@ -327,11 +425,25 @@
     height: 22px;
     border-left: none;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    transform: rotate(41deg);
+    -ms-transform: rotate(41deg);
     -webkit-transform: rotate(41deg);
-    
+    box-shadow: 7px 1px 0px 4px rgba(251, 216, 0, 1);
     -webkit-box-shadow: 7px 1px 0px 4px rgba(251, 216, 0, 1);
     -moz-box-shadow: 7px 1px 0px 4px rgba(251, 216, 0, 1);
-    box-shadow: 7px 1px 0px 4px rgba(251, 216, 0, 1);
+}
+
+#comicbookguy .head .mouth5
+{
+    top: 62px;
+    left: 5px;
+    width: 20px;
+    height: 15px;
+    border-radius: 42%;
+    -webkit-border-radius: 42%;
+    -moz-border-radius: 42%;
 }
 
 #comicbookguy .head .beard
@@ -346,6 +458,10 @@
     width: 6px;
     height: 1px;
     border-radius: 0 0 42% 0;
+    -webkit-border-radius: 0 0 42% 0;
+    -moz-border-radius: 0 0 42% 0;
+    transform: rotate(62deg);
+    -ms-transform: rotate(62deg);
     -webkit-transform: rotate(62deg);
 }
 
@@ -356,6 +472,10 @@
     width: 6px;
     height: 1px;
     border-radius: 0 0 0 50%;
+    -webkit-border-radius: 0 0 0 50%;
+    -moz-border-radius: 0 0 0 50%;
+    transform: rotate(-31deg);
+    -ms-transform: rotate(-31deg);
     -webkit-transform: rotate(-31deg);
 }
 
@@ -366,6 +486,10 @@
     width: 9px;
     height: 1px;
     border-radius: 50% 0 0 0;
+    -webkit-border-radius: 50% 0 0 0;
+    -moz-border-radius: 50% 0 0 0;
+    transform: rotate(65deg);
+    -ms-transform: rotate(65deg);
     -webkit-transform: rotate(65deg);
 }
 
@@ -376,6 +500,10 @@
     width: 8px;
     height: 1px;
     border-radius: 0 0 0 50%;
+    -webkit-border-radius: 0 0 0 50%;
+    -moz-border-radius: 0 0 0 50%;
+    transform: rotate(-44deg);
+    -ms-transform: rotate(-44deg);
     -webkit-transform: rotate(-44deg);
 }
 
@@ -386,6 +514,10 @@
     width: 9px;
     height: 1px;
     border-radius: 0 0 0 50%;
+    -webkit-border-radius: 0 0 0 50%;
+    -moz-border-radius: 0 0 0 50%;
+    transform: rotate(53deg);
+    -ms-transform: rotate(53deg);
     -webkit-transform: rotate(53deg);
 }
 
@@ -396,6 +528,10 @@
     width: 7px;
     height: 1px;
     border-radius: 0 0 0 50%;
+    -webkit-border-radius: 0 0 0 50%;
+    -moz-border-radius: 0 0 0 50%;
+    transform: rotate(-44deg);
+    -ms-transform: rotate(-44deg);
     -webkit-transform: rotate(-44deg);
 }
 
@@ -406,6 +542,10 @@
     width: 10px;
     height: 1px;
     border-radius: 0 0 0 50%;
+    -webkit-border-radius: 0 0 0 50%;
+    -moz-border-radius: 0 0 0 50%;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
 
@@ -416,6 +556,10 @@
     width: 9px;
     height: 1px;
     border-radius: 0 0 0 50%;
+    -webkit-border-radius: 0 0 0 50%;
+    -moz-border-radius: 0 0 0 50%;
+    transform: rotate(-44deg);
+    -ms-transform: rotate(-44deg);
     -webkit-transform: rotate(-44deg);
 }
 
@@ -426,6 +570,10 @@
     width: 9px;
     height: 1px;
     border-radius: 0 0 0 50%;
+    -webkit-border-radius: 0 0 0 50%;
+    -moz-border-radius: 0 0 0 50%;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
 
@@ -436,6 +584,10 @@
     width: 11px;
     height: 1px;
     border-radius: 0 0 0 50%;
+    -webkit-border-radius: 0 0 0 50%;
+    -moz-border-radius: 0 0 0 50%;
+    transform: rotate(-36deg);
+    -ms-transform: rotate(-36deg);
     -webkit-transform: rotate(-36deg);
 }
 
@@ -446,6 +598,10 @@
     width: 31px;
     height: 1px;
     border-radius: 0 0 0 50%;
+    -webkit-border-radius: 0 0 0 50%;
+    -moz-border-radius: 0 0 0 50%;
+    transform: rotate(72deg);
+    -ms-transform: rotate(72deg);
     -webkit-transform: rotate(72deg);
 }
 
@@ -456,6 +612,10 @@
     width: 18px;
     height: 1px;
     border-radius: 0 0 0 50%;
+    -webkit-border-radius: 0 0 0 50%;
+    -moz-border-radius: 0 0 0 50%;
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
     -webkit-transform: rotate(30deg);
 }
 
@@ -466,6 +626,10 @@
     width: 10px;
     height: 1px;
     border-radius: 0 0 0 50%;
+    -webkit-border-radius: 0 0 0 50%;
+    -moz-border-radius: 0 0 0 50%;
+    transform: rotate(-78deg);
+    -ms-transform: rotate(-78deg);
     -webkit-transform: rotate(-78deg);
 }
 
@@ -476,6 +640,10 @@
     width: 13px;
     height: 1px;
     border-radius: 0 0 0 50%;
+    -webkit-border-radius: 0 0 0 50%;
+    -moz-border-radius: 0 0 0 50%;
+    transform: rotate(47deg);
+    -ms-transform: rotate(47deg);
     -webkit-transform: rotate(47deg);
 }
 
@@ -486,6 +654,10 @@
     width: 11px;
     height: 1px;
     border-radius: 0 0 0 50%;
+    -webkit-border-radius: 0 0 0 50%;
+    -moz-border-radius: 0 0 0 50%;
+    transform: rotate(-78deg);
+    -ms-transform: rotate(-78deg);
     -webkit-transform: rotate(-78deg);
 }
 
@@ -496,6 +668,10 @@
     width: 11px;
     height: 1px;
     border-radius: 0 0 0 50%;
+    -webkit-border-radius: 0 0 0 50%;
+    -moz-border-radius: 0 0 0 50%;
+    transform: rotate(61deg);
+    -ms-transform: rotate(61deg);
     -webkit-transform: rotate(61deg);
 }
 
@@ -506,6 +682,10 @@
     width: 10px;
     height: 1px;
     border-radius: 0 0 0 50%;
+    -webkit-border-radius: 0 0 0 50%;
+    -moz-border-radius: 0 0 0 50%;
+    transform: rotate(-64deg);
+    -ms-transform: rotate(-64deg);
     -webkit-transform: rotate(-64deg);
 }
 
@@ -516,6 +696,10 @@
     width: 9px;
     height: 1px;
     border-radius: 0 0 0 50%;
+    -webkit-border-radius: 0 0 0 50%;
+    -moz-border-radius: 0 0 0 50%;
+    transform: rotate(72deg);
+    -ms-transform: rotate(72deg);
     -webkit-transform: rotate(72deg);
 }
 
@@ -526,6 +710,10 @@
     width: 8px;
     height: 1px;
     border-radius: 0 0 0 50%;
+    -webkit-border-radius: 0 0 0 50%;
+    -moz-border-radius: 0 0 0 50%;
+    transform: rotate(-72deg);
+    -ms-transform: rotate(-72deg);
     -webkit-transform: rotate(-72deg);
 }
 
@@ -536,6 +724,10 @@
     width: 9px;
     height: 1px;
     border-radius: 0 0 0 50%;
+    -webkit-border-radius: 0 0 0 50%;
+    -moz-border-radius: 0 0 0 50%;
+    transform: rotate(72deg);
+    -ms-transform: rotate(72deg);
     -webkit-transform: rotate(72deg);
 }
 
@@ -546,5 +738,9 @@
     width: 8px;
     height: 1px;
     border-radius: 0 0 0 50%;
+    -webkit-border-radius: 0 0 0 50%;
+    -moz-border-radius: 0 0 0 50%;
+    transform: rotate(-65deg);
+    -ms-transform: rotate(-65deg);
     -webkit-transform: rotate(-65deg);
 }
