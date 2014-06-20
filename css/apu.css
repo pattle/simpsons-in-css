@@ -1,0 +1,528 @@
+#apu *
+{
+    position: absolute;
+    box-sizing:content-box;
+    -moz-box-sizing:content-box;
+}
+
+#apu
+{
+    position: relative;
+    width: 110px;
+    height: 134px; 
+    margin: 0 auto;
+}
+
+#apu .head *
+{
+    border: 1px solid #110b00;
+}
+
+#apu .head .no-border
+{
+    border: none;
+}
+
+#apu .head .circle
+{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+#apu .head .hair
+{
+    background: #3c454c;
+}
+
+#apu .head .body
+{
+    background: #ec9f22;
+}
+
+#apu .head .hair1
+{
+    top: 3px;
+    left: 23px;
+    width: 78px;
+    height: 52px;
+    border-radius: 70% 32% 54% 50%/61% 40% 33% 40%;
+    -webkit-border-radius: 70% 32% 54% 50%/61% 40% 33% 40%;
+    -moz-border-radius: 70% 32% 54% 50%/61% 40% 33% 40%;
+}
+
+#apu .head .hair2
+{
+    top: 35px;
+    left: 3px;
+    width: 27px;
+    height: 39px;
+    border-radius: 37% 66% 53% 48%/32% 40% 33% 59%;
+    -webkit-border-radius: 37% 66% 53% 48%/32% 40% 33% 59%;
+    -moz-border-radius: 37% 66% 53% 48%/32% 40% 33% 59%;
+}
+
+#apu .head .sideburn
+{
+    top: 51px;
+    left: 28px;
+    width: 12px;
+    height: 42px;
+    border-radius: 60% 60% 19% 21%/60% 60% 10% 10%;
+    -webkit-border-radius: 60% 60% 19% 21%/60% 60% 10% 10%;
+    -moz-border-radius: 60% 60% 19% 21%/60% 60% 10% 10%;
+    box-shadow: 17px 2px 0 10px rgba(236, 159, 34, 1);
+    -webkit-box-shadow: 17px 2px 0 10px rgba(236, 159, 34, 1);
+    -moz-box-shadow: 17px 2px 0 10px rgba(236, 159, 34, 1);
+}
+
+#apu .head .sideburn .clip
+{
+    top: 0px;
+    left: -1px;
+    height: 18px;
+    width: 6px;
+}
+
+#apu .head .head-main1
+{
+    top: 29px;
+    left: 31px;
+    width: 59px;
+    height: 52px;
+    border-radius: 70% 34% 54% 50%/61% 43% 33% 40%;
+    -webkit-border-radius: 70% 34% 54% 50%/61% 43% 33% 40%;
+    -moz-border-radius: 70% 34% 54% 50%/61% 43% 33% 40%;
+    box-shadow: -15px 0px 0 3px rgba(60, 69, 76, 1);
+    -webkit-box-shadow: -15px 0px 0 3px rgba(60, 69, 76, 1);
+    -moz-box-shadow: -15px 0px 0 3px rgba(60, 69, 76, 1);
+}
+
+#apu .head .ear
+{
+    top: 69px;
+    left: 15px;
+    width: 18px;
+    height: 21px;
+}
+
+#apu .head .ear .inner1
+{
+    top: 8px;
+    left: 4px;
+    width: 10px;
+    height: 3px;
+    border-top: 1px solid #110b00;
+    transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    -webkit-transform: rotate(25deg);
+}
+
+#apu .head .ear .inner2
+{
+    top: 8px;
+    left: 7px;
+    width: 4px;
+    height: 7px;
+    border-left: 1px solid #110b00;
+    transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+}
+
+#apu .head .eyebrow
+{
+    top: 56px;
+    left: 84px;
+    width: 10px;
+    height: 10px;
+}
+
+#apu .head .eyebag1
+{
+    top: 74px;
+    left: 83px;
+    width: 10px;
+    height: 9px;
+}
+
+#apu .head .eyebag2
+{
+    top: 80px;
+    left: 92px;
+    width: 10px;
+    height: 13px;
+    border-left: 1px solid #110b00;
+    transform: rotate(-23deg);
+    -ms-transform: rotate(-23deg);
+    -webkit-transform: rotate(-23deg);
+    box-shadow: -5px 0px 0 0px rgba(236, 159, 34, 1);
+    -webkit-box-shadow: -5px 0px 0 0px rgba(236, 159, 34, 1);
+    -moz-box-shadow: -5px 0px 0 0px rgba(236, 159, 34, 1);
+}
+
+#apu .head .eye
+{
+    background: #ffffff;
+}
+
+#apu .head .pupil
+{
+    width: 4px;
+    height: 4px;
+    background: #110b00;
+}
+
+#apu .head .left-eye
+{
+    top: 63px;
+    left: 48px;
+    width: 19px;
+    height: 16px;
+    overflow: hidden;
+}
+
+#apu .head .left-eye .pupil
+{
+    top: 6px;
+    left: 5px;
+}
+
+#apu .head .left-eye .eyelid-top
+{
+    top: -10px;
+    left: 0px;
+    width: 19px;
+    height: 9px;
+    border-bottom: 1px solid #110b00;
+    border-radius: 50% 50% 0 0;
+    
+    -webkit-animation-name: apulefteyelidtop;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: apulefteyelidtop;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 2.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#apu .head .left-eye .eyelid-bottom
+{
+    bottom: -6px;
+    left: 0px;
+    width: 19px;
+    height: 5px;
+    border-top: 1px solid #110b00;
+    border-radius: 0 0 50% 50%;
+    
+    -webkit-animation-name: apulefteyelidbottom;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: apulefteyelidbottom;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 2.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes apulefteyelidtop
+{
+0% {top: -21px;}
+2% {top: 0px;}
+4% {top: -21px;}
+100% {top: -21px;}
+}
+
+@keyframes apulefteyelidtop
+{
+0% {top: -21px;}
+2% {top: 0px;}
+4% {top: -21px;}
+100% {top: -21px;}
+}
+
+@-webkit-keyframes apulefteyelidbottom
+{
+0% {bottom: -11px;}
+2% {bottom: 0px;}
+4% {bottom: -11px;}
+100% {bottom: -11px;}
+}
+
+@keyframes apulefteyelidbottom
+{
+0% {bottom: -11px;}
+2% {bottom: 0px;}
+4% {bottom: -11px;}
+100% {bottom: -11px;}
+}
+
+#apu .head .right-eye
+{
+    top: 63px;
+    left: 77px;
+    width: 17px;
+    height: 13px;
+    box-shadow: -5px 12px 0 1px rgba(236, 159, 34, 1), -3px -10px 0 0 rgba(236, 159, 34, 1);
+    -webkit-box-shadow: -5px 12px 0 1px rgba(236, 159, 34, 1), -3px -10px 0 0 rgba(236, 159, 34, 1);
+    -moz-box-shadow: -5px 12px 0 1px rgba(236, 159, 34, 1), -3px -10px 0 0 rgba(236, 159, 34, 1);
+    overflow: hidden;
+}
+
+#apu .head .right-eye .pupil
+{
+    top: 5px;
+    left: 8px;
+}
+
+#apu .head .right-eye .eyelid-top
+{
+    top: -9px;
+    left: 0px;
+    width: 17px;
+    height: 8px;
+    border-bottom: 1px solid #110b00;
+    border-radius: 50% 50% 0 0;
+    
+    -webkit-animation-name: apurighteyelidtop;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: apurighteyelidtop;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 2.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#apu .head .right-eye .eyelid-bottom
+{
+    bottom: -4px;
+    left: 0px;
+    width: 17px;
+    height: 3px;
+    border-top: 1px solid #110b00;
+    border-radius: 0 0 50% 50%;
+    
+    -webkit-animation-name: apurighteyelidbottom;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: apurighteyelidbottom;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 2.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes apurighteyelidtop
+{
+0% {top: -18px;}
+2% {top: 0px;}
+4% {top: -18px;}
+100% {top: -18px;}
+}
+
+@keyframes apurighteyelidtop
+{
+0% {top: -18px;}
+2% {top: 0px;}
+4% {top: -18px;}
+100% {top: -18px;}
+}
+
+@-webkit-keyframes apurighteyelidbottom
+{
+0% {bottom: -11px;}
+2% {bottom: 0px;}
+4% {bottom: -11px;}
+100% {bottom: -11px;}
+}
+
+@keyframes apurighteyelidbottom
+{
+0% {bottom: -11px;}
+2% {bottom: 0px;}
+4% {bottom: -11px;}
+100% {bottom: -11px;}
+}
+
+#apu .head .nose-tip
+{
+    top: 80px;
+    left: 62px;
+    width: 26px;
+    height: 11px;
+    border-radius: 32px 12px 13px 13px/10px 10px 10px 10px;
+    -webkit-border-radius: 32px 12px 13px 13px/10px 10px 10px 10px;
+    -moz-border-radius: 32px 12px 13px 13px/10px 10px 10px 10px;
+}
+
+#apu .head .nose
+{
+    top: 67px;
+    left: 72px;
+    width: 8px;
+    height: 15px;
+    border-right: 1px solid #110b00;
+    border-radius: 50% 50% 0 0;
+    -webkit-border-radius: 50% 50% 0 0;
+    -moz-border-radius: 50% 50% 0 0;
+    transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+}
+
+#apu .head .mouth1
+{
+    top: 89px;
+    left: 40px;
+    width: 64px;
+    height: 15px;
+}
+
+#apu .head .mouth2
+{
+    top: 108px;
+    left: 52px;
+    width: 26px;
+    height: 12px;
+}
+
+#apu .head .mouth3
+{
+    top: 89px;
+    left: 39px;
+    width: 31px;
+    height: 14px;
+    transform: rotate(-12deg);
+    -ms-transform: rotate(-12deg);
+    -webkit-transform: rotate(-12deg);
+}
+
+#apu .head .tooth
+{
+    background: #ffffff;
+}
+
+#apu .head .tooth1
+{
+    top: 103px;
+    left: 47px;
+    width: 12px;
+    height: 9px;
+    border-right: none;
+    border-radius: 50% 0 0 50%;
+    -webkit-border-radius: 50% 0 0 50%;
+    -moz-border-radius: 50% 0 0 50%;
+    transform: rotate(7deg);
+    -ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    box-shadow: 5px 2px 0 7px rgba(236, 159, 34, 1);
+    -webkit-box-shadow: 5px 2px 0 7px rgba(236, 159, 34, 1);
+    -moz-box-shadow: 5px 2px 0 7px rgba(236, 159, 34, 1);
+}
+
+#apu .head .tooth2
+{
+    top: 103px;
+    left: 51px;
+    width: 3px;
+    height: 10px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+#apu .head .tooth3
+{
+    top: 104px;
+    left: 59px;
+    width: 8px;
+    height: 10px;
+    border-top: none;
+    transform: skew(0deg, 3deg);
+    -ms-transform: skew(0deg, 3deg);
+    -webkit-transform: skew(0deg, 3deg);
+}
+
+#apu .head .tooth4
+{
+    top: 104px;
+    left: 68px;
+    width: 5px;
+    height: 10px;
+    border-top: none;
+    border-radius: 0 0 4px 0;
+    -webkit-border-radius: 0 0 4px 0;
+    -moz-border-radius: 0 0 4px 0;
+    transform: skew(0deg, -4deg);
+    -ms-transform: skew(0deg, -4deg);
+    -webkit-transform: skew(0deg, -4deg);
+}
+
+#apu .head .neck1
+{
+    top: 92px;
+    left: 34px;
+    width: 32px;
+    height: 30px;
+    border-left: 1px solid #100b00;
+    transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+}
+
+#apu .head .neck2
+{
+    top: 119px;
+    left: 34px;
+    width: 37px;
+    height: 14px;
+    border-right: 1px solid #110b00;
+    border-left: 1px solid #110b00;
+    transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+}
+
+#apu .head .moustache
+{
+    width: 15px;
+    height: 1px;
+    background: #110b00;
+}
+
+#apu .head .moustache-left
+{
+    top: 98px;
+    left: 61px;
+    transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
+    -webkit-transform: rotate(-6deg);
+}
+
+#apu .head .moustache-right
+{
+    top: 97px;
+    left: 86px;
+    width: 10px;
+    transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+}
