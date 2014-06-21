@@ -1,11 +1,11 @@
-#bart *
+.bart *
 {
     position: absolute;
     box-sizing:content-box;
     -moz-box-sizing:content-box;
 }
 
-#bart
+.bart
 {
     position: relative;
     width: 135px;
@@ -13,22 +13,32 @@
     margin: 0 auto;
 }
 
-#bart .head *
+.bart .head *
 {
     border: 1px solid #110b00;
 }
 
-#bart .head .no-border
+.bart .head .no-border
 {
     border: none;
 }
 
-#bart .head .body
+.bart .head .body
 {
     background: #fbd800;
 }
 
-#bart .head .hair
+.bart.human .head .body
+{
+    background: pink;
+}
+
+.bart.colourless .head .body
+{
+    background: #ffffff;
+}
+
+.bart .head .hair
 {
     border-top: 1px solid #110b00;
     border-left: 1px solid #110b00;
@@ -37,7 +47,7 @@
     border-radius: 2px 0 0 0;
 }
 
-#bart .head .hair1
+.bart .head .hair1
 {
     top: 22px;
     left: 28px;
@@ -48,7 +58,7 @@
     transform: rotate(-22deg) skew(-7deg, 51deg);
 }
 
-#bart .head .hair2
+.bart .head .hair2
 {
     top: 20px;
     left: 33px;
@@ -59,7 +69,7 @@
     transform: rotate(25deg) skew(23deg, 16deg);
 }
 
-#bart .head .hair3
+.bart .head .hair3
 {
     top: 17px;
     left: 40px;
@@ -70,7 +80,7 @@
     transform: rotate(27deg) skew(22deg, 16deg);
 }
 
-#bart .head .hair4
+.bart .head .hair4
 {
     top: 15px;
     left: 48px;
@@ -81,7 +91,7 @@
     transform: rotate(35deg) skew(22deg, 16deg);
 }
 
-#bart .head .hair5
+.bart .head .hair5
 {
     top: 13px;
     left: 57px;
@@ -92,7 +102,7 @@
     transform: rotate(37deg) skew(22deg, 16deg);
 }
 
-#bart .head .hair6
+.bart .head .hair6
 {
     top: 12px;
     left: 65px;
@@ -103,7 +113,7 @@
     transform: rotate(50deg) skew(24deg, 16deg);
 }
 
-#bart .head .hair7
+.bart .head .hair7
 {
     top: 12px;
     left: 73px;
@@ -114,7 +124,7 @@
     transform: rotate(51deg) skew(24deg, 10deg);
 }
 
-#bart .head .hair8
+.bart .head .hair8
 {
     top: 14px;
     left: 82px;
@@ -125,7 +135,7 @@
     transform: rotate(51deg) skew(24deg, 10deg);
 }
 
-#bart .head .hair9
+.bart .head .hair9
 {
     top: 15px;
     left: 89px;
@@ -136,7 +146,7 @@
     transform: rotate(79deg) skew(35deg, 10deg);
 }
 
-#bart .head .head-left1
+.bart .head .head-left1
 {
     top: 24px;
     left: 29px;
@@ -148,7 +158,7 @@
     transform: rotate(-13deg);
 }
 
-#bart .head .head-left2
+.bart .head .head-left2
 {
     top: 33px;
     left: 31px;
@@ -160,7 +170,7 @@
     transform: rotate(-11deg);
 }
 
-#bart .head .head-left3
+.bart .head .head-left3
 {
     top: 46px;
     left: 33px;
@@ -172,7 +182,7 @@
     transform: rotate(-9deg);
 }
 
-#bart .head .head-left4
+.bart .head .head-left4
 {
     top: 61px;
     left: 35px;
@@ -184,7 +194,7 @@
     transform: rotate(-7deg);
 }
 
-#bart .head .head-left5
+.bart .head .head-left5
 {
     top: 76px;
     left: 37px;
@@ -196,7 +206,7 @@
     transform: rotate(-8deg);
 }
 
-#bart .head .head-left6
+.bart .head .head-left6
 {
     top: 90px;
     left: 39px;
@@ -208,7 +218,7 @@
     transform: rotate(2deg);
 }
 
-#bart .head .head-left7
+.bart .head .head-left7
 {
     top: 119px;
     left: 38px;
@@ -221,7 +231,7 @@
     transform: rotate(6deg);
 }
 
-#bart .head .head-right1
+.bart .head .head-right1
 {
     top: 20px;
     left: 47px;
@@ -233,7 +243,7 @@
     transform: rotate(-2deg);
 }
 
-#bart .head .head-right2
+.bart .head .head-right2
 {
     top: 46px;
     left: 47px;
@@ -244,7 +254,7 @@
     transform: rotate(-2deg);
 }
 
-#bart .head .head-right3
+.bart .head .head-right3
 {
     top: 83px;
     left: 52px;
@@ -256,7 +266,7 @@
     transform: rotate(-8deg);
 }
 
-#bart .head .ear
+.bart .head .ear
 {
     top: 88px;
     left: 33px;
@@ -267,7 +277,7 @@
     border-radius: 50%;
 }
 
-#bart .head .ear .inner1
+.bart .head .ear .inner1
 {
     top: 3px;
     left: 2px;
@@ -282,7 +292,7 @@
     transform: rotate(-21deg);
 }
 
-#bart .head .ear .inner2
+.bart .head .ear .inner2
 {
     top: 3px;
     left: 4px;
@@ -297,7 +307,7 @@
     transform: rotate(-109deg);
 }
 
-#bart .head .ear .clip
+.bart .head .ear .clip
 {
     top: 1px;
     left: 9px;
@@ -305,7 +315,7 @@
     height: 10px;
 }
 
-#bart .head .eyelid
+.bart .head .eyelid
 {
     top: 55px;
     left: 91px;
@@ -316,7 +326,7 @@
     border-radius: 50%;
 }
 
-#bart .head .right-eye
+.bart .head .right-eye
 {
     top: 60px;
     left: 79px;
@@ -329,7 +339,7 @@
     overflow: hidden;
 }
 
-#bart .head .right-eye .right-eye-pupil
+.bart .head .right-eye .right-eye-pupil
 {
     top: 11px;
     left: 8px;
@@ -341,7 +351,7 @@
     background: #110b00;
 }
 
-#bart .head .right-eye .eyelid-top
+.bart .head .right-eye .eyelid-top
 {
     top: -18px;
     left: 0px;
@@ -364,7 +374,7 @@
     animation-play-state: running;
 }
 
-#bart .head .right-eye .eyelid-bottom
+.bart .head .right-eye .eyelid-bottom
 {
     bottom: -11px;
     left: 0px;
@@ -419,7 +429,7 @@
 100% {bottom: -11px;}
 }
 
-#bart .head .left-eye
+.bart .head .left-eye
 {
     top: 60px;
     left: 52px;
@@ -432,7 +442,7 @@
     overflow: hidden;
 }
 
-#bart .head .left-eye .left-eye-pupil
+.bart .head .left-eye .left-eye-pupil
 {
     top: 13px;
     left: 9px;
@@ -444,7 +454,7 @@
     background: #110b00;
 }
 
-#bart .head .left-eye .eyelid-top
+.bart .head .left-eye .eyelid-top
 {
     top: -21px;
     left: 0px;
@@ -467,7 +477,7 @@
     animation-play-state: running;
 }
 
-#bart .head .left-eye .eyelid-bottom
+.bart .head .left-eye .eyelid-bottom
 {
     bottom: -11px;
     left: 0px;
@@ -522,7 +532,7 @@
 100% {bottom: -11px;}
 }
 
-#bart .head .nose
+.bart .head .nose
 {
     top: 83px;
     left: 83px;
@@ -531,7 +541,7 @@
     border-top: 1px solid #110b00;
 }
 
-#bart .head .nose-tip
+.bart .head .nose-tip
 {
     top: 82px;
     left: 88px;
@@ -546,7 +556,7 @@
     transform: rotate(-6deg);
 }
 
-#bart .head .mouth
+.bart .head .mouth
 {
     top: 101px;
     left: 55px;
@@ -558,7 +568,7 @@
     border-radius: 50%;
 }
 
-#bart .head .mouth-smile
+.bart .head .mouth-smile
 {
     top: 111px;
     left: 56px;
@@ -573,7 +583,7 @@
     transform: rotate(-52deg);
 }
 
-#bart .head .mouth-lip
+.bart .head .mouth-lip
 {
     top: 101px;
     left: 54px;
@@ -584,7 +594,7 @@
     border-radius: 50%;
 }
 
-#bart .head .mouth-lip2
+.bart .head .mouth-lip2
 {
     top: 106px;
     left: 45px;

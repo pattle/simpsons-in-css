@@ -3,6 +3,11 @@ html, body
     height: 100%;
 }
 
+.btn-twitter, .btn-twitter:hover
+{
+    color: #ffffff;
+    background-color: #55acee;
+}
 
 #wrap
 {
@@ -10,6 +15,7 @@ html, body
     height: auto !important;
     height: 100%;
     margin: 0 auto -60px;
+    text-align: center
 }
 
 .header, .characters .character-row
