@@ -9,7 +9,7 @@
 {
     position: relative;
     width: 118px;
-    height: 130px; 
+    height: 130px;
     margin: 0 auto;
 }
 
@@ -261,7 +261,7 @@
     transform: rotate(9deg);
     -ms-transform: rotate(9deg);
     -webkit-transform: rotate(9deg);
-    
+
     -webkit-box-shadow: 5px -4px 0px 4px rgba(251, 216, 0, 1);
     -moz-box-shadow: 5px -4px 0px 4px rgba(251, 216, 0, 1);
     box-shadow: 5px -4px 0px 4px rgba(251, 216, 0, 1);
@@ -315,7 +315,7 @@
     transform: rotate(-2deg);
     -ms-transform: rotate(-2deg);
     -webkit-transform: rotate(-2deg);
-    
+
     -webkit-box-shadow: inset 5px -4px 0px 4px rgba(251, 216, 0, 1);
     -moz-box-shadow: inset 5px -4px 0px 4px rgba(251, 216, 0, 1);
     box-shadow: inset 5px -4px 0px 4px rgba(251, 216, 0, 1);
@@ -364,7 +364,7 @@
     transform: rotate(20deg);
     -ms-transform: rotate(20deg);
     -webkit-transform: rotate(20deg);
-    
+
     -webkit-box-shadow: 4px -1px 0px 1px rgba(251, 216, 0, 1);
     -moz-box-shadow: 4px -1px 0px 1px rgba(251, 216, 0, 1);
     box-shadow: 4px -1px 0px 1px rgba(251, 216, 0, 1);

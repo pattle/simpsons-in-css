@@ -9,7 +9,7 @@
 {
     position: relative;
     width: 90px;
-    height: 90px; 
+    height: 90px;
     margin: 0 auto;
 }
 
@@ -305,7 +305,7 @@
     height: 10px;
     border-bottom: 1px solid #110b00;
     border-radius: 50% 50% 0 0;
-    
+
     -webkit-animation-name: mrburnsrighteyelidtop;
     -webkit-animation-duration: 10s;
     -webkit-animation-timing-function: linear;
@@ -328,7 +328,7 @@
     height: 3px;
     border-top: 1px solid #110b00;
     border-radius: 0 0 50% 50%;
-    
+
     -webkit-animation-name: mrburnsrighteyelidbottom;
     -webkit-animation-duration: 10s;
     -webkit-animation-timing-function: linear;

@@ -349,7 +349,7 @@
     height: 17px;
     border-bottom: 1px solid #110b00;
     border-radius: 50% 50% 0 0;
-    
+
     -webkit-animation-name: bartrighteyelidtop;
     -webkit-animation-duration: 10s;
     -webkit-animation-timing-function: linear;
@@ -372,7 +372,7 @@
     height: 10px;
     border-top: 1px solid #110b00;
     border-radius: 0 0 50% 50%;
-    
+
     -webkit-animation-name: bartrighteyelidbottom;
     -webkit-animation-duration: 10s;
     -webkit-animation-timing-function: linear;
@@ -452,7 +452,7 @@
     height: 20px;
     border-bottom: 1px solid #110b00;
     border-radius: 50% 50% 0 0;
-    
+
     -webkit-animation-name: bartlefteyelidtop;
     -webkit-animation-duration: 10s;
     -webkit-animation-timing-function: linear;
@@ -475,7 +475,7 @@
     height: 10px;
     border-top: 1px solid #110b00;
     border-radius: 0 0 50% 50%;
-    
+
     -webkit-animation-name: bartlefteyelidbottom;
     -webkit-animation-duration: 10s;
     -webkit-animation-timing-function: linear;
