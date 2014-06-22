@@ -38,59 +38,59 @@
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
+    overflow: hidden;
 }
 
 #mr-burns .head .hair-line
 {
-    background: transparent;
-    border-top: 1px solid #110b00;
+    border-bottom: none;
+    border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
-    border-radius: 50%;
 }
 
 #mr-burns .head .hair-line1
 {
-    top: 5px;
-    left: 51px;
-    width: 11px;
+    top: 3px;
+    left: 13px;
+    width: 15px;
     height: 5px;
+    transform: rotate(-53deg);
     -webkit-transform: rotate(-53deg);
     -ms-transform: rotate(-53deg);
-    transform: rotate(-53deg);
 }
 
 #mr-burns .head .hair-line2
 {
-    top: 10px;
-    left: 58px;
-    width: 16px;
-    height: 7px;
+    top: 5px;
+    left: 23px;
+    width: 21px;
+    height: 8px;
+    transform: rotate(-26deg);
     -webkit-transform: rotate(-26deg);
     -ms-transform: rotate(-26deg);
-    transform: rotate(-26deg);
 }
 
 #mr-burns .head .hair-line3
 {
-    top: 22px;
-    left: 56px;
-    width: 24px;
+    top: 18px;
+    left: 19px;
+    width: 28px;
     height: 11px;
+    transform: rotate(32deg);
     -webkit-transform: rotate(32deg);
     -ms-transform: rotate(32deg);
-    transform: rotate(32deg);
 }
 
 #mr-burns .head .hair-line4
 {
-    top: 27px;
-    left: 53px;
-    width: 12px;
-    height: 6px;
-    -webkit-transform: rotate(26deg);
-    -ms-transform: rotate(26deg);
-    transform: rotate(26deg);
+    top: 25px;
+    left: 14px;
+    width: 22px;
+    height: 9px;
+    transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
 }
 
 #mr-burns .head .sideburn
@@ -107,11 +107,14 @@
     -webkit-transform: rotate(-24deg);
     -ms-transform: rotate(-24deg);
     transform: rotate(-24deg);
+    box-shadow: -10px 16px 0px 5px rgba(248,220,0,1);
+    -webkit-box-shadow: -10px 16px 0px 5px rgba(248,220,0,1);
+    -moz-box-shadow: -10px 16px 0px 5px rgba(248,220,0,1);
 }
 
 #mr-burns .head .eyebrow
 {
-    background: transparent;
+    display: none;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -123,7 +126,7 @@
     left: 9px;
     width: 38px;
     height: 16px;
-    border-bottom: 1px solid #110b00;
+    border-top: none;
     -webkit-transform: rotate(-8deg);
     -ms-transform: rotate(-8deg);
     transform: rotate(-8deg);
@@ -138,7 +141,7 @@
     left: 4px;
     width: 14px;
     height: 6px;
-    border-top: 1px solid #110b00;
+    border-bottom: none;
     -webkit-transform: rotate(-127deg);
     -ms-transform: rotate(-127deg);
     transform: rotate(-127deg);
@@ -153,28 +156,29 @@
     left: 0px;
     width: 15px;
     height: 4px;
-    border-top: 1px solid #110b00;
+    border-bottom: none;
+    transform: rotate(-88deg);
     -webkit-transform: rotate(-88deg);
     -ms-transform: rotate(-88deg);
-    transform: rotate(-88deg);
+    box-shadow: inset 18px 18px 0px 0px rgba(248,220,0,1);
     -webkit-box-shadow: inset 18px 18px 0px 0px rgba(248,220,0,1);
     -moz-box-shadow: inset 18px 18px 0px 0px rgba(248,220,0,1);
-    box-shadow: inset 18px 18px 0px 0px rgba(248,220,0,1);
 }
 
 #mr-burns .head .head-main
 {
-    top: -5px;
+    top: -4px;
     left: 15px;
     display: block;
     width: 37px;
-    height: 54px;
+    height: 57px;
     background: #f8dc00;
-    -webkit-border-radius: 63px 63px 63px 63px/108px 108px 72px 72px;
-    border-radius: 50% 50% 47% 50%/48% 52% 19% 41%;
+    border-radius: 50% 50% 40% 50% / 50% 50% 27% 50%;
+    -webkit-border-radius: 50% 50% 40% 50% / 50% 50% 27% 50%;
+    -moz-border-radius: 50% 50% 40% 50% / 50% 50% 27% 50%;
+    transform: rotate(79deg);
     -webkit-transform: rotate(79deg);
     -ms-transform: rotate(79deg);
-    transform: rotate(79deg);
 }
 
 #mr-burns .head .head-main2
@@ -192,28 +196,15 @@
 
 #mr-burns .head .head-main3
 {
-    top: 43px;
-    left: 53px;
+    top: 36px;
+    left: 44px;
     display: block;
-    width: 13px;
-    height: 28px;
+    width: 11px;
+    height: 9px;
     background: #f8dc00;
-    -webkit-transform: rotate(9deg);
-    -ms-transform: rotate(9deg);
-    transform: rotate(9deg);
-}
-
-#mr-burns .head .head-main4
-{
-    top: 43px;
-    left: 53px;
-    display: block;
-    width: 13px;
-    height: 28px;
-    background: #f8dc00;
-    -webkit-transform: rotate(9deg);
-    -ms-transform: rotate(9deg);
-    transform: rotate(9deg);
+    -webkit-transform: rotate(-24deg);
+    -ms-transform: rotate(-24deg);
+    transform: rotate(-24deg);
 }
 
 #mr-burns .head .liverspot
@@ -402,7 +393,7 @@
     left: 2px;
     width: 6px;
     height: 2px;
-    border-top: 1px solid #110b00;
+    border-bottom: none;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -417,7 +408,7 @@
     left: 4px;
     width: 2px;
     height: 5px;
-    border-right: 1px solid #110b00;
+    border-left: none;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -448,7 +439,7 @@
     left: 5px;
     width: 15px;
     height: 1px;
-    border-bottom: 1px solid #110b00;
+    border-top: none;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -463,7 +454,7 @@
     left: 5px;
     width: 18px;
     height: 3px;
-    border-bottom: 1px solid #110b00;
+    border-top: none;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -481,7 +472,7 @@
     left: 2px;
     width: 13px;
     height: 3px;
-    border-bottom: 1px solid #110b00;
+    border-top: none;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -530,7 +521,7 @@
     left: 20px;
     width: 38px;
     height: 11px;
-    border-bottom: 1px solid #110b00;
+    border-top: none;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -567,7 +558,7 @@
     left: 56px;
     width: 2px;
     height: 5px;
-    border-right: 1px solid #110b00;
+    border-left: none;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -687,7 +678,7 @@
     left: 46px;
     width: 27px;
     height: 12px;
-    border-bottom: 1px solid #110b00;
+    border-top: none;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -705,7 +696,7 @@
     left: 61px;
     width: 16px;
     height: 9px;
-    border-bottom: 1px solid #110b00;
+    border-top: none;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -723,7 +714,7 @@
     left: 61px;
     width: 21px;
     height: 9px;
-    border-bottom: 1px solid #110b00;
+    border-top: none;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -741,7 +732,7 @@
     left: 60px;
     width: 13px;
     height: 2px;
-    border-bottom: 1px solid #110b00;
+    border-top: none;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
