@@ -8,8 +8,8 @@
 #maggie
 {
     position: relative;
-    width: 140px;
-    height: 120px;
+    width: 111px;
+    height: 106px;
     margin: 0 auto;
 }
 
@@ -377,9 +377,9 @@
 
 #maggie .head .right-eye .eyelid-top
 {
-    top: -18px;
+    top: -16px;
     left: 0px;
-    width: 30px;
+    width: 26px;
     height: 15px;
     border-bottom: 1px solid #110b00;
     border-radius: 50% 50% 0 0;
@@ -400,10 +400,10 @@
 
 #maggie .head .right-eye .eyelid-bottom
 {
-    bottom: -11px;
+    bottom: -9px;
     left: 0px;
-    width: 30px;
-    height: 7px;
+    width: 26px;
+    height: 8px;
     border-top: 1px solid #110b00;
     border-radius: 0 0 50% 50%;
     
@@ -423,34 +423,34 @@
 
 @-webkit-keyframes maggierighteyelidtop
 {
-0% {top: -18px;}
+0% {top: -16px;}
 2% {top: 0px;}
-4% {top: -18px;}
-100% {top: -18px;}
+4% {top: -16px;}
+100% {top: -16px;}
 }
 
 @keyframes maggierighteyelidtop
 {
-0% {top: -18px;}
+0% {top: -16px;}
 2% {top: 0px;}
-4% {top: -18px;}
-100% {top: -18px;}
+4% {top: -16px;}
+100% {top: -16px;}
 }
 
 @-webkit-keyframes maggierighteyelidbottom
 {
-0% {bottom: -11px;}
+0% {bottom: -9px;}
 2% {bottom: 0px;}
-4% {bottom: -11px;}
-100% {bottom: -11px;}
+4% {bottom: -9px;}
+100% {bottom: -9px;}
 }
 
 @keyframes maggierighteyelidbottom
 {
-0% {bottom: -11px;}
+0% {bottom: -9px;}
 2% {bottom: 0px;}
-4% {bottom: -11px;}
-100% {bottom: -11px;}
+4% {bottom: -9px;}
+100% {bottom: -9px;}
 }
 
 #maggie .head .left-eye
@@ -474,10 +474,10 @@
 
 #maggie .head .left-eye .eyelid-top
 {
-    top: -21px;
+    top: -18px;
     left: 0px;
-    width: 30px;
-    height: 15px;
+    width: 28px;
+    height: 17px;
     border-bottom: 1px solid #110b00;
     border-radius: 50% 50% 0 0;
     
@@ -497,10 +497,10 @@
 
 #maggie .head .left-eye .eyelid-bottom
 {
-    bottom: -11px;
+    bottom: -9px;
     left: 0px;
-    width: 30px;
-    height: 9px;
+    width: 28px;
+    height: 8px;
     border-top: 1px solid #110b00;
     border-radius: 0 0 50% 50%;
     
@@ -521,36 +521,36 @@
 
 @-webkit-keyframes maggielefteyelidtop
 {
-0% {top: -21px;}
+0% {top: -18px;}
 2% {top: 0px;}
-4% {top: -21px;}
-100% {top: -21px;}
+4% {top: -18px;}
+100% {top: -18px;}
 }
 
 
 @keyframes maggielefteyelidtop
 {
-0% {top: -21px;}
+0% {top: -18px;}
 2% {top: 0px;}
-4% {top: -21px;}
-100% {top: -21px;}
+4% {top: -18px;}
+100% {top: -18px;}
 }
 
 @-webkit-keyframes maggielefteyelidbottom
 {
-0% {bottom: -11px;}
+0% {bottom: -9px;}
 2% {bottom: 0px;}
-4% {bottom: -11px;}
-100% {bottom: -11px;}
+4% {bottom: -9px;}
+100% {bottom: -9px;}
 }
 
 
 @keyframes maggielefteyelidbottom
 {
-0% {bottom: -11px;}
+0% {bottom: -9px;}
 2% {bottom: 0px;}
-4% {bottom: -11px;}
-100% {bottom: -11px;}
+4% {bottom: -9px;}
+100% {bottom: -9px;}
 }
 
 #maggie .head .nose-tip

@@ -5,7 +5,6 @@
     -moz-box-sizing:content-box;
 }
 
-
 #ned-flanders
 {
     position: relative;
@@ -14,13 +13,27 @@
     margin: 0 auto;
 }
 
+#ned-flanders .head *
+{
+    border: 1px solid #110b00;
+}
+
+#ned-flanders .head .no-border
+{
+    border: none;
+}
+
+#ned-flanders .head .body
+{
+    background: #fbd800;
+}
+
 #ned-flanders .head .head-main
 {
     top: 58px;
     left: 43px;
     width: 41px;
     height: 68px;
-    background: #fbd800;
 }
 
 #ned-flanders .head .hair
@@ -34,10 +47,9 @@
     left: 23px;
     width: 71px;
     height: 34px;
-    border: 1px solid #110b00;
+    border-radius: 35% 50% 47% 50%/52% 51% 19% 43%;
     -webkit-border-radius: 35% 50% 47% 50%/52% 51% 19% 43%;
     -moz-border-radius: 35% 50% 47% 50%/52% 51% 19% 43%;
-    border-radius: 35% 50% 47% 50%/52% 51% 19% 43%;
 }
 
 #ned-flanders .head .hair-side
@@ -46,9 +58,7 @@
     left: 68px;
     width: 35px;
     height: 91px;
-    border-top: 1px solid #110b00;
-    border-right: 1px solid #110b00;
-    border-bottom: 1px solid #110b00;
+    border-left: none;
     -webkit-border-radius: 35% 50% 33% 50%/52% 51% 19% 43%;
     -moz-border-radius: 35% 50% 33% 50%/52% 51% 19% 43%;
     border-radius: 35% 50% 33% 50%/52% 51% 19% 43%;
@@ -124,10 +134,7 @@
     left: 29px;
     width: 52px;
     height: 34px;
-    background: #fbd800;
-    border-top: 1px solid #110b00;
-    border-left: 1px solid #110b00;
-    border-right: 1px solid #110b00;
+    border-bottom: none;
     -webkit-border-radius: 34% 50% 47% 50%/50% 51% 19% 43%;
     -moz-border-radius: 34% 50% 47% 50%/50% 51% 19% 43%;
     border-radius: 34% 50% 47% 50%/50% 51% 19% 43%;
@@ -139,7 +146,6 @@
     left: 30px;
     width: 50px;
     height: 32px;
-    background: #fbd800;
     -webkit-border-radius: 34% 50% 47% 50%/50% 51% 19% 43%;
     -moz-border-radius: 34% 50% 47% 50%/50% 51% 19% 43%;
     border-radius: 34% 50% 47% 50%/50% 51% 19% 43%;
@@ -151,7 +157,6 @@
     left: 68px;
     width: 15px;
     height: 52px;
-    background: #fbd800;
     border-right: 1px solid #110b00;
     -webkit-border-radius: 0% 41% 0% 0;
     -moz-border-radius: 0% 41% 0% 0;
@@ -177,8 +182,6 @@
     left: 86px;
     width: 16px;
     height: 20px;
-    background: #fbd800;
-    border: 1px solid #110b00;
     -webkit-border-radius:63px 63px 63px 63px/108px 108px 72px 72px;
     -moz-border-radius:63px 63px 63px 63px/108px 108px 72px 72px;
     border-radius:50% 50% 50% 50%/60% 60% 40% 40%;
@@ -202,7 +205,6 @@
     left: 25px;
     width: 10px;
     height: 10px;
-    background: #fbd800;
     border-top: 1px solid #110b00;
     border-left: 1px solid #110b00;
     -webkit-border-radius: 50%;
@@ -215,10 +217,10 @@
     width: 25px;
     height: 25px;
     background: #ffffff;
-    border: 1px solid #110b00;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
+    overflow: hidden;
 }
 
 #ned-flanders .head .eye .pupil
@@ -243,6 +245,84 @@
     left: 10px;
 }
 
+#ned-flanders .head .left-eye .eyelid-top
+{
+    top: -15px;
+    left: 0px;
+    width: 25px;
+    height: 14px;
+    border-bottom: 1px solid #110b00;
+    border-radius: 50% 50% 0 0;
+    
+    -webkit-animation-name: nedlefteyelidtop;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1.3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: nedlefteyelidtop;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 1.3s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#ned-flanders .head .left-eye .eyelid-bottom
+{
+    bottom: -10px;
+    left: 0px;
+    width: 25px;
+    height: 9px;
+    border-top: 1px solid #110b00;
+    border-radius: 0 0 50% 50%;
+    
+    -webkit-animation-name: nedlefteyelidbottom;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1.3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: nedlefteyelidbottom;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 1.3s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes nedlefteyelidtop
+{
+0% {top: -15px;}
+2% {top: 0px;}
+4% {top: -15px;}
+100% {top: -15px;}
+}
+
+@keyframes nedlefteyelidtop
+{
+0% {top: -15px;}
+2% {top: 0px;}
+4% {top: -15px;}
+100% {top: -15px;}
+}
+
+@-webkit-keyframes nedlefteyelidbottom
+{
+0% {bottom: -10px;}
+2% {bottom: 0px;}
+4% {bottom: -10px;}
+100% {bottom: -10px;}
+}
+
+@keyframes nedlefteyelidbottom
+{
+0% {bottom: -10px;}
+2% {bottom: 0px;}
+4% {bottom: -10px;}
+100% {bottom: -10px;}
+}
+
 #ned-flanders .head .right-eye
 {
     top: 52px;
@@ -254,6 +334,84 @@
 {
     top: 14px;
     left: 16px;
+}
+
+#ned-flanders .head .right-eye .eyelid-top
+{
+    top: -15px;
+    left: 0px;
+    width: 26px;
+    height: 14px;
+    border-bottom: 1px solid #110b00;
+    border-radius: 50% 50% 0 0;
+    
+    -webkit-animation-name: nedrighteyelidtop;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1.3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: nedrighteyelidtop;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 1.3s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#ned-flanders .head .right-eye .eyelid-bottom
+{
+    bottom: -10px;
+    left: 0px;
+    width: 26px;
+    height: 9px;
+    border-top: 1px solid #110b00;
+    border-radius: 0 0 50% 50%;
+    
+    -webkit-animation-name: nedrighteyelidbottom;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1.3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: nedrighteyelidbottom;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 1.3s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes nedrighteyelidtop
+{
+0% {top: -15px;}
+2% {top: 0px;}
+4% {top: -15px;}
+100% {top: -15px;}
+}
+
+@keyframes nedrighteyelidtop
+{
+0% {top: -15px;}
+2% {top: 0px;}
+4% {top: -15px;}
+100% {top: -15px;}
+}
+
+@-webkit-keyframes nedrighteyelidbottom
+{
+0% {bottom: -10px;}
+2% {bottom: 0px;}
+4% {bottom: -10px;}
+100% {bottom: -10px;}
+}
+
+@keyframes nedrighteyelidbottom
+{
+0% {bottom: -10px;}
+2% {bottom: 0px;}
+4% {bottom: -10px;}
+100% {bottom: -10px;}
 }
 
 #ned-flanders .head .glasses
@@ -274,10 +432,7 @@
     left: 28px;
     width: 16px;
     height: 12px;
-    background: #fbd800;
-    border-top: 1px solid #110b00;
-    border-left: 1px solid #110b00;
-    border-bottom: 1px solid #110b00;
+    border-right: none;
     -webkit-border-radius: 10px 0 3px 10px;
     -moz-border-radius: 10px 0 3px 10px;
     border-radius: 10px 0 3px 10px;
@@ -290,7 +445,6 @@
     width: 50px;
     height: 18px;
     background: #986a38;
-    border: 1px solid #110b00;
     -webkit-border-radius: 50% 50% 25% 25%/79% 90% 9% 10%;
     -moz-border-radius: 50% 50% 25% 25%/79% 90% 9% 10%;
     border-radius: 50% 50% 25% 25%/79% 90% 9% 10%;
@@ -493,8 +647,6 @@
     left: 36px;
     width: 14px;
     height: 11px;
-    background: #fbd800;
-    border: 1px solid #110b00;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;

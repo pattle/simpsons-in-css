@@ -8,7 +8,7 @@
 #bart
 {
     position: relative;
-    width: 135px;
+    width: 80px;
     height: 130px;
     margin: 0 auto;
 }
@@ -40,7 +40,7 @@
 #bart .head .hair1
 {
     top: 22px;
-    left: 28px;
+    left: 0px;
     width: 6px;
     height: 7px;
     -webkit-transform: rotate(-22deg) skew(-7deg, 51deg);
@@ -51,7 +51,7 @@
 #bart .head .hair2
 {
     top: 20px;
-    left: 33px;
+    left: 5px;
     width: 9px;
     height: 7px;
     -webkit-transform: rotate(25deg) skew(23deg, 16deg);
@@ -62,7 +62,7 @@
 #bart .head .hair3
 {
     top: 17px;
-    left: 40px;
+    left: 12px;
     width: 9px;
     height: 8px;
     -webkit-transform: rotate(27deg) skew(22deg, 16deg);
@@ -73,7 +73,7 @@
 #bart .head .hair4
 {
     top: 15px;
-    left: 48px;
+    left: 20px;
     width: 10px;
     height: 9px;
     -webkit-transform: rotate(35deg) skew(22deg, 16deg);
@@ -84,7 +84,7 @@
 #bart .head .hair5
 {
     top: 13px;
-    left: 57px;
+    left: 29px;
     width: 9px;
     height: 9px;
     -webkit-transform: rotate(37deg) skew(22deg, 16deg);
@@ -95,7 +95,7 @@
 #bart .head .hair6
 {
     top: 12px;
-    left: 65px;
+    left: 37px;
     width: 10px;
     height: 9px;
     -webkit-transform: rotate(50deg) skew(24deg, 16deg);
@@ -106,7 +106,7 @@
 #bart .head .hair7
 {
     top: 12px;
-    left: 73px;
+    left: 45px;
     width: 10px;
     height: 8px;
     -webkit-transform: rotate(51deg) skew(24deg, 10deg);
@@ -117,7 +117,7 @@
 #bart .head .hair8
 {
     top: 14px;
-    left: 82px;
+    left: 54px;
     width: 9px;
     height: 7px;
     -webkit-transform: rotate(51deg) skew(24deg, 10deg);
@@ -128,7 +128,7 @@
 #bart .head .hair9
 {
     top: 15px;
-    left: 89px;
+    left: 61px;
     width: 9px;
     height: 7px;
     -webkit-transform: rotate(79deg) skew(35deg, 10deg);
@@ -139,7 +139,7 @@
 #bart .head .head-left1
 {
     top: 24px;
-    left: 29px;
+    left: 1px;
     width: 17px;
     height: 15px;
     border-left: 1px solid #110b00;
@@ -151,7 +151,7 @@
 #bart .head .head-left2
 {
     top: 33px;
-    left: 31px;
+    left: 3px;
     width: 17px;
     height: 18px;
     border-left: 1px solid #110b00;
@@ -163,7 +163,7 @@
 #bart .head .head-left3
 {
     top: 46px;
-    left: 33px;
+    left: 5px;
     width: 17px;
     height: 16px;
     border-left: 1px solid #110b00;
@@ -175,7 +175,7 @@
 #bart .head .head-left4
 {
     top: 61px;
-    left: 35px;
+    left: 7px;
     width: 17px;
     height: 16px;
     border-left: 1px solid #110b00;
@@ -187,7 +187,7 @@
 #bart .head .head-left5
 {
     top: 76px;
-    left: 37px;
+    left: 9px;
     width: 20px;
     height: 16px;
     border-left: 1px solid #110b00;
@@ -199,7 +199,7 @@
 #bart .head .head-left6
 {
     top: 90px;
-    left: 39px;
+    left: 11px;
     width: 28px;
     height: 31px;
     border-left: 1px solid #110b00;
@@ -211,7 +211,7 @@
 #bart .head .head-left7
 {
     top: 119px;
-    left: 38px;
+    left: 10px;
     width: 27px;
     height: 8px;
     border-left: 1px solid #110b00;
@@ -224,7 +224,7 @@
 #bart .head .head-right1
 {
     top: 20px;
-    left: 47px;
+    left: 19px;
     width: 50px;
     height: 37px;
     border-right: 1px solid #000000;
@@ -236,7 +236,7 @@
 #bart .head .head-right2
 {
     top: 46px;
-    left: 47px;
+    left: 19px;
     width: 51px;
     height: 24px;
     -webkit-transform: rotate(-2deg);
@@ -247,7 +247,7 @@
 #bart .head .head-right3
 {
     top: 83px;
-    left: 52px;
+    left: 24px;
     width: 50px;
     height: 27px;
     border-right: 1px solid #000000;
@@ -259,7 +259,7 @@
 #bart .head .ear
 {
     top: 88px;
-    left: 33px;
+    left: 5px;
     width: 11px;
     height: 13px;
     -moz-border-radius: 50%;
@@ -308,7 +308,7 @@
 #bart .head .eyelid
 {
     top: 55px;
-    left: 91px;
+    left: 63px;
     width: 10px;
     height: 10px;
     -webkit-border-radius: 50%;
@@ -319,7 +319,7 @@
 #bart .head .right-eye
 {
     top: 60px;
-    left: 79px;
+    left: 51px;
     width: 27px;
     height: 27px;
     -moz-border-radius: 50%;
@@ -422,7 +422,7 @@
 #bart .head .left-eye
 {
     top: 60px;
-    left: 52px;
+    left: 24px;
     width: 30px;
     height: 30px;
     -moz-border-radius: 50%;
@@ -525,7 +525,7 @@
 #bart .head .nose
 {
     top: 83px;
-    left: 83px;
+    left: 55px;
     width: 12px;
     height: 12px;
     border-top: 1px solid #110b00;
@@ -534,7 +534,7 @@
 #bart .head .nose-tip
 {
     top: 82px;
-    left: 88px;
+    left: 60px;
     width: 14px;
     height: 12px;
     border-left: none;
@@ -549,7 +549,7 @@
 #bart .head .mouth
 {
     top: 101px;
-    left: 55px;
+    left: 27px;
     width: 50px;
     height: 15px;
     border-bottom: 1px solid #110b00;
@@ -561,7 +561,7 @@
 #bart .head .mouth-smile
 {
     top: 111px;
-    left: 56px;
+    left: 28px;
     width: 7px;
     height: 5px;
     -moz-border-radius: 50%;
@@ -576,7 +576,7 @@
 #bart .head .mouth-lip
 {
     top: 101px;
-    left: 54px;
+    left: 26px;
     width: 50px;
     height: 14px;
     -moz-border-radius: 50%;
@@ -587,7 +587,7 @@
 #bart .head .mouth-lip2
 {
     top: 106px;
-    left: 45px;
+    left: 17px;
     width: 30px;
     height: 14px;
     -moz-border-radius: 32%;

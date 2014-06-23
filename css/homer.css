@@ -8,7 +8,7 @@
 #homer
 {
     position: relative;
-    width: 160px;
+    width: 94px;
     height: 133px;
     margin: 0 auto;
 }
@@ -31,7 +31,7 @@
 #homer .head .hair1
 {
     top: 14px;
-    left: 32px;    
+    left: 0px;    
     height:13px;
     width:22px;
     border-radius: 22px 22px 0 0;
@@ -47,7 +47,7 @@
 #homer .head .hair2
 {
     top: 8px;
-    left: 41px;    
+    left: 9px;    
     height:16px;
     width:26px;
     border-radius: 32px 32px 0 0;
@@ -63,7 +63,7 @@
 #homer .head .head-top
 {
     top: 15px;
-    left: 34px;
+    left: 2px;
     width: 65px;
     height: 62px;
     border-bottom: none;
@@ -81,7 +81,7 @@
 #homer .head .head-main
 {
     top: 40px;
-    left: 49px;
+    left: 17px;
     width: 48px;
     height: 62px;
     -webkit-transform: rotate(-24deg);
@@ -99,7 +99,7 @@
 #homer .head .m1
 {
     top: 77px;
-    left: 41px;
+    left: 9px;
     -webkit-transform: rotate(-13deg);
     -ms-transform: rotate(-13deg);
     transform: rotate(-13deg);
@@ -108,7 +108,7 @@
 #homer .head .m2
 {
     top: 76px;
-    left: 44px;
+    left: 12px;
     height: 12px;
     -webkit-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
@@ -118,7 +118,7 @@
 #homer .head .m3
 {
     top: 71px;
-    left: 48px;
+    left: 16px;
     height: 15px;
     -webkit-transform: rotate(1deg);
     -ms-transform: rotate(1deg);
@@ -128,7 +128,7 @@
 #homer .head .m4
 {
     top: 70px;
-    left: 53px;
+    left: 21px;
     -webkit-transform: rotate(-39deg);
     -ms-transform: rotate(-39deg);
     transform: rotate(-39deg);
@@ -137,7 +137,7 @@
 #homer .head .ear
 {
     top: 90px;
-    left: 46px;
+    left: 14px;
     width: 11px;
     height: 13px;
     -moz-border-radius: 50%;
@@ -186,7 +186,7 @@
 #homer .head .right-eye
 {
     top: 48px;
-    left: 80px;
+    left: 48px;
     width: 31px;
     height: 31px;
     -moz-border-radius: 50%;
@@ -212,7 +212,7 @@
 #homer .head .left-eye
 {
     top: 51px;
-    left: 55px;
+    left: 23px;
     width: 31px;
     height: 31px;
     -moz-border-radius: 50%;
@@ -397,7 +397,7 @@
 #homer .head .nose
 {
     top: 71px;
-    left: 82px;
+    left: 50px;
     width: 18px;
     height: 12px;
     border-left: none;
@@ -410,7 +410,7 @@
 #homer .head .nose-tip
 {
     top: 69px;
-    left: 92px;
+    left: 60px;
     width: 14px;
     height: 12px;
     border-left: none;
@@ -425,7 +425,7 @@
 #homer .head .neck1
 {
     top: 85px;
-    left: 48px;
+    left: 16px;
     width: 6px;
     height: 31px;
     background: transparent;
@@ -442,7 +442,7 @@
 #homer .head .neck2
 {
     top: 114px;
-    left: 57px;
+    left: 25px;
     width: 45px;
     height: 19px;
     border-top: none;
@@ -455,7 +455,7 @@
 #homer .head .mouth1
 {
     top: 86px;
-    left: 60px;
+    left: 28px;
     width: 48px;
     height: 44px;
     background: #cfae67;
@@ -470,7 +470,7 @@
 #homer .head .mouth2
 {
     top: 101px;
-    left: 75px;
+    left: 43px;
     width: 48px;
     height: 12px;
     background: #cfae67;
@@ -488,7 +488,7 @@
 #homer .head .mouth3
 {
     top: 102px;
-    left: 67px;
+    left: 35px;
     width: 48px;
     height: 12px;
     background: transparent;
@@ -504,7 +504,7 @@
 #homer .head .mouth4
 {
     top: 110px;
-    left: 70px;
+    left: 38px;
     width: 7px;
     height: 5px;
     -moz-border-radius: 50%;
@@ -519,7 +519,7 @@
 #homer .head .mouth5
 {
     top: 84px;
-    left: 96px;
+    left: 64px;
     width: 27px;
     height: 13px;
     background: transparent;
@@ -538,7 +538,7 @@
 #homer .head .mouth6
 {
     top: 84px;
-    left: 78px;
+    left: 46px;
     width: 32px;
     height: 31px;
     background: #cfae67;
@@ -553,7 +553,7 @@
 #homer .head .mouth7
 {
     top: 104px;
-    left: 94px;
+    left: 62px;
     width: 17px;
     height: 12px;
     background: #cfae67;
@@ -570,7 +570,7 @@
 #homer .head .mouth8
 {
     top: 79px;
-    left: 103px;
+    left: 71px;
     width: 15px;
     height: 30px;
     background: #cfae67;
