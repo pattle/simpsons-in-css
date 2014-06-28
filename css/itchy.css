@@ -9,7 +9,7 @@
 {
     position: relative;
     width: 150px;
-    height: 110px; 
+    height: 110px;
     margin: 0 auto;
 }
 
@@ -37,7 +37,7 @@
     border-radius: 50% 44% 43% 50%;
     -webkit-border-radius: 50% 44% 43% 50%;
     -moz-border-radius: 50% 44% 43% 50%;
-    
+
     -webkit-box-shadow: inset 11px 1px 0px 1px rgba(66, 148, 222, 0.75);
     -moz-box-shadow: inset 11px 1px 0px 1px rgba(66, 148, 222, 0.75);
     box-shadow: inset 11px 1px 0px 1px rgba(66, 148, 222, 0.75);
@@ -52,7 +52,7 @@
     border-radius: 50% 45% 40% 50%;
     -webkit-border-radius: 50% 45% 40% 50%;
     -moz-border-radius: 50% 45% 40% 50%;
-    
+
     -webkit-box-shadow: inset 11px -4px 0px 0px rgba(66, 148, 222, 0.75);
     -moz-box-shadow: inset 11px -4px 0px 0px rgba(66, 148, 222, 0.75);
     box-shadow: inset 11px -4px 0px 0px rgba(66, 148, 222, 0.75);
@@ -312,7 +312,7 @@
     -webkit-transform: rotate(-22deg);
     -ms-transform: rotate(-22deg);
     transform: rotate(-22deg);
-    
+
     -webkit-box-shadow: -1px 9px 0px 0px rgba(81, 174, 254, 1);
     -moz-box-shadow: -1px 9px 0px 0px rgba(81, 174, 254, 1);
     box-shadow: -1px 9px 0px 0px rgba(81, 174, 254, 1);
@@ -331,7 +331,7 @@
     -webkit-transform: rotate(41deg);
     -ms-transform: rotate(41deg);
     transform: rotate(41deg);
-    
+
     -webkit-box-shadow: 5px 6px 0px 0px rgba(81, 174, 254, 1);
     -moz-box-shadow: 5px 6px 0px 0px rgba(81, 174, 254, 1);
     box-shadow: 5px 6px 0px 0px rgba(81, 174, 254, 1);
@@ -374,7 +374,7 @@
     -webkit-transform: rotate(-8deg);
     -ms-transform: rotate(-8deg);
     transform: rotate(-8deg);
-    
+
     -webkit-box-shadow: -4px 0px 0px 0px rgba(81, 174, 254, 1);
     -moz-box-shadow: -4px 0px 0px 0px rgba(81, 174, 254, 1);
     box-shadow: -4px 0px 0px 0px rgba(81, 174, 254, 1);
@@ -409,7 +409,7 @@
     -webkit-transform: rotate(-34deg);
     -ms-transform: rotate(-34deg);
     transform: rotate(-34deg);
-    
+
     -webkit-box-shadow: 4px -3px 0px 1px rgba(81, 174, 254, 1);
     -moz-box-shadow: 4px -3px 0px 1px rgba(81, 174, 254, 1);
     box-shadow: 4px -3px 0px 1px rgba(81, 174, 254, 1);
@@ -475,7 +475,7 @@
     left: 97px;
     width: 16px;
     height: 9px;
-    background: #1f6aa4; 
+    background: #1f6aa4;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -497,7 +497,7 @@
     -webkit-transform: rotate(-8deg);
     -ms-transform: rotate(-8deg);
     transform: rotate(-8deg);
-    
+
     -webkit-box-shadow: 5px 6px 0px 2px rgba(81, 174, 254, 1);
     -moz-box-shadow: 5px 6px 0px 2px rgba(81, 174, 254, 1);
     box-shadow: 5px 6px 0px 2px rgba(81, 174, 254, 1);
@@ -516,7 +516,7 @@
     -webkit-transform: rotate(16deg);
     -ms-transform: rotate(16deg);
     transform: rotate(16deg);
-    
+
     -webkit-box-shadow: -4px 6px 0px 2px rgba(255, 255, 255, 1);
     -moz-box-shadow: -4px 6px 0px 2px rgba(255, 255, 255, 1);
     box-shadow: -4px 6px 0px 2px rgba(255, 255, 255, 1);

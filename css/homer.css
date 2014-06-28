@@ -31,7 +31,7 @@
 #homer .head .hair1
 {
     top: 14px;
-    left: 0px;    
+    left: 0px;
     height:13px;
     width:22px;
     border-radius: 22px 22px 0 0;
@@ -47,7 +47,7 @@
 #homer .head .hair2
 {
     top: 8px;
-    left: 9px;    
+    left: 9px;
     height:16px;
     width:26px;
     border-radius: 32px 32px 0 0;
@@ -243,7 +243,7 @@
     height: 20px;
     border-bottom: 1px solid #110b00;
     border-radius: 50% 50% 0 0;
-    
+
     -webkit-animation-name: homerlefteyelidtop;
     -webkit-animation-duration: 10s;
     -webkit-animation-timing-function: linear;
@@ -266,7 +266,7 @@
     height: 10px;
     border-top: 1px solid #110b00;
     border-radius: 0 0 50% 50%;
-    
+
     -webkit-animation-name: homerlefteyelidbottom;
     -webkit-animation-duration: 10s;
     -webkit-animation-timing-function: linear;
@@ -324,7 +324,7 @@
     height: 17px;
     border-bottom: 1px solid #110b00;
     border-radius: 50% 50% 0 0;
-    
+
     -webkit-animation-name: homerrighteyelidtop;
     -webkit-animation-duration: 10s;
     -webkit-animation-timing-function: linear;
@@ -347,7 +347,7 @@
     height: 10px;
     border-top: 1px solid #110b00;
     border-radius: 0 0 50% 50%;
-    
+
     -webkit-animation-name: homerrighteyelidbottom;
     -webkit-animation-duration: 10s;
     -webkit-animation-timing-function: linear;

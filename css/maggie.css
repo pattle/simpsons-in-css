@@ -383,7 +383,7 @@
     height: 15px;
     border-bottom: 1px solid #110b00;
     border-radius: 50% 50% 0 0;
-    
+
     -webkit-animation-name: maggierighteyelidtop;
     -webkit-animation-duration: 10s;
     -webkit-animation-timing-function: linear;
@@ -406,7 +406,7 @@
     height: 8px;
     border-top: 1px solid #110b00;
     border-radius: 0 0 50% 50%;
-    
+
     -webkit-animation-name: maggierighteyelidbottom;
     -webkit-animation-duration: 10s;
     -webkit-animation-timing-function: linear;
@@ -480,7 +480,7 @@
     height: 17px;
     border-bottom: 1px solid #110b00;
     border-radius: 50% 50% 0 0;
-    
+
     -webkit-animation-name: maggielefteyelidtop;
     -webkit-animation-duration: 10s;
     -webkit-animation-timing-function: linear;
@@ -503,7 +503,7 @@
     height: 8px;
     border-top: 1px solid #110b00;
     border-radius: 0 0 50% 50%;
-    
+
     -webkit-animation-name: maggielefteyelidbottom;
     -webkit-animation-duration: 10s;
     -webkit-animation-timing-function: linear;

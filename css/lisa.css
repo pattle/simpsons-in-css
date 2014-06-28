@@ -386,7 +386,7 @@
     height: 15px;
     border-bottom: 1px solid #110b00;
     border-radius: 50% 50% 0 0;
-    
+
     -webkit-animation-name: lisarighteyelidtop;
     -webkit-animation-duration: 10s;
     -webkit-animation-timing-function: linear;
@@ -409,7 +409,7 @@
     height: 7px;
     border-top: 1px solid #110b00;
     border-radius: 0 0 50% 50%;
-    
+
     -webkit-animation-name: lisarighteyelidbottom;
     -webkit-animation-duration: 10s;
     -webkit-animation-timing-function: linear;
@@ -492,7 +492,7 @@
     height: 15px;
     border-bottom: 1px solid #110b00;
     border-radius: 50% 50% 0 0;
-    
+
     -webkit-animation-name: lisalefteyelidtop;
     -webkit-animation-duration: 10s;
     -webkit-animation-timing-function: linear;
@@ -515,7 +515,7 @@
     height: 9px;
     border-top: 1px solid #110b00;
     border-radius: 0 0 50% 50%;
-    
+
     -webkit-animation-name: lisalefteyelidbottom;
     -webkit-animation-duration: 10s;
     -webkit-animation-timing-function: linear;
