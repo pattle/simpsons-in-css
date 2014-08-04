@@ -60,9 +60,9 @@
 {
     top: -2px;
     left: 18px;
-    height: 56px;
-    width: 26px;
-    transform: rotate(38deg);
+    height: 70px;
+    width: 30px;
+    transform: rotate(45deg);
     -ms-transform: rotate(38deg);
     -webkit-transform: rotate(38deg);
 }
@@ -201,7 +201,7 @@
 
 #ralph-wiggum .head .ear
 {
-    top: 43px;
+    top: 70px;
     left: 1px;
     width: 14px;
     height: 15px;
@@ -283,13 +283,13 @@
 #ralph-wiggum .head .left-eye .pupil
 {
     top: 8px;
-    left: 5px;
+    left: 6px;
 }
 
 #ralph-wiggum .head .right-eye
 {
     top: 30px;
-    left: 78px;
+    left: 70px;
     width: 19px;
     height: 18px;
     border-radius: 42% 45% 51% 50%;
@@ -358,7 +358,7 @@
 
 #ralph-wiggum .head .mouth4
 {
-    top: 54px;
+    top: 63px;
     left: 95px;
     width: 10px;
     height: 13px;
