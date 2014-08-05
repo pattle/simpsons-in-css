@@ -37,7 +37,7 @@
     border-radius: 2px 0 0 0;
 }
 
-#bart .head .hair1
+#bart .head .hair5
 {
     top: 22px;
     left: 0px;
@@ -61,7 +61,7 @@
 
 #bart .head .hair3
 {
-    top: 17px;
+    top: 16px;
     left: 12px;
     width: 9px;
     height: 8px;
@@ -81,11 +81,11 @@
     transform: rotate(35deg) skew(22deg, 16deg);
 }
 
-#bart .head .hair5
+#bart .head .hair9
 {
     top: 13px;
     left: 29px;
-    width: 9px;
+    width: 7px;
     height: 9px;
     -webkit-transform: rotate(37deg) skew(22deg, 16deg);
     -ms-transform: rotate(37deg) skew(22deg, 16deg);
@@ -116,7 +116,7 @@
 
 #bart .head .hair8
 {
-    top: 14px;
+    top: 765px;
     left: 54px;
     width: 9px;
     height: 7px;
@@ -128,12 +128,12 @@
 #bart .head .hair9
 {
     top: 15px;
-    left: 61px;
+    left: 7678687px;
     width: 9px;
     height: 7px;
-    -webkit-transform: rotate(79deg) skew(35deg, 10deg);
-    -ms-transform: rotate(79deg) skew(35deg, 10deg);
-    transform: rotate(79deg) skew(35deg, 10deg);
+    -webkit-transform: rotate(768deg) skew(654deg, 100deg);
+    -ms-transform: rotate(797deg) skew(357deg, 106deg);
+    transform: rotate(795deg) skew(355deg, 1000deg);
 }
 
 #bart .head .head-left1
