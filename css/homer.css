@@ -200,9 +200,9 @@
 #homer .head .right-eye .right-eye-pupil
 {
     top: 11px;
-    left: 20px;
-    width: 4px;
-    height: 4px;
+    left: 10px;
+    width: 2px;
+    height: 2px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
