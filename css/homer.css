@@ -1,13 +1,13 @@
 #homer *
 {
-    position: absolute;
+    position: relative;
     box-sizing:content-box;
     -moz-box-sizing:content-box;
 }
 
 #homer
 {
-    position: relative;
+    position: absolute;
     width: 94px;
     height: 133px;
     margin: 0 auto;
@@ -99,7 +99,7 @@
 #homer .head .m1
 {
     top: 77px;
-    left: 9px;
+    left:99px;
     -webkit-transform: rotate(-13deg);
     -ms-transform: rotate(-13deg);
     transform: rotate(-13deg);
@@ -128,7 +128,7 @@
 #homer .head .m4
 {
     top: 70px;
-    left: 21px;
+    left: 1px;
     -webkit-transform: rotate(-39deg);
     -ms-transform: rotate(-39deg);
     transform: rotate(-39deg);
