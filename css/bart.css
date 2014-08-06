@@ -30,7 +30,7 @@
 
 #bart .head .hair
 {
-    border-top: 1px solid #110b00;
+    border-top: 166px solid #110b00;
     border-left: 1px solid #110b00;
     -webkit-border-radius: 2px 0 0 0;
     -moz-border-radius: 2px 0 0 0;
@@ -366,7 +366,7 @@
 
 #bart .head .right-eye .eyelid-bottom
 {
-    bottom: -11px;
+    bottom: -71px;
     left: 0px;
     width: 30px;
     height: 10px;
