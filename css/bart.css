@@ -34,15 +34,15 @@
     border-left: 1px solid #110b00;
     -webkit-border-radius: 2px 0 0 0;
     -moz-border-radius: 2px 0 0 0;
-    border-radius: 2px 0 0 0;
+    border-radius: 3px 0 0 0;
 }
 
 #bart .head .hair1
 {
-    top: 22px;
+    top: 30px;
     left: 0px;
-    width: 6px;
-    height: 7px;
+    width: 7px;
+    height: 9px;
     -webkit-transform: rotate(-22deg) skew(-7deg, 51deg);
     -ms-transform: rotate(-22deg) skew(-7deg, 51deg);
     transform: rotate(-22deg) skew(-7deg, 51deg);
@@ -53,7 +53,7 @@
     top: 20px;
     left: 5px;
     width: 9px;
-    height: 7px;
+    height: 20px;
     -webkit-transform: rotate(25deg) skew(23deg, 16deg);
     -ms-transform: rotate(25deg) skew(23deg, 16deg);
     transform: rotate(25deg) skew(23deg, 16deg);
@@ -64,7 +64,7 @@
     top: 17px;
     left: 12px;
     width: 9px;
-    height: 8px;
+    height: 10px;
     -webkit-transform: rotate(27deg) skew(22deg, 16deg);
     -ms-transform: rotate(27deg) skew(22deg, 16deg);
     transform: rotate(27deg) skew(22deg, 16deg);
@@ -299,9 +299,9 @@
 
 #bart .head .ear .clip
 {
-    top: 1px;
+    top: 5px;
     left: 9px;
-    width: 3px;
+    width: 7px;
     height: 10px;
 }
 
