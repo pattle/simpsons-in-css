@@ -42,7 +42,7 @@
 
 #marge .head .hair-main
 {
-    top: 7px;
+    top: 6px;
     left: 29px;
     width: 67px;
     height: 133px;
@@ -54,7 +54,7 @@
 
 #marge .head .hair-main2
 {
-    top: 5px;
+    top: 1px;
     left: 22px;
     width: 58px;
     height: 37px;
@@ -588,10 +588,10 @@
 
 #marge .head .eyelash
 {
-    width: 7px;
+    width: 9px;
     height: 7px;
     background: transparent;
-    border-left: 1px solid #110b00;
+    border-left: 1px solid #190b00;
 }
 
 #marge .head .eyelash1
