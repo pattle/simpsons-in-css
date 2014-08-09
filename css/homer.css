@@ -25,7 +25,7 @@
 
 #homer .head .body
 {
-    background: #fbd800;
+    background: #d0e4fe;
 }
 
 #homer .head .hair1
@@ -34,7 +34,7 @@
     left: 0px;    
     height:13px;
     width:22px;
-    border-radius: 22px 22px 0 0;
+    border-radius: 45px 45px 1 1;
     -moz-border-radius: 22px 22px 0 0;
     -webkit-border-radius: 22px 22px 0 0;
     background: transparent;
