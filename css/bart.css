@@ -15,7 +15,7 @@
 
 #bart .head *
 {
-    border: 1px solid #110b00;
+    border: 1px solid #FFCFBA;
 }
 
 #bart .head .no-border
@@ -30,19 +30,19 @@
 
 #bart .head .hair
 {
-    border-top: 1px solid #110b00;
-    border-left: 1px solid #110b00;
-    -webkit-border-radius: 2px 0 0 0;
-    -moz-border-radius: 2px 0 0 0;
-    border-radius: 2px 0 0 0;
+    border-top: 4px solid #110b00;
+    border-left: 4px solid #110b00;
+    -webkit-border-radius: 4px 0 0 0;
+    -moz-border-radius: 4px 0 0 0;
+    border-radius: 4px 0 0 0;
 }
 
 #bart .head .hair1
 {
     top: 22px;
     left: 0px;
-    width: 6px;
-    height: 7px;
+    width: 15px;
+    height: 9px;
     -webkit-transform: rotate(-22deg) skew(-7deg, 51deg);
     -ms-transform: rotate(-22deg) skew(-7deg, 51deg);
     transform: rotate(-22deg) skew(-7deg, 51deg);
@@ -52,8 +52,8 @@
 {
     top: 20px;
     left: 5px;
-    width: 9px;
-    height: 7px;
+    width: 15px;
+    height: 9px;
     -webkit-transform: rotate(25deg) skew(23deg, 16deg);
     -ms-transform: rotate(25deg) skew(23deg, 16deg);
     transform: rotate(25deg) skew(23deg, 16deg);
@@ -63,8 +63,8 @@
 {
     top: 17px;
     left: 12px;
-    width: 9px;
-    height: 8px;
+    width: 15px;
+    height: 9px;
     -webkit-transform: rotate(27deg) skew(22deg, 16deg);
     -ms-transform: rotate(27deg) skew(22deg, 16deg);
     transform: rotate(27deg) skew(22deg, 16deg);
@@ -74,7 +74,7 @@
 {
     top: 15px;
     left: 20px;
-    width: 10px;
+    width: 15px;
     height: 9px;
     -webkit-transform: rotate(35deg) skew(22deg, 16deg);
     -ms-transform: rotate(35deg) skew(22deg, 16deg);
@@ -85,7 +85,7 @@
 {
     top: 13px;
     left: 29px;
-    width: 9px;
+    width: 15px;
     height: 9px;
     -webkit-transform: rotate(37deg) skew(22deg, 16deg);
     -ms-transform: rotate(37deg) skew(22deg, 16deg);
@@ -96,7 +96,7 @@
 {
     top: 12px;
     left: 37px;
-    width: 10px;
+  width: 15px;
     height: 9px;
     -webkit-transform: rotate(50deg) skew(24deg, 16deg);
     -ms-transform: rotate(50deg) skew(24deg, 16deg);
@@ -107,8 +107,8 @@
 {
     top: 12px;
     left: 45px;
-    width: 10px;
-    height: 8px;
+  width: 15px;
+    height: 9px;
     -webkit-transform: rotate(51deg) skew(24deg, 10deg);
     -ms-transform: rotate(51deg) skew(24deg, 10deg);
     transform: rotate(51deg) skew(24deg, 10deg);
@@ -118,8 +118,8 @@
 {
     top: 14px;
     left: 54px;
-    width: 9px;
-    height: 7px;
+   width: 15px;
+    height: 9px;
     -webkit-transform: rotate(51deg) skew(24deg, 10deg);
     -ms-transform: rotate(51deg) skew(24deg, 10deg);
     transform: rotate(51deg) skew(24deg, 10deg);
@@ -129,8 +129,8 @@
 {
     top: 15px;
     left: 61px;
-    width: 9px;
-    height: 7px;
+    width: 15px;
+    height: 9px;
     -webkit-transform: rotate(79deg) skew(35deg, 10deg);
     -ms-transform: rotate(79deg) skew(35deg, 10deg);
     transform: rotate(79deg) skew(35deg, 10deg);
@@ -142,7 +142,7 @@
     left: 1px;
     width: 17px;
     height: 15px;
-    border-left: 1px solid #110b00;
+    border-left: 3px solid #110b00;
     -webkit-transform: rotate(-13deg);
     -ms-transform: rotate(-13deg);
     transform: rotate(-13deg);
