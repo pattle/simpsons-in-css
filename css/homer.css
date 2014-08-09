@@ -8,7 +8,7 @@
 #homer
 {
     position: relative;
-    width: 94px;
+    width: 10px;
     height: 133px;
     margin: 0 auto;
 }
@@ -30,8 +30,8 @@
 
 #homer .head .hair1
 {
-    top: 14px;
-    left: 0px;    
+    top: 140px;
+    left: 100px;    
     height:13px;
     width:22px;
     border-radius: 22px 22px 0 0;
