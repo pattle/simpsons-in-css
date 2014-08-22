@@ -8,8 +8,8 @@
 #marge
 {
     position: relative;
-    width: 140px;
-    height: 205px;
+    width: 160px;
+    height: 2115px;
     margin: 0 auto;
 }
 
@@ -35,7 +35,7 @@
 
 #marge .head .hair-circle
 {
-    border-radius: 50%;
+    border-radius: 60%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
 }
