@@ -15,7 +15,7 @@
 
 #homer .head *
 {
-    border: 1px solid #110b00;
+    border: 1px solid #000000;
 }
 
 #homer .head .no-border
@@ -25,7 +25,7 @@
 
 #homer .head .body
 {
-    background: #fbd800;
+    background: #f2c596;
 }
 
 #homer .head .hair1
@@ -93,7 +93,7 @@
 {
     width: 1px;
     height: 14px;
-    background: #110b00;
+    background: #0000000;
 }
 
 #homer .head .m1
@@ -154,7 +154,7 @@
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    border-top: 1px solid #110b00;
+    border-top: 1px solid #000000;
     -webkit-transform: rotate(-21deg);
     -ms-transform: rotate(-21deg);
     transform: rotate(-21deg);
@@ -169,7 +169,7 @@
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    border-top: 1px solid #110b00;
+    border-top: 1px solid #000000;
     -webkit-transform: rotate(-109deg);
     -ms-transform: rotate(-109deg);
     transform: rotate(-109deg);
@@ -206,7 +206,7 @@
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background: #110b00;
+    background: #000000;
 }
 
 #homer .head .left-eye
@@ -232,7 +232,7 @@
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background: #110b00;
+    background: #000000;
 }
 
 #homer .head .left-eye .eyelid-top
@@ -264,7 +264,7 @@
     left: 0px;
     width: 30px;
     height: 10px;
-    border-top: 1px solid #110b00;
+    border-top: 1px solid #000000;
     border-radius: 0 0 50% 50%;
     
     -webkit-animation-name: homerlefteyelidbottom;
@@ -429,7 +429,7 @@
     width: 6px;
     height: 31px;
     background: transparent;
-    border-right: 1px solid #110b00;
+    border-right: 1px solid #000000;
     border-radius: 50% 50% 25% 50%;
     -webkit-transform: rotate(-14deg);
     -ms-transform: rotate(-14deg);
@@ -541,7 +541,7 @@
     left: 46px;
     width: 32px;
     height: 31px;
-    background: #cfae67;
+    background: #f2c596;
     -webkit-transform: rotate(-18deg);
     -ms-transform: rotate(-18deg);
     transform: rotate(-18deg);
@@ -556,7 +556,7 @@
     left: 62px;
     width: 17px;
     height: 12px;
-    background: #cfae67;
+    background: #f2c596;
     -moz-border-radius: 46% 52% 44% 50%;
     -webkit-border-radius: 46% 52% 44% 50%;
     border-radius: 46% 52% 44% 50%;
@@ -573,7 +573,7 @@
     left: 71px;
     width: 15px;
     height: 30px;
-    background: #cfae67;
+    background: #f2c596;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
