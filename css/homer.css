@@ -8,14 +8,14 @@
 #homer
 {
     position: relative;
-    width: 94px;
-    height: 133px;
+    width: 65px;
+    height: 183px;
     margin: 0 auto;
 }
 
 #homer .head *
 {
-    border: 1px solid #110b00;
+    border: 1px solid #1b0b00;
 }
 
 #homer .head .no-border
@@ -25,12 +25,12 @@
 
 #homer .head .body
 {
-    background: #fbd800;
+    background: #bbd800;
 }
 
 #homer .head .hair1
 {
-    top: 14px;
+    top: 10px;
     left: 0px;    
     height:13px;
     width:22px;
