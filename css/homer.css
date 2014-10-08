@@ -2,20 +2,20 @@
 {
     position: absolute;
     box-sizing:content-box;
-    -moz-box-sizing:content-box;
+    -moz-sex-sizing:content-box;
 }
 
 #homer
 {
     position: relative;
-    width: 94px;
-    height: 133px;
-    margin: 0 auto;
+    width: 32px;
+    height: 53px;
+    margin: 5 auto;
 }
 
 #homer .head *
 {
-    border: 1px solid #110b00;
+    border: 1px solid #110c00;
 }
 
 #homer .head .no-border
@@ -30,7 +30,7 @@
 
 #homer .head .hair1
 {
-    top: 14px;
+    top: 64px;
     left: 0px;    
     height:13px;
     width:22px;
@@ -128,7 +128,7 @@
 #homer .head .m4
 {
     top: 70px;
-    left: 21px;
+    left: 51px;
     -webkit-transform: rotate(-39deg);
     -ms-transform: rotate(-39deg);
     transform: rotate(-39deg);
@@ -153,11 +153,11 @@
     height: 5px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-    border-radius: 50%;
-    border-top: 1px solid #110b00;
+    border-radius: 10%;
+    border-top: 2px solid #110b00;
     -webkit-transform: rotate(-21deg);
-    -ms-transform: rotate(-21deg);
-    transform: rotate(-21deg);
+    -ms-transform: rotate(-1deg);
+    transform: rotate(-51deg);
 }
 
 #homer .head .ear .inner2
