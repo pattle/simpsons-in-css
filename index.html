@@ -1,124 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The Simpsons in CSS">
-    <meta name="author" content="Chris Pattle">
-    <link rel="shortcut icon" href="favicon.png">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="The Simpsons in CSS">
+	<meta name="author" content="Chris Pattle">
+	<link rel="shortcut icon" href="favicon.png">
 
-    <title>The Simpsons in CSS</title>
+	<title>The Simpsons in CSS</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	<link href="css/characters.min.css" rel="stylesheet">
+	<script type="text/javascript">
+		if(navigator.userAgent.indexOf("WebKit") != -1) {
+			var mrBurnsLink = document.createElement('link');
+			mrBurnsLink.href='css/mr-burns-webkit.css';
+			mrBurnsLink.rel='stylesheet';
 
-    <link href="css/homer.css" rel="stylesheet">
-    <link href="css/bart.css" rel="stylesheet">
-    <link href="css/marge.css" rel="stylesheet">
-    <link href="css/lisa.css" rel="stylesheet">
-    <link href="css/maggie.css" rel="stylesheet">
-    <link href="css/mr-burns.css" rel="stylesheet">
-    <link href="css/ned-flanders.css" rel="stylesheet">
-    <link href="css/krusty.css" rel="stylesheet">
-    <link href="css/itchy.css" rel="stylesheet">
-    <link href="css/smithers.css" rel="stylesheet">
-    <link href="css/comicbookguy.css" rel="stylesheet">
-    <link href="css/ralph-wiggum.css" rel="stylesheet">
-    <link href="css/apu.css" rel="stylesheet">
-    
-    <script>
-        if(navigator.userAgent.indexOf("WebKit") != -1) {
-            var mrBurnsLink = document.createElement('link');
-            mrBurnsLink.href='css/mr-burns-webkit.css';
-            mrBurnsLink.rel='stylesheet';
-            
-            var homerLink = document.createElement('link');
-            homerLink.href='css/homer-webkit.css';
-            homerLink.rel='stylesheet';
-
-            document.getElementsByTagName('head')[0].appendChild(mrBurnsLink);
-            document.getElementsByTagName('head')[0].appendChild(homerLink);
-        }
-    </script>
+			document.getElementsByTagName('head')[0].appendChild(mrBurnsLink);
+		}
+	</script>
 </head>
-
 <body>
-    
-    <div id="wrap">
-        <div class="container header">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1>The Simpsons in CSS</h1>
-                    <p>Below are some Simpsons characters made in pure CSS - Made by <a href="http://www.chrispattle.com">Chris Pattle</a>.</p>
-		    <p style="color: #888888;">(Best viewed in Chrome)</p>
-                    <p><a class="btn btn-large btn-primary" href="https://www.github.com/pattle/simpsons-in-css">View on Github</a> <a class="btn btn-large btn-twitter" href="https://www.twitter.com/chrispattle">Follow me on Twitter</a></p>
-                </div>
-            </div>
-        </div>
-        <div class="container characters">
-            <div class="row character-row">
-                <div class="col-md-3">        
-                    <div id="homer" style="margin-top: 72px;">
-                        <div class="head">
-            
-			    <!-- Hair and top of head -->
-			    <div class="hair1"></div>
-			    <div class="hair2"></div>
-			    <div class="body head-top"></div>
-			    <div class="no-border body head-main"></div>
-
-			    <!-- The 'M' above the ear -->
-			    <div class="no-border m1"></div>
-			    <div class="no-border m2"></div>
-			    <div class="no-border m3"></div>
-			    <div class="no-border m4"></div>
-
-			    <!-- The neck parts -->
-			    <div class="no-border neck1"></div>
-			    <div class="body neck2"></div>
-
-			    <!-- The ear -->
-			    <div class="body ear">
-				<div class="no-border inner1"></div>
-				<div class="no-border inner2"></div>
-				<div class="no-border body clip"></div>
-			    </div>
-
-			    <!-- The mouth -->
-			    <div class="mouth">
-				<div class="mouth5"></div>
-				<div class="mouth2"></div>
-				<div class="mouth1"></div>
-				<div class="mouth7"></div>
-				<div class="no-border mouth3"></div>
-				<div class="no-border mouth4"></div>
-				<div class="no-border mouth6"></div>
-				<div class="no-border mouth8"></div>
-			    </div>
-
-			    <!-- The right eye -->
-			    <div class="right-eye">
-				<div class="no-border right-eye-pupil"></div>
-				<div class="no-border body eyelid-top"></div>
-				<div class="no-border body eyelid-bottom"></div>
-			    </div>
-
-			    <!-- The nose -->
-			    <div class="body nose"></div>
-			    <div class="body nose-tip"></div>
-
-			    <!-- The left eye -->
-			    <div class="left-eye">
-				<div class="no-border left-eye-pupil"></div>
-				<div class="no-border body eyelid-top"></div>
-				<div class="no-border body eyelid-bottom"></div>
-			    </div>
+	<div id="wrap">
+		<header class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1>The Simpsons in CSS</h1>
+					<p>Below are some Simpsons characters made in pure CSS - Made by <a href="https://www.chrispattle.com">Chris Pattle</a>.</p>
+					<p><a class="btn btn-large btn-primary" href="https://www.github.com/pattle/simpsons-in-css">View on Github</a> <a class="btn btn-large btn-twitter" href="https://www.twitter.com/chrispattle">Follow me on Twitter</a></p>
+				</div>
 			</div>
-                    </div>
+		</header>
+		<div class="container characters">
+			<div class="row character-row">
+				<div class="col-md-3">        
+					<div id="homer" style="margin-top: 72px;">
+					<div class="head">
 
-                    <h2>Homer</h2>
-                    <p><a class="btn btn-success" href="https://github.com/pattle/simpsons-in-css/blob/master/css/homer.css">View CSS</a></p>
-                </div>
+					<div class="hair1"></div>
+					<div class="hair2"></div>
+					<div class="body head-top"></div>
+					<div class="no-border body head-main"></div>
+					<div class="no-border m1"></div>
+					<div class="no-border m2"></div>
+					<div class="no-border m3"></div>
+					<div class="no-border m4"></div>
+					<div class="no-border neck1"></div>
+					<div class="body neck2"></div>
+					<div class="body ear">
+						<div class="no-border inner1"></div>
+						<div class="no-border inner2"></div>
+						<div class="no-border body clip"></div>
+					</div>
+					<div class="mouth">
+						<div class="mouth5"></div>
+						<div class="mouth2"></div>
+						<div class="mouth1"></div>
+						<div class="mouth7"></div>
+						<div class="no-border mouth3"></div>
+						<div class="no-border mouth4"></div>
+						<div class="no-border mouth6"></div>
+						<div class="no-border mouth8"></div>
+					</div>
+					<div class="right-eye">
+						<div class="no-border right-eye-pupil"></div>
+						<div class="no-border body eyelid-top"></div>
+						<div class="no-border body eyelid-bottom"></div>
+					</div>
+					<div class="body nose"></div>
+					<div class="body nose-tip"></div>
+					<div class="left-eye">
+						<div class="no-border left-eye-pupil"></div>
+						<div class="no-border body eyelid-top"></div>
+						<div class="no-border body eyelid-bottom"></div>
+					</div>
+					</div>
+					</div>
+
+					<h2>Homer</h2>
+					<p><a class="btn btn-success" href="https://github.com/pattle/simpsons-in-css/blob/master/css/homer.css">View CSS</a></p>
+				</div>
                 <div class="col-md-3">
                     <div class="bart" style="margin-top: 75px;">
                         <div class="head">
@@ -1054,11 +1017,6 @@
         <div id="push"></div>
     </div>
         
-    <div id="footer">
-        <div class="container">
-            <p>Made by <a href="http://www.chrispattle.com" title="Chris Pattle's website">Chris Pattle</a> &#8226; <a href="http://www.chrispattle.com/blog/simpsons-in-css/" title="How I did it" target="_blank">How I did it</a></p>
-        </div>
-    </div>
-
+	<footer id="footer">Made by <a href="https://www.chrispattle.com" title="Chris Pattle's website">Chris Pattle</a> &#8226; <a href="https://www.chrispattle.com/blog/simpsons-in-css/" title="How I did it" target="_blank">How I did it</a></footer>
 </body>
 </html>
