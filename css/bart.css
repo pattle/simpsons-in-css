@@ -34,7 +34,7 @@
     border-left: 1px solid #110b00;
     -webkit-border-radius: 2px 0 0 0;
     -moz-border-radius: 2px 0 0 0;
-    border-radius: 2px 0 0 0;
+    border-radius: 0;
 }
 
 #bart .head .hair1
