@@ -452,6 +452,11 @@
     box-shadow: inset 2px 0px 0px 0px rgba(247,254,140,1);
 }
 
+#homer .head .mouth
+{
+    border: 0;
+}
+
 #homer .head .mouth1
 {
     top: 86px;
