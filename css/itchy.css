@@ -85,6 +85,8 @@
     -webkit-transform: rotate(-34deg);
     -ms-transform: rotate(-20deg);
     transform: rotate(-20deg);
+    border-top: none;
+    transform: rotate(-32deg);
 }
 
 #itchy .head .body-main3
@@ -112,6 +114,8 @@
     -webkit-transform: rotate(-55deg);
     -ms-transform: rotate(-55deg);
     transform: rotate(-55deg);
+    border-right: none;
+    border-left: none;
 }
 
 #itchy .head .hair2
@@ -128,6 +132,9 @@
     -webkit-transform: rotate(-83deg);
     -ms-transform: rotate(-83deg);
     transform: rotate(-83deg);
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
 }
 
 #itchy .head .hair3
@@ -142,6 +149,9 @@
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-transform: rotate(-30deg);
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
 }
 
 #itchy .head .hair4
@@ -158,6 +168,8 @@
     -webkit-transform: rotate(-52deg);
     -ms-transform: rotate(-52deg);
     transform: rotate(-52deg);
+    border-right: none;
+    border-left: none;
 }
 
 #itchy .head .hair5
@@ -174,6 +186,8 @@
     -webkit-transform: rotate(-10deg);
     -ms-transform: rotate(-10deg);
     transform: rotate(-10deg);
+    border-right: none;
+    border-left: none;
 }
 
 #itchy .head .hair6
@@ -190,6 +204,8 @@
     -webkit-transform: rotate(-32deg);
     -ms-transform: rotate(-32deg);
     transform: rotate(-32deg);
+    border-right: none;
+    border-left: none;
 }
 
 #itchy .head .hair7
@@ -206,6 +222,7 @@
     -webkit-transform: rotate(23deg);
     -ms-transform: rotate(23deg);
     transform: rotate(23deg);
+    border-left: none;
 }
 
 #itchy .head .eye
@@ -268,6 +285,7 @@
     -webkit-transform: rotate(-5deg);
     -ms-transform: rotate(-5deg);
     transform: rotate(-5deg);
+        border-left: none;
 }
 
 #itchy .head .mouth2
@@ -282,7 +300,8 @@
     -moz-border-radius: 50%;
     -webkit-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg);
+    transform: rotate(-45deg);    
+    border-left: none;
 }
 
 #itchy .head .mouth3
@@ -297,6 +316,8 @@
     -webkit-transform: rotate(-58deg);
     -ms-transform: rotate(-58deg);
     transform: rotate(-58deg);
+        border-left: none;
+    border-bottom: none;
 }
 
 #itchy .head .mouth4
@@ -316,6 +337,8 @@
     -webkit-box-shadow: -1px 9px 0px 0px rgba(81, 174, 254, 1);
     -moz-box-shadow: -1px 9px 0px 0px rgba(81, 174, 254, 1);
     box-shadow: -1px 9px 0px 0px rgba(81, 174, 254, 1);
+    border-left: none;
+    border-right: none;
 }
 
 #itchy .head .mouth5
@@ -331,6 +354,7 @@
     -webkit-transform: rotate(41deg);
     -ms-transform: rotate(41deg);
     transform: rotate(41deg);
+    border-left: none;
     
     -webkit-box-shadow: 5px 6px 0px 0px rgba(81, 174, 254, 1);
     -moz-box-shadow: 5px 6px 0px 0px rgba(81, 174, 254, 1);
@@ -348,6 +372,7 @@
 
 #itchy .head .mouth7
 {
+    display: none;
     top: 82px;
     left: 92px;
     height: 17px;
@@ -398,6 +423,7 @@
 
 #itchy .head .mouth10
 {
+    display: none;
     top: 82px;
     left: 63px;
     width: 12px;
@@ -501,6 +527,8 @@
     -webkit-box-shadow: 5px 6px 0px 2px rgba(81, 174, 254, 1);
     -moz-box-shadow: 5px 6px 0px 2px rgba(81, 174, 254, 1);
     box-shadow: 5px 6px 0px 2px rgba(81, 174, 254, 1);
+        border-left: none;
+    border-right: none;
 }
 
 #itchy .head .spike2
@@ -516,6 +544,9 @@
     -webkit-transform: rotate(16deg);
     -ms-transform: rotate(16deg);
     transform: rotate(16deg);
+        border-top: none;
+    border-left: none;
+    border-right: none;
     
     -webkit-box-shadow: -4px 6px 0px 2px rgba(255, 255, 255, 1);
     -moz-box-shadow: -4px 6px 0px 2px rgba(255, 255, 255, 1);
