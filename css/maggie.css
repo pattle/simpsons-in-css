@@ -594,6 +594,45 @@
 }
 
 
+#maggie .head .white-space-fix {
+    background: #fbd800;
+    position: absolute;
+    border: none;
+    top: 84px;
+    left: 50px;
+    width: 10px;
+    height: 10px;
+}
+
+#maggie .head .dummy-container {
+    border: none;
+    animation: dummy 4s linear reverse infinite;
+}
+
+@keyframes dummy {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    40% {
+        transform: translateX(0) translateY(0);
+    }
+    45% {
+        transform: translateX(2px) translateY(2px);
+    }
+    50% {
+        transform: translateX(0) translateY(0);
+    }
+    55% {
+        transform: translateX(2px) translateY(2px);
+    }
+    60% {
+        transform: translateX(0) translateY(0);
+    }
+    100% {
+        transform: translateX(0) translateY(0);
+    }
+}
+
 #maggie .head .dummy
 {
     background: #ee5c2d;
