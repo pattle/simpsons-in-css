@@ -453,7 +453,7 @@
 }
 
 #homer .head .mouth {
-    border: none;
+    border: 1px solid transparent;
 }
 
 #homer .head .mouth1
